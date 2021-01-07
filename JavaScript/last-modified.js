@@ -1,3 +1,5 @@
-//let oLastModif = new Date(document.lastModified);
-document.getElementById("datemodified").textContent = new Date(document.lastModified); 
-//.toLocaleDateString('en-US', options);
+const lastModDate = new Date(document.lastModified);
+let strLMD = "" + lastModDate.getMonth()+1 + "/" + lastModDate.getDate() + "/" 
+           + lastModDate.getFullYear() + " " + lastModDate.getHours() + ":" 
+           + lastModDate.getMinutes() + ":" + lastModDate.getSeconds();
+document.getElementById("datemodified").textContent = strLMD;
