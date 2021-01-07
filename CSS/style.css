@@ -7,11 +7,11 @@ body {
 }
   
 footer {
-  color: #e2ee39;
+  color: yellow;
   background-color: #047526;
   text-align: center;
   margin: 0px;
-  border: 2px solid #e2ee39; 
+  border: 2px solid yellow; 
   border-radius: 15px;
   line-height: 10px;
   font-size: 1.5em;
@@ -19,14 +19,14 @@ footer {
 
 footer a:hover {
     color: #047526;
-    background-color: #e2ee39;
+    background-color: yellow;
 }
 
 footer a:active,
 footer a:visited,
 footer a:link
 {
-    color: #e2ee39;
+    color: yellow;
     background-color: #047526;
 }
   
@@ -37,13 +37,13 @@ h2, h3, h4, h5, h6 {
   
 h1 {
   font-family: Rockwell, "Bernard MT", slab-serif;
-  color: #e2ee39;
+  color: yellow;
   font-size: 50px;
   text-align: center;
   background-color: #047526;
   margin: 0px;
   padding: 20px;
-  border: 2px solid #e2ee39; 
+  border: 2px solid yellow; 
   border-radius: 15px;
 }
   
@@ -64,7 +64,7 @@ nav li {
   
 nav a:hover {
   color: #047526;
-  background-color: #e2ee39;
+  background-color: yellow;
 }
   
 .testlink {
