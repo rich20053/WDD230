@@ -80,7 +80,10 @@ nav a:hover {
   
 @media screen and (max-width: 550px) { 
 /* beginning of media query */
-   
+  footer {
+    font-size: .75em;
+  }
+ 
   h1 {
     font-size: 30px;
   }
@@ -88,6 +91,10 @@ nav a:hover {
   h2 {
     font-size: 20px;
   }
+
+  nav li {
+    font-size: .75em;
+  }  
      
   /* end of media query */ 
 } 
