@@ -35,7 +35,8 @@ h2, h3, h4, h5, h6 {
 }
   
 h1 {
-  font-family: Rockwell, "Bernard MT", slab-serif;
+/*  font-family: Rockwell, "Bernard MT", slab-serif; */
+  font-family: 'Holtwood One SC', serif;
   color: yellow;
   font-size: 50px;
   text-align: center;
