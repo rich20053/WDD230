@@ -16,26 +16,26 @@ footer {
 }
 
 footer a:hover {
-    color: #047526;
-    background-color: yellow;
+  color: #047526;
+  background-color: yellow;
 }
 
 footer a:active,
 footer a:visited,
 footer a:link
 {
-    color: yellow;
-    background-color: #047526;
+  color: yellow;
+  background-color: #047526;
 }
   
 h2, h3, h4, h5, h6 {
 /*  font-family: Rockwell, "Bernard MT", slab-serif; */
-  font-family: 'Holtwood One SC', Rockwell, serif;
+  font-family: 'Holtwood One SC', "Rockwell", serif;
   color: #047526;
 }
   
 h1 {
-  font-family: 'Holtwood One SC', Rockwell, serif;
+  font-family: 'Holtwood One SC', "Rockwell", serif;
   color: yellow;
   font-size: 25px;
 }
@@ -55,7 +55,10 @@ header {
 }
   
 main {
-    margin: 10px 0 0 0;
+  margin: 10px 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
 }
 
 nav li {
@@ -68,12 +71,36 @@ nav a:hover {
   background-color: yellow;
 }
   
+section {
+  border: 2px solid  #047526;
+/*  align-content: center; */
+}
+
+section div {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+section h2 {
+  text-align: center;
+}
+
+section h3 {
+  text-align: center;
+  margin: 0;
+}
+
+section a {
+  text-align: center;
+  padding: 15px;
+}
+
+section img {
+  width: 100%;
+}
+
 .placeholder {
     margin: 25px;
-}
-  
-#myphoto{
-    width: 200px;
-    margin: 15px;
 }
   
