@@ -100,6 +100,10 @@ section img {
   width: 100%;
 }
 
+section p {
+  padding: 10px 0 0 0;
+}
+
 .placeholder {
     margin: 25px;
 }
