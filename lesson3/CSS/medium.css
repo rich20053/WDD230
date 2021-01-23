@@ -1,7 +1,7 @@
-@media screen and (min-width: 32.5em) { 
+@media screen and (min-width: 37em) {         /* 32.5em) { */ 
 
   footer {
-      font-size: 1.5em;
+      font-size: 1.1em;
   }
 
   header, footer {
@@ -20,8 +20,12 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  nav ul {
+    flex-direction: row;
+  }
+  
   nav li {
-    font-size: 1.5em;
+    font-size: 1.3em;
   } 
 
   section {
