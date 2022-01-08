@@ -73,12 +73,12 @@ nav a:hover {
 }
   
 #myphoto{
-  width: 20%;
-  float: right;
-  display: inline-block;
-  margin: 15px;
+    width: 20%;
+    float: right;
+    display: inline-block;
+    margin: 15px;
 }
-
+  
 @media screen and (max-width: 550px) { 
 /* beginning of media query */
   footer {
