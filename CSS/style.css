@@ -75,7 +75,7 @@ nav a:hover {
 #myphoto{
     width: 20%;
     float: right;
-    display: inline-block;
+    /* display: inline-block; */
     margin: 15px;
 }
   
