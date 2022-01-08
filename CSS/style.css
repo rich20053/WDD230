@@ -1,7 +1,7 @@
 body {
   background-color: #c0f5c3;
   color: #047526;
-  max-width: 950px;
+  max-width: 500px;
   margin: 0 auto;
   font-family: "Myriad Pro", Helvetica, sans-serif;
 }
@@ -10,10 +10,9 @@ footer {
   color: yellow;
   background-color: #047526;
   text-align: center;
-  margin: 0px;
+  margin: 20px 0 0 0;
   border: 2px solid yellow; 
   border-radius: 15px;
-  font-size: 1.5em;
 }
 
 footer a:hover {
@@ -39,23 +38,32 @@ h1 {
 /*  font-family:  "Bernard MT", slab-serif; */
   font-family: 'Holtwood One SC', Rockwell, serif;
   color: yellow;
-  font-size: 50px;
-  text-align: center;
+  font-size: 30px;
   background-color: #047526;
   margin: 0px;
   padding: 20px;
   border: 2px solid yellow; 
   border-radius: 15px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
   
 h2 {
-  font-size: 30px;
-  border-bottom: 5px double;
-  margin: 25px;
+  font-size: 20px;
+  margin: 15px;
 }
   
 main {
     margin: 10px 0 0 0;
+}
+
+nav ul {
+  border-bottom: 5px double;
+  border-top: 5px double;
+  padding: 15px;
+  margin: 0;
 }
 
 nav li {
@@ -74,12 +82,12 @@ nav a:hover {
   
 #myphoto{
     width: 20%;
-    float: right;
+    float: left;
     /* display: inline-block; */
     margin: 15px;
 }
   
-@media screen and (max-width: 550px) { 
+@media screen and (max-width: 650px) { 
 /* beginning of media query */
   footer {
     font-size: .6em;
