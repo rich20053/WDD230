@@ -29,12 +29,12 @@ footer a:link
 }
   
 h2, h3, h4, h5, h6 {
-  font-family: Rockwell, serif;
+  font-family: Bree, Rockwell, serif;
   color: #047526;
 }
   
 h1 {
-  font-family: Rockwell, serif;
+  font-family: Bree, Rockwell, serif;
   color: yellow;
   font-size: 40px;
   background-color: #047526;
@@ -87,22 +87,22 @@ nav a:hover {
   
 @media screen and (max-width: 650px) { 
 /* beginning of media query */
-  footer {
-    font-size: .6em;
-  }
- 
-  h1 {
-    font-size: 25px;
-  }
-    
-  h2 {
-    font-size: 17px;
-  }
+footer {
+  font-size: .85em;
+}
 
-  nav li {
-    font-size: .75em;
-  }  
-     
+h1 {
+  font-size: 35px;
+}
+  
+h2 {
+  font-size: 20px;
+}
+
+nav li {
+  font-size: .85em;
+}  
+ 
   /* end of media query */ 
 } 
   

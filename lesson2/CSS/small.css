@@ -29,21 +29,27 @@ footer a:link
 }
   
 h2, h3, h4, h5, h6 {
-/*  font-family: Rockwell, "Bernard MT", slab-serif; */
-  font-family: 'Holtwood One SC', "Rockwell", serif;
+  font-family: Bree, Rockwell, serif;
   color: #047526;
 }
   
 h1 {
-  font-family: 'Holtwood One SC', "Rockwell", serif;
+  font-family: Bree, Rockwell, serif;
   color: yellow;
   font-size: 25px;
+  margin: 5px;
 }
   
 h2 {
   font-size: 17px;
   border-bottom: 5px double;
-  margin: 25px;
+  margin: 10px;
+}
+
+h6 {
+  color: yellow;
+  font-size: 2em;
+  margin: 0;
 }
 
 header {
@@ -107,4 +113,7 @@ section p {
 .placeholder {
     margin: 25px;
 }
-  
+
+#headingname {
+  font-size: 55px;   
+}
