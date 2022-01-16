@@ -3,7 +3,7 @@ body {
   color: #047526;
   max-width: 500px;
   margin: 0 auto;
-  font-family: "Myriad Pro", Helvetica, sans-serif;
+  font-family: 'Fira', 'Sansita', sans-serif;
 }
   
 footer {
@@ -29,12 +29,12 @@ footer a:link
 }
   
 h2, h3, h4, h5, h6 {
-  font-family: Bree, Rockwell, serif;
+  font-family: 'Bree', 'Rockwell', serif;
   color: #047526;
 }
   
 h1 {
-  font-family: Bree, Rockwell, serif;
+  font-family: 'Bree', 'Rockwell', serif;
   color: yellow;
   font-size: 40px;
   background-color: #047526;
