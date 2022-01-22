@@ -23,7 +23,11 @@
   nav li {
     font-size: 1.5em;
   } 
+
+  .principle3 {
+    grid-column-end: span 1;
+  }  
+
 }
 
-} 
   
