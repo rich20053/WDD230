@@ -9,15 +9,14 @@ body {
   padding: 1em;
 }
 
-
 h1 {
   margin: 0;
-  font-family: serif;
+  font-family: 'Noto Serif', serif;
   color: white;
 }  
 
 h2, h3, h4, h5, h6 {
-  font-family: serif;
+  font-family: 'Noto Serif', serif;
   color: black;
 }
 
@@ -59,8 +58,7 @@ nav a:hover {
 }
 
 p {
-  font-family: sans-serif;
-  color: black;
+  font-family: 'Alegreya Sans', sans-serif;  color: black;
   padding: 1em;
   font-size: 1.2em;
 }
