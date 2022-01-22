@@ -63,7 +63,8 @@ header {
 main {
   margin: 10px 0 0 0;
   display: grid;
-  grid-template-columns: 1fr;
+/*  grid-template-columns: 1fr; */
+  grid-template-columns: 4;
   grid-gap: 10px;
 }
 
@@ -120,4 +121,8 @@ section p {
 
 #headingname {
   font-size: 55px;   
+}
+
+#principle3 {
+  grid-column-end: span 2;
 }
