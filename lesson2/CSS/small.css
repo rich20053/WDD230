@@ -63,8 +63,8 @@ header {
 main {
   margin: 10px 0 0 0;
   display: grid;
-/*  grid-template-columns: 1fr; */
-  grid-template-columns: 4;
+  grid-template-columns: 1fr;
+/*  grid-template-columns: 4; */
   grid-gap: 10px;
 }
 
@@ -76,10 +76,6 @@ nav li {
 nav a:hover {
   color: #047526;
   background-color: yellow;
-}
-
-p {
-
 }
   
 section {
@@ -121,8 +117,4 @@ section p {
 
 #headingname {
   font-size: 55px;   
-}
-
-#principle3 {
-  grid-column-end: span 2;
 }

@@ -28,7 +28,9 @@
     border-radius: 15px;
   }
 
-  
+  .principle3 {
+    grid-column-end: span 2;
+  }  
 
 } 
   
