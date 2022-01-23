@@ -7,6 +7,7 @@ body {
   margin: 0 auto;
   background-color: white;
   padding: 1em;
+  font-family: 'Alegreya Sans', sans-serif;  color: black;
 }
 
 h1 {
@@ -84,7 +85,29 @@ footer a {
 .logo {
   width: 50%;
   border: 2px solid black; 
-  border-radius: 50%;
+  border-radius: 5%;
+}
+
+.person {
+  width: 20%;
+  border: 2px solid black; 
+  border-radius: 5%;
+  float: left;
+  margin: 0 25px 25px 0;
+}
+
+#persona1 {
+  margin: 15px;
+  float: left;
+}
+
+#persona2 {
+  margin: 15px;
+  clear: left;
+}
+
+#scenarios {
+  clear: left;
 }
 
 .brown {
