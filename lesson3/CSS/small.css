@@ -52,7 +52,7 @@ nav a {
 }
 
 nav a:link, nav a:visited {
-  color: black;
+  color: #806640;
 }
 
 nav a:hover {
