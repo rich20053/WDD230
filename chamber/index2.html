@@ -16,68 +16,75 @@
 
 <body>
   <header>
-    <img class="logo" src="./images/logo.jpg" alt="Provo Chamber of Commerce Logo">
-    <div id="headcity">
-      <h1>Provo</h1>
-      <h2>Chamber of Commerce</h2>
-    </div>
-    <div id="headlinks">
-      <a id="facebook" href="https://www.facebook.com" target="_blank"> <img src="./images/facebookicon.png" alt="Facebook icon"></a>
-      <a id="linkedin" href="https://www.linkedin.com" target="_blank"> <img src="./images/linkedinicon.png" alt="LinkedIn icon"></a>
-    </div>
-    <nav>
-      <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-      <ul id="primaryNav">
-        <li class="active"><a href="./index.html">Discover</a></li>
-        <li><a href="./index.html">Directory</a></li>          <li><a href="./index.html">Join</a></li>
-        <li><a href="./index.html">Contact</a></li>
-      </ul>
-    </nav>
-    <div id="headdate">
-      Date here
-    </div>
-  </header>
+    <div id="headergrid">
+      <img id="logo" src="./images/logo.jpg" alt="Provo Chamber of Commerce Logo">
+      <div id="headercity">
+        <h1>Provo</h1>
+        <h2>Chamber of Commerce</h2>
+      </div>
+      <div id="headerlinks">
+        <a id="facebook" href="https://www.facebook.com" target="_blank"> <img src="./images/facebookicon.jpg" alt="Facebook icon"></a>
+        <a id="linkedin" href="https://www.linkedin.com" target="_blank"> <img src="./images/linkedinicon.jpg" alt="LinkedIn icon"></a>
+      </div>
+      <div id="headerdate">
+         <h3 id="chamberdate"></h3>
+      </div>
+      <div id="headernav">
+        <nav>
+          <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+          <ul id="primaryNav">
+            <li><a href="./index.html">Discover</a></li>
+            <li><a href="./index.html">Directory</a></li>          
+            <li><a href="./index.html">Join</a></li>
+            <li><a href="./index.html">Contact</a></li>
+          </ul>
+        </nav>      
+      </div>
+  </div>
+</header>
   <main>
 
     <section>
-      Hero with site name and call to action
+      <h6>Hero with site name and call to action </h6>
     </section>
     
     <section>
-      Event
+      <h6>Event</h6>
+    </section>
+    
+    <section> 
+      <h6>Weather</h6>
     </section>
     
     <section>
-      Weather
-    </section>
-    
-    <section>
-      News Release
+      <h6>News Release</h6>
     </section>
     
     <section id="spotlight">
-
+      <h6></h6>
       <section>
-        Spotlight 1
+        <h6>Spotlight 1</h6>
       </section>
     
       <section>
-        Spotlight 2
+        <h6>Spotlight 2</h6>
       </section>
     
     </section>
 
   </main>
   <footer>
-    <div>
-      <img class="logo" src="./images/logo.jpg" alt="Provo Chamber of Commerce Logo">
+    <div id="footerlogo">
+      <img src="./images/logo.jpg" alt="Provo Chamber of Commerce Logo">
     </div>
-    <div id="footcity">
+    <div id="footercity">
         <h1>Provo</h1>
         <h2>Chamber of Commerce</h2>
     </div>
     <div>
-      info@provochamber.gov
+      <h6>
+        info@provochamber.com
+      </h6>
     </div>      
     <div>
           <p>&copy; <span id="thisyear"></span> Provo Chamber | Mark Richmond | WDD 230 Project </p>
@@ -86,7 +93,8 @@
   </footer>
   <script src="../javascript/this-year.js"></script>
   <script src="../javascript/last-modified.js"></script>
-  <script src="./js/scripts.js"></script>
+  <script src="./js/todays-date.js"></script>
+  <script src="./js/toggle-menu.js"></script>
 </body>
 
 </html>
