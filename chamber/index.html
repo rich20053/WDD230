@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>Provo Chamber of Commerce Home Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Home page for Provo Chamber of Commerce Site by Mark Richmond in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Noto+Serif:wght@700&display=swap" rel="stylesheet">  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="./CSS/small.css"> 
+  <link rel="stylesheet" href="./CSS/medium.css"> 
+  <link rel="stylesheet" href="./CSS/large.css"> 
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="./images/logo.jpg" alt="Provo Chamber of Commerce Logo">
+    <div id="headcity">
+      <h1>Provo</h1>
+      <h2>Chamber of Commerce</h2>
+    </div>
+    <div id="headlinks">
+      <a id="facebook" href="https://www.facebook.com" target="_blank"> <img src="./images/facebookicon.png" alt="Facebook icon"></a>
+      <a id="linkedin" href="https://www.linkedin.com" target="_blank"> <img src="./images/linkedinicon.png" alt="LinkedIn icon"></a>
+    </div>
+    <nav>
+      <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+      <ul id="primaryNav">
+        <li class="active"><a href="./index.html">Discover</a></li>
+        <li><a href="./index.html">Directory</a></li>          <li><a href="./index.html">Join</a></li>
+        <li><a href="./index.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="headdate">
+      Date here
+    </div>
+  </header>
+  <main>
+
+    <section>
+      Hero with site name and call to action
+    </section>
+    
+    <section>
+      Event
+    </section>
+    
+    <section>
+      Weather
+    </section>
+    
+    <section>
+      News Release
+    </section>
+    
+    <section id="spotlight">
+
+      <section>
+        Spotlight 1
+      </section>
+    
+      <section>
+        Spotlight 2
+      </section>
+    
+    </section>
+
+  </main>
+  <footer>
+    <div>
+      <img class="logo" src="./images/logo.jpg" alt="Provo Chamber of Commerce Logo">
+    </div>
+    <div id="footcity">
+        <h1>Provo</h1>
+        <h2>Chamber of Commerce</h2>
+    </div>
+    <div>
+      info@provochamber.gov
+    </div>      
+    <div>
+          <p>&copy; <span id="thisyear"></span> Provo Chamber | Mark Richmond | WDD 230 Project </p>
+      <p id="datemodified"></p>        
+    </div>
+  </footer>
+  <script src="../javascript/this-year.js"></script>
+  <script src="../javascript/last-modified.js"></script>
+  <script src="./js/scripts.js"></script>
+</body>
+
+</html>
