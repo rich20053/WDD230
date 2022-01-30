@@ -21,12 +21,6 @@
     grid-template-rows: repeat(15, 1fr);
   }
 
-  nav ul#primaryNav {
-    display: flex;
-    margin-left: 2vw;
-    border-left: 1px solid rgba(0,0,0,0.3);
-  }
-
   nav li {
     font-size: 1.3em;
   } 
