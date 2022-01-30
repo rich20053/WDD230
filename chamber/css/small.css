@@ -27,13 +27,16 @@ h6 {
 }
 
 header {
-  padding: 2em;
+  margin: 5px;
+  padding: 1em;
   text-align: left;
   background-color: black;
-  font-size: .5em;
+  font-size: .7m;
 }
 
 header h2 {
+  margin: 0;
+  font-size: .8em;
   color: white;
 }
 
@@ -51,14 +54,19 @@ nav {
 
 main {
   display: grid;
-  height: 1000px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+main section {
+  margin: 2px;
 }
 
 nav button {
-  margin: .2rem 2vw;
+  /* margin: .2rem 2vw; */
+  margin: 0;
   background: transparent;
   border: none;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 nav ul {
@@ -69,6 +77,7 @@ nav ul {
 
 nav li {
   text-align: center;
+  font-size: 1em;
 }
 
 nav a {
@@ -127,7 +136,7 @@ section {
   border: 2px solid black; 
   width: 100%;
   grid-column: 1 / 4;
-  grid-row: 1 / 3;
+  grid-row: 1 / 4;
 }
 
 #facebook {
@@ -162,6 +171,7 @@ nav ul.open {
 #headergrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
 }
 
 #headercity {
@@ -172,25 +182,26 @@ nav ul.open {
 
 #headerlinks {
   grid-column: 10/13;
-  grid-row: 1/2;
+  grid-row: 1/3;
   display:flex;
 }
 
 #headerdate {
   color: white;
-  grid-column: 1/9;
+  grid-column: 1/11;
   grid-row: 3/4;
 }
 
-##headernav {
+#headernav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  grid-column: 10/13;
+  grid-column: 12/13;
   grid-row: 3/4;
 }
 
-chamberdate {
+#chamberdate {
+  font-size: .8em;
   color: white;
 }
 
@@ -201,7 +212,16 @@ chamberdate {
 
 #spotlight {
   display: grid;
+  grid-template-rows: 1fr 1fr;
   height: 300px;
+}
+
+#spotlight3 {
+  display: none;
+}
+
+#join {
+  display: none;
 }
 
 #spotlight h6 {

@@ -17,23 +17,82 @@
   }
 
   main {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(36 1fr);
+    grid-template-rows: repeat(15, 1fr);
   }
 
   nav ul {
     flex-direction: row;
   }
   
+  nav button {display: none;}
+
+  nav ul#primaryNav {
+    display: flex;
+    margin-left: 2vw;
+    border-left: 1px solid rgba(0,0,0,0.3);
+  }
+
   nav li {
     font-size: 1.3em;
   } 
 
-  section {
-    border-radius: 15px;
+  #hero {
+    height: 150px;
+    grid-column: 1 / 37;
+    grid-row: 1 / 4;  
+  }
+
+  #news {
+    height: 150px;
+    grid-column: 1 / 37;
+    grid-row: 4 / 7;  
+  }
+
+  #weather {
+    height: 150px;
+    grid-column: 25 / 37;
+    grid-row: 13 / 16;  
+  }
+
+  #event {
+    height: 150px;
+    grid-column: 1 / 25;
+    grid-row: 13 / 16;  
+  }
+
+  #join {
+    height: 150px;
+    display: block;
+    grid-column: 1 / 37;
+    grid-row: 10 / 13;  
+  }
+
+  #spotlight {
+    height: 150px;
+    grid-column: 1 / 37;
+    grid-row: 7 / 10; 
+    grid-template-columns: repeat(36, 1fr); 
+  }
+
+  #spotlight1 {
+    height: 135px;
+    grid-column: 1 / 18;
+  }
+
+  #spotlight2 {
+    height: 135px;
+    grid-column: 18 / 37;
   }
 
   .logo {
     width: 33%;
+  }  
+
+  #headerdate {
+    grid-column: 4/11;
+    grid-row: 3/4;
+    padding-left: 5px;
   }  
 
 } 

@@ -17,7 +17,7 @@
   }
 
   main {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(36, 1fr);
   }
 
   nav li {
@@ -33,6 +33,69 @@
   .logo {
     width: 33%;
   }  
+
+  #hero {
+    height: 320px;
+    grid-column: 9 / 27;
+    grid-row: 1 / 7;  
+  }
+
+  #news {
+    height: 150px;
+    grid-column: 9 / 27;
+    grid-row: 7 / 10;  
+  }
+
+  #weather {
+    width: 230px;
+    height: 150px;
+    grid-column: 1 / 9;
+    grid-row: 4 / 7;  
+  }
+
+  #event {
+    height: 150px;
+    width: 230px;
+    grid-column: 1 / 9;
+    grid-row: 1 / 4;  
+  }
+
+  #join {
+    height: 150px;
+    width: 230px;
+    grid-column: 1 / 9;
+    grid-row: 7 / 10;  
+  }
+
+  #spotlight {
+    height: 480px;
+    grid-column: 27 / 37;
+    grid-row: 1 / 10; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  #spotlight1 {
+    height: 135px;
+    width: 215px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;  
+  }
+
+  #spotlight2 {
+    height: 135px;
+    width: 215px;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;  
+  }
+
+  #spotlight3 {
+    height: 135px;
+    width: 215px;
+    display: block;
+    grid-column: 1 / 2;
+    grid-row: 3 / 3;  
+  }
 
 } 
   
