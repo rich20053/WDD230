@@ -45,7 +45,7 @@ header div {
 }
 
 nav {
-  line-height: 3em;
+  line-height: 1.5em;
   text-align: right;
   font-size: 1.2em;
   font-family: 'Noto Serif', serif;
@@ -81,8 +81,10 @@ nav li {
 }
 
 nav a {
-  padding: 1em;
+  padding: .2em;
   text-decoration: none;
+  margin: 0;
+  display: block;
 }
 
 nav a:link, nav a:visited {
@@ -92,6 +94,7 @@ nav a:link, nav a:visited {
 nav a:hover {
   color: yellow;
   background-color: #806640;
+  margin: 0;
 }
 
 p {
@@ -135,7 +138,7 @@ section {
 #logo {
   border: 2px solid black; 
   width: 100%;
-  grid-column: 1 / 4;
+  grid-column: 1 / 12;
   grid-row: 1 / 4;
 }
 
@@ -170,33 +173,52 @@ nav ul.open {
 
 #headergrid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(36, 1fr);
   grid-template-rows: auto auto auto auto;
 }
 
 #headercity {
   padding: 5px;
-  grid-column: 4/10;
+  grid-column: 12/30;
   grid-row: 1/3;
 }
 
 #headerlinks {
-  grid-column: 10/13;
+  grid-column: 30/37;
   grid-row: 1/3;
   display:flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+#headerlinks.open {
+  grid-column: 25/37;
+  grid-row: 1/3;
+  display:flex;
+  flex-direction: row;
+  justify-content: right;
 }
 
 #headerdate {
   color: white;
-  grid-column: 1/11;
+  grid-column: 1/25;
+  grid-row: 3/4;
+}
+#headerdate.open {
+  color: white;
+  grid-column: 1/20;
   grid-row: 3/4;
 }
 
 #headernav {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  grid-column: 12/13;
+  display: grid;
+  grid-column: 36/37;
+  grid-row: 3/4;
+}
+
+#headernav.open {
+  display: grid;
+  grid-column: 20/37;
   grid-row: 3/4;
 }
 

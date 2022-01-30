@@ -24,6 +24,14 @@
     font-size: 1.5em;
   } 
 
+  nav ul {
+    flex-direction: row;
+  }
+  
+  nav button {display: none;}
+
+
+
   #myphoto{
     float: right;
     box-shadow: 0 0 30px #444;

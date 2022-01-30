@@ -21,12 +21,6 @@
     grid-template-rows: repeat(15, 1fr);
   }
 
-  nav ul {
-    flex-direction: row;
-  }
-  
-  nav button {display: none;}
-
   nav ul#primaryNav {
     display: flex;
     margin-left: 2vw;
