@@ -146,8 +146,7 @@ section {
 }
 
 #facebook {
-  width: 100%;
-  border-radius: 50%;
+  border-radius: 60%;
 }
 
 #footercity {
@@ -186,20 +185,12 @@ section {
 }
 
 #headerlinks {
-  grid-column: 30/37;
+  grid-column: 20/37;
   grid-row: 1/3;
   display:flex;
   flex-direction: row;
   justify-content: right;
 }
-/*
-#headerlinks.open {
-  grid-column: 25/37;
-  grid-row: 1/3;
-  display:flex;
-  flex-direction: row;
-  justify-content: right;
-} */
 
 #headerdate {
   grid-column: 1/25;
@@ -228,7 +219,6 @@ section {
 }
 
 #linkedin {
-  width: 100%;
   border-radius: 50%;
 }
 
