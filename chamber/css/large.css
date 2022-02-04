@@ -24,13 +24,6 @@
     font-size: 1em;
   } 
 
-  /*
-  nav ul#primaryNav {
-    display: flex;
-    margin-left: 2vw;
-    border-left: 1px solid rgba(0,0,0,0.3);
-  } */
-
   nav ul#primaryNav {
     display: flex;
     flex-direction: row;
@@ -110,7 +103,7 @@
     width: 215px;
     display: block;
     grid-column: 1 / 2;
-    grid-row: 3 / 3;  
+    grid-row: 3 / 4;  
   }
 
 } 
