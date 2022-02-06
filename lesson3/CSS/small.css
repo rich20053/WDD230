@@ -1,13 +1,13 @@
 html {
-  background-color: #806640;
+  background-color: #91F5F9;
 }
 
 body {
   max-width: 940px;
   margin: 0 auto;
-  background-color: white;
+  background-color: #CA91F9;
   padding: 1em;
-  font-family: 'Alegreya Sans', sans-serif;  color: black;
+  font-family: 'Alegreya Sans', sans-serif;  color: purple;
 }
 
 h1 {
@@ -18,21 +18,21 @@ h1 {
 
 h2, h3, h4, h5, h6 {
   font-family: 'Noto Serif', serif;
-  color: black;
+  color: purple;
 }
 
 header {
   padding: 1em;
   text-align: center;
-  background-color: black;
+  background-color: purple;
 }
 
 header h2 {
-  color: white;
+  color: #CA91F9;
 }
 
 nav {
-  background-color: yellow;
+  background-color: purple;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -52,23 +52,23 @@ nav a {
 }
 
 nav a:link, nav a:visited {
-  color: #806640;
+  color: white;
 }
 
 nav a:hover {
-  color: yellow;
-  background-color: #806640;
+  color: purple;
+  background-color: #CA91F9;
 }
 
 p {
-  font-family: 'Alegreya Sans', sans-serif;  color: black;
+  font-family: 'Alegreya Sans', sans-serif;  color: purple;
   padding: 1em;
   font-size: 1.2em;
 }
 
 footer {
   font-size: .9em;
-  background-color: black;
+  background-color: purple;
 }
 
 footer p {
@@ -84,8 +84,8 @@ footer a {
 
 .logo {
   width: 50%;
-  border: 2px solid black; 
-  border-radius: 5%;
+  border: 2px solid purple; 
+  border-radius: 50%;
 }
 
 .person {
@@ -110,14 +110,14 @@ footer a {
   clear: left;
 }
 
-.brown {
-  background-color: #806640;
+.lightblue {
+  background-color: #91F5F9;
 }
 
-.brown h2, 
-.brown p 
+.lightblue h2, 
+.lightblue p 
 {
-  color: yellow;
+  color: purple;
 }
 
 .white {
@@ -127,27 +127,27 @@ footer a {
 .white h2,
 .white p
 {
-  color: black;
+  color: purple;
 }
 
-.black {
-  background-color: black;
+.purple {
+  background-color: purple;
   color: white;
 }
 
-.black h2,
-.black p
+.purple h2,
+.purple p
 {
   color: white;
 }
 
-.yellow {
-  background-color: yellow;
+.lightpurple {
+  background-color: #CA91F9;
 }
 
-.yellow h2,
-.yellow p
+.lightpurple h2,
+.lightpurple p
 {
-  color: #806640;
+  color: purple;
 }
 
