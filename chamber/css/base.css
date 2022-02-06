@@ -37,7 +37,6 @@ header {
   padding: 1em;
   text-align: left;
   background-color: purple;
-  font-size: .7m;
 }
 
 header h2 {
@@ -244,6 +243,10 @@ section {
   grid-row: 1/2;
 }
 
+#hero h6 {
+  display: none;
+}
+
 #heroimage {
   width: 100%;
 }
@@ -274,6 +277,10 @@ section {
 
 #spotlight p {
   padding: 1em; 
+}
+
+#spotlight h6 {
+  display: none; 
 }
 
 #spotlight1 {
