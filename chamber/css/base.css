@@ -158,14 +158,14 @@ section {
 #call2action {
   margin: 0;
   padding: 5px;
-  border-radius: 15%;
+  border-radius: 5%;
   position: absolute;
   top: 10px;
   right: 10px;
   z-index: 10;
   color: #CA91F9;
   background-color: purple;;
-  border: 1px solid purple;
+  border: 1px solid #CA91F9;
   font-size: 5vw;
 }
 
@@ -475,3 +475,11 @@ nav ul.open {
   grid-column: 1/5;
   color: white;
 }
+
+#banner {
+  background-color: #91F5F9;
+  color: purple;
+  border: 1px solid purple;
+  font-size: 1em;
+}
+

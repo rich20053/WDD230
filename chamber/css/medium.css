@@ -19,12 +19,18 @@
   main {
     display: grid;
     grid-template-columns: repeat(36, 1fr);
-    grid-template-rows: repeat(9, 1fr);
+    grid-template-rows: repeat(9, auto);
   }
 
   nav li {
     font-size: 1.3em;
   } 
+
+  #banner {
+    grid-column: 1 / 37;  
+    grid-row: 1 / 2;   
+    font-size: 1.5em;
+  }
 
   #call2action {
     font-size: 2em ;
@@ -32,7 +38,7 @@
 
   #hero {
     grid-column: 1 / 37;
-    grid-row: 1 / 4;  
+    grid-row: 2 / 4;  
   }
 
   #news {

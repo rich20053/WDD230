@@ -18,7 +18,7 @@
 
   main {
     grid-template-columns: repeat(36, 1fr);
-    grid-template-rows: repeat(13, 1fr);
+    grid-template-rows: repeat(13, auto);
   }
 
   nav li {
@@ -32,7 +32,11 @@
   
   nav button {display: none;}
 
-
+  #banner {
+    grid-column: 1 / 37;  
+    grid-row: 1 / 2;   
+    font-size: 1.5em;
+  }
 
   #myphoto{
     float: right;
@@ -46,7 +50,7 @@
 
   #hero {
     grid-column: 9 / 27;
-    grid-row: 1 / 8;  
+    grid-row: 2 / 8;  
   }
 
   #heroimage {
@@ -72,7 +76,7 @@
   #event {
     width: 230px;
     grid-column: 1 / 9;
-    grid-row: 1 / 6;  
+    grid-row: 2 / 6;  
   }
 
   #join {
@@ -87,7 +91,7 @@
 
   #spotlight {
     grid-column: 27 / 37;
-    grid-row: 1 / 14; 
+    grid-row: 2 / 14; 
     grid-template-columns: 1fr; 
     grid-template-rows: 1fr 1fr 1fr;
   }
