@@ -26,6 +26,10 @@
     font-size: 1.3em;
   } 
 
+  #call2action {
+    font-size: 2em ;
+  }
+
   #hero {
     grid-column: 1 / 37;
     grid-row: 1 / 4;  
