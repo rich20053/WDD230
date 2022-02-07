@@ -85,6 +85,10 @@
     grid-row: 10 / 14;  
   }
 
+  #join button {
+    font-size: 3vw;
+  }
+
   #spotlight p  {
     font-size: .7em;
   }

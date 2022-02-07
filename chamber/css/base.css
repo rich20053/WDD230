@@ -138,7 +138,7 @@ footer p {
   padding: .5em;
 }
 
-footer h1, footer h2, footer h3, footer h6, footer img {
+footer h1, footer h2, footer h3, footer h6 {
   color: white;
   text-align: center;
   margin: 0;
@@ -188,15 +188,16 @@ section {
 
 #footerlogo {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(5, 1fr);
 }
 
 #footerlogo img {
   justify-self: center;
-  grid-column: 2/3;
+  grid-column: 3/4;
   grid-row: 1/2;
   width: 75%;
   border-radius: 50%;
+  padding: 5px;
 }
 
 #headergrid {
