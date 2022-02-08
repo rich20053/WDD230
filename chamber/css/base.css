@@ -50,9 +50,8 @@ header div {
 }
 
 nav {
-  line-height: 1.5em;
+  line-height: 1em;
   text-align: right;
-  font-size: 1.2em;
   font-family: 'Noto Serif', serif;
   background-color: Purple;
 }
@@ -79,7 +78,6 @@ main span p {
 }
 
 nav button {
-  /* margin: .2rem 2vw; */
   margin: 0;
   background: transparent;
   border: none;
@@ -97,7 +95,10 @@ nav ul {
 
 nav li {
   text-align: center;
-  font-size: 1em;
+  font-size: .8em;
+  padding: 2px;
+  margin: 0;
+  border: 2px solid #CA91F9; 
 }
 
 nav a {
@@ -227,16 +228,6 @@ section {
   justify-content: right;
 }
 
-#headerdate {
-  grid-column: 1/25;
-  grid-row: 3/4;
-}
-
-#headerdate.open {
-  grid-column: 1/20;
-  grid-row: 3/4;
-}
-
 #headernav {
   display: grid;
 }
@@ -272,6 +263,7 @@ section {
 }
 
 #chamberdate {
+  padding: 3px;
   font-size: .8em;
   color: white;
 }
@@ -455,7 +447,6 @@ nav ul {
 
 nav ul.open {
   display: block;
-
 }
 
 #hamburgerBtn span:nth-child(1) {
@@ -471,9 +462,12 @@ nav ul.open {
   display: none;
 }
 
+#hamburgerBtn.open {
+  grid-column: 5/6;
+}
+
 #hamburgerBtn.open span:nth-child(2) {
   display: block;
-  grid-column: 1/5;
   color: white;
 }
 

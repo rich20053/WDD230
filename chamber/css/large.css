@@ -9,11 +9,11 @@
   }
  
   h1 {
-    font-size: 60px;
+    font-size: 5em;
   }
     
-  h2 {
-    font-size: 30px;
+  header h2 {
+    font-size: 2em;
   }
 
   main {
@@ -22,7 +22,8 @@
   }
 
   nav li {
-    font-size: 1em;
+    font-size: 1.2em;
+    border: none;
   } 
 
   nav ul#primaryNav {
@@ -36,6 +37,10 @@
     grid-column: 1 / 37;  
     grid-row: 1 / 2;   
     font-size: 1.5em;
+  }
+
+  #chamberdate {
+    font-size: 1.2em;
   }
 
   #myphoto{
@@ -119,6 +124,7 @@
     grid-column: 1 / 2;
     grid-row: 3 / 4;  
   }
+
 
 } 
   

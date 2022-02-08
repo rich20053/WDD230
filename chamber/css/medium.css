@@ -9,11 +9,11 @@
   }
  
   h1 {
-    font-size: 50px;
+    font-size: 3em;
   }
-    
-  h2 {
-    font-size: 30px;
+
+  header h2 {
+    font-size: 1.5em;
   }
 
   main {
@@ -23,7 +23,7 @@
   }
 
   nav li {
-    font-size: 1.3em;
+    font-size: 1em;
   } 
 
   #banner {
@@ -35,6 +35,10 @@
   #call2action {
     font-size: 2em ;
   }
+
+  #chamberdate {
+    font-size: 1em;
+  }  
 
   #hero {
     grid-column: 1 / 37;
@@ -107,6 +111,13 @@
 
   }
   
+  #hamburgerBtn span:nth-child(1) {
+    font-size: 1.7em;
+  }
+
+  #hamburgerBtn.open span:nth-child(2) {
+    font-size: 1.7em;
+  }  
 
 } 
   
