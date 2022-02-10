@@ -63,11 +63,16 @@
     
     <section id="weather"> 
       <h3>Today's Weather</h3>
-      <p id="temp">38<sup>o</sup> F</p>
+      <p id="temp"><span id="tempnow">38</span><sup>o</sup> F</p>
       <p id="sunny">Sunny</p>
       <img id="sunimage" src="./images/sun.png" alt="Sun image">
       <img id="raindropimage" src="./images/raindrop.png" alt="raindrop image">
       <p id="rainpct">1%</p>
+      <div id="chill">
+        <p>___________________</p>
+        <p>Wind Speed:  <span id="wspeed">5</span> mph</p>
+        <p>Wind Chill:   <span id="windchill"></span><sup>o</sup> F</p>
+      </div>
     </section>
     
     <section id="news">
@@ -137,6 +142,7 @@
   <script src="./js/todays-date.js"></script>
   <script src="./js/toggle-menu.js"></script>
   <script src="./js/banner.js"></script>
+  <script src="./js/wind-chill.js"></script>
 </body>
 
 </html>
