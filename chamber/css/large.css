@@ -78,6 +78,12 @@
     grid-row: 6 / 10;  
   }
 
+  #chill {
+    grid-column: 12/37;
+    grid-row: 5/8;  
+    justify-self: center;
+  }
+
   #event {
     width: 230px;
     grid-column: 1 / 9;
