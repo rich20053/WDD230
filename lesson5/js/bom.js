@@ -1,4 +1,5 @@
 const favChapter = document.querySelector('#favchap');
+favChapter.focus();
 const addButton = document.querySelector('button');
 const chapterList = document.querySelector('.list');
 
@@ -13,8 +14,11 @@ addButton.addEventListener('click', () => {
         chapterList.append(li);    
         delButton.addEventListener('click', () => {
             chapterList.removeChild(li);
-            input.focus;
+            favChapter.focus();
+            favChapter.value = "";
         })
     }
+    favChapter.focus();
+    favChapter.value = "";
 })
 
