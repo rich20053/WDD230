@@ -3,6 +3,9 @@ html {
 }
 
 body {
+  /*
+  max-width: 940px;
+  */
   max-width: 940px;
   margin: 0 auto;
   background-color: #CA91F9;
@@ -489,3 +492,6 @@ nav ul.open {
   font-size: 1em;
 }
 
+picture img {
+  width: 100%;
+}
