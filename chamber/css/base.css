@@ -371,6 +371,10 @@ section {
   display: none;
 }
 
+#join h6 {
+  display: none;
+}
+
 #spotlight h6 {
   display: none;
 }
@@ -490,8 +494,4 @@ nav ul.open {
   color: purple;
   border: 1px solid purple;
   font-size: 1em;
-}
-
-picture img {
-  width: 100%;
 }
