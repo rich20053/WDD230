@@ -65,6 +65,11 @@ main {
   /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
 }
 
+main div {
+  display: flex;
+  flex-direction: column;
+}
+
 main section {
   margin: 2px;
   display: flex;

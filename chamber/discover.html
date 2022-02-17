@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>Provo Chamber of Commerce Discover Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover page for Provo Chamber of Commerce Site by Mark Richmond in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Noto+Serif:wght@700&display=swap" rel="stylesheet">  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="shortcut icon" href="./images/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="./css/base.css"> 
+  <link rel="stylesheet" href="./css/medium.css"> 
+  <link rel="stylesheet" href="./css/large.css"> 
+</head>
+
+<body>
+  <header>
+    <div id="headergrid">
+      <img id="logo" src="./images/logo.webp" alt="Provo Chamber of Commerce Logo">
+      <div id="headercity">
+        <h1>Provo</h1>
+        <h2>Chamber of Commerce</h2>
+      </div>
+      <div id="headerlinks">
+        <div>
+          <a href="https://www.facebook.com" target="_blank"> <img id="facebook" src="./images/facebookicon.jpg" alt="Facebook icon"></a>
+          <a href="https://www.linkedin.com" target="_blank"> <img id="linkedin" src="./images/linkedinicon.jpg" alt="LinkedIn icon"></a>
+        </div>
+      </div>
+    </div>
+    <div id='headerbottom'>
+      <div id="headerdate">
+        <h3 id="chamberdate">todays date</h3>
+      </div>
+      <nav id="headernav">
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav">
+          <li><a href="./index2.html">Home</a></li>
+          <li><a href="./index2.html">Directory</a></li>          
+          <li><a href="./index2.html">Join</a></li>
+          <li><a href="./index2.html">Contact</a></li>
+        </ul>
+      </nav>      
+    </div>
+  </header>
+  <main>
+    <div id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+    <div>
+    <img id="byu" src="./images/byu.jpg" alt="Brigham Young University sign">
+    Brigham Young University - Home of the Cougars!
+    <img id="phl" src="./images/library.jpg" alt="Provo Heritage Library exterior">
+    Provo Heritage Library
+    <img id="lsm" src="./images/lifesciencemuseum.jpg" alt="BYU Life Science Museum displays">
+    BYU Life Science Museum
+    <img id="mar" src="./images/marriott-center.jpg" alt="BYU Marriott Center during a basketball game">
+    BYU Marriott Center
+    <img id="mmh" src="./images/mormonmexicanhistory.jpg" alt="Mormon Mexican Hisory Museum displays">
+    Mormon Mexican History Museum
+    <img id="moa" src="./images/museum-of-art-at-brigham.jpg" alt="BYU Museum of Art displays">
+    BYU Museum of Art
+    <img id="pal" src="./images/paleontology.jpg" alt="BYU Museum of Paleontoloty displays">
+    BYU Museum of Paleontology
+    <img id="cct" src="./images/provo-city-center-temple.jpg" alt="Provo City Center Temple exterior">
+    Provo City Center Temple
+    <img id="put" src="./images/Provo-Utah-Temple1.jpg" alt="Provo Utah Temple exterior">
+    Provo Utah Temple
+    <img id="les" src="./images/stadium.jpg" alt="LaVell Edwards Statium during a football game">
+    LaVell Edwards Stadium
+    <img id="they" src="./images/theY.jpg" alt="The Y on Y mountain">
+    Y Mountain
+    <img id="yview" src="./images/viewfromY.jpg" alt="The view of Provo from the Y on Y mountain">
+    View of Provo from the Y on Y Mountain
+    </div>
+  </main>
+  <footer>
+    <div id="footerlogo">
+      <img src="./images/logo.webp" alt="Provo Chamber of Commerce Logo">
+    </div>
+    <div id="footercity">
+        <h1>Provo</h1>
+        <h2>Chamber of Commerce</h2>
+    </div>
+    <div>
+      <h6>
+        info@provochamber.com
+      </h6>
+    </div>      
+    <div>
+          <p>&copy; <span id="thisyear"></span> Provo Chamber | Mark Richmond | WDD 230 Project </p>
+      <p id="datemodified"></p>        
+    </div>
+  </footer>
+  <script src="../javascript/this-year.js" defer async></script>
+  <script src="../javascript/last-modified.js" defer async></script>
+  <script src="./js/todays-date.js" defer async></script>
+  <script src="./js/toggle-menu.js" defer async></script>
+  <script src="./js/banner.js" defer async></script>
+  <script src="./js/wind-chill.js" defer async></script>
+</body>
+
+</html>

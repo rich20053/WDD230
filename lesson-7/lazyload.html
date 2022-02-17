@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>Mark Richmond WDD230 Lesson 7: Progressive Loading of Images</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Lesson 7 for Mark Richmond in WDD 230: Progressive Loading of Images">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Sansita&family=Bree" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header>
+    <h1> Progressive Loading of Images </h1>
+  </header>
+  <main>
+    <img id="byu" src="./images/placeholder.jpg" data-src="./images/byu.jpg" alt="Brigham Young University sign">
+    <p>Brigham Young University - Home of the Cougars!</p>
+    <img id="phl" src="./images/placeholder.jpg" data-src="./images/library.jpg" alt="Provo Heritage Library exterior">
+    <p>Provo Heritage Library</p>
+    <img id="moa" src="./images/placeholder.jpg" data-src="./images/museum-of-art-at-brigham.jpg" alt="BYU Museum of Art displays">
+    <p>BYU Museum of Art</p>
+    <img id="cct" src="./images/placeholder.jpg" data-src="./images/provo-city-center-temple.jpg" alt="Provo City Center Temple exterior">
+    <p>Provo City Center Temple</p>
+    <img id="les" src="./images/placeholder.jpg" data-src="./images/stadium.jpg" alt="LaVell Edwards Statium during a football game">
+    <p>LaVell Edwards Stadium</p>
+    <img id="yview" src="./images/placeholder.jpg" data-src="./images/viewfromY.jpg" alt="The view of Provo from the Y on Y mountain">
+    <p>View of Provo from the Y on Y Mountain</p>
+  </main>  
+  <footer>
+    <p>&copy; <span id="thisyear"></span> | Mark Richmond | Utah </p>
+    <p id="datemodified"></p>
+  </footer>
+  <script src="./js/this-year.js"></script>
+  <script src="./js/last-modified.js"></script>
+  <script src="./js/lazyload.js   "></script>
+  
+</body>
+</html>
