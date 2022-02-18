@@ -26,6 +26,15 @@
     font-size: 1em;
   } 
 
+  #discover-images {
+    grid-column: 1 / 37;  
+    grid-row: 2 / 10;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0 0 0;
+  }  
+
   #banner {
     grid-column: 1 / 37;  
     grid-row: 1 / 2;   
@@ -118,5 +127,13 @@
   #hamburgerBtn.open span:nth-child(2) {
     font-size: 1.7em;
   }  
+
+  .hover-img {
+    transition: transform 2s ease-in-out; 
+  }
+  
+  .hover-img:hover {
+    transform: scale(2);
+  }
 
 }

@@ -52,6 +52,10 @@ header div {
   color: white;
 }
 
+img {
+  border: 3px solid purple;
+}
+
 nav {
   line-height: 1em;
   text-align: right;
@@ -176,6 +180,21 @@ section {
   background-color: purple;;
   border: 1px solid #CA91F9;
   font-size: 5vw;
+}
+
+#discover-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0 0 0;
+}
+
+#discover-images p {
+  width: 400px;
+}
+
+#lastvisit {
+  text-align: center;
 }
 
 #logo {
