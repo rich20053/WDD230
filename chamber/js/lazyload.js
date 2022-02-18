@@ -9,7 +9,7 @@ function loadImage(image) {
 
 const imageOptions = {
     threshold: 0,
-    rootMargin: "-100px"
+    rootMargin: "-10px"
 }
 
 const imageObserver = new IntersectionObserver((entries, imgObserver) => {
