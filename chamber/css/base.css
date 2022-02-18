@@ -189,6 +189,10 @@ section {
   margin: 10px 0 0 0;
 }
 
+#discover-images img {
+  width: 300px;
+}
+
 #discover-images p {
   width: 400px;
 }
@@ -514,7 +518,6 @@ nav ul.open {
 }
 
 #banner {
-  
   background-color: #91F5F9;
   color: purple;
   border: 1px solid purple;

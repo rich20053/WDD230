@@ -39,6 +39,10 @@
     font-size: 1.5em;
   }
 
+  #discover-images img {
+    width: 400px;
+  }  
+
   #chamberdate {
     font-size: 1.2em;
   }
