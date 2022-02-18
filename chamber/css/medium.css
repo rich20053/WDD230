@@ -117,7 +117,6 @@
 
   #weather #temp{
     font-size: 2.5em;
-
   }
   
   #hamburgerBtn span:nth-child(1) {
@@ -134,6 +133,7 @@
   
   .hover-img:hover {
     transform: scale(2);
+
   }
 
 }
