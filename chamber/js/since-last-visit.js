@@ -9,12 +9,24 @@ if (lastvisit != 0) {
 
   let daysBetween = (thisvisit - lastvisit) / FACTOR;
 
-  document.querySelector('#lastvisit').textContent = 'It has been ' + daysBetween.toFixed(0) + ' days since your last visit.';
+  if (daysBetween.toFixed(0) != 1) {
 
-  window.localStorage.setItem('last-visit-date', thisvisit);
+    document.querySelector('#lastvisit').textContent = 'It has been ' + daysBetween.toFixed(0) + ' days since your last visit.';
 
-  thisvisit = NULL;
- 
+    window.localStorage.setItem('last-visit-date', thisvisit);
+  
+    thisvisit = NULL;
+  
+  } else {
+
+    document.querySelector('#lastvisit').textContent = 'It has been ' + daysBetween.toFixed(0) + ' day since your last visit.';
+
+    window.localStorage.setItem('last-visit-date', thisvisit);
+  
+    thisvisit = NULL;
+   
+  }
+
 } else {
 
   window.localStorage.setItem('last-visit-date', Date.now());
