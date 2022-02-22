@@ -1,0 +1,60 @@
+body {
+    background-color: white;
+    color: #051181;
+    /* max-width: 650px; */
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+    width: 90%;
+}
+
+div {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1, footer, tfoot {
+    text-align: center;
+}
+
+table, tr, td {
+    border: 1px solid #AAAAAA;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+
+body th {
+    color: white;
+    background-color: #5f7f9c;
+}
+
+tfoot th {
+    color: black;
+    background-color: #78c5c9;
+    font-size: .7em;
+    padding: 5px;
+}
+
+thead th {
+    color: black;
+    background-color: #78c5c9;
+    font-size: 1.5em;
+}
+
+tr:nth-child(even) {
+    background-color: #EEEEEE;
+}
+
+tr:nth-child(odd) {
+    background-color: #e7fdec;
+}
+
+table {
+    box-shadow: 10px 10px 15px #5f7f9c;
+}
+
+#nov-goal {
+    color: white;
+    background-color: #5f7f9c;
+}
