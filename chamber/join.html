@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>Provo Chamber of Commerce Discover Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover page for Provo Chamber of Commerce Site by Mark Richmond in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Noto+Serif:wght@700&display=swap" rel="stylesheet">  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="shortcut icon" href="./images/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="./css/base.css"> 
+  <link rel="stylesheet" href="./css/medium.css"> 
+  <link rel="stylesheet" href="./css/large.css"> 
+</head>
+
+<body>
+  <header>
+    <div id="headergrid">
+      <img id="logo" src="./images/logo.webp" alt="Provo Chamber of Commerce Logo">
+      <div id="headercity">
+        <h1>Provo</h1>
+        <h2>Chamber of Commerce</h2>
+      </div>
+      <div id="headerlinks">
+        <div>
+          <a href="https://www.facebook.com" target="_blank"> <img id="facebook" src="./images/facebookicon.jpg" alt="Facebook icon"></a>
+          <a href="https://www.linkedin.com" target="_blank"> <img id="linkedin" src="./images/linkedinicon.jpg" alt="LinkedIn icon"></a>
+        </div>
+      </div>
+    </div>
+    <div id='headerbottom'>
+      <div id="headerdate">
+        <h3 id="chamberdate">todays date</h3>
+      </div>
+      <nav id="headernav">
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav">
+          <li><a href="./index2.html">Home</a></li>
+          <li><a href="./discover.html">Discover</a></li>
+          <li><a href="./index2.html">Directory</a></li>          
+          <li><a href="./index2.html">Contact</a></li>
+        </ul>
+      </nav>      
+    </div>
+  </header>
+  <main>
+  Join form to go here
+  </main>
+  <footer>
+    <div id="footerlogo">
+      <img src="./images/logo.webp" alt="Provo Chamber of Commerce Logo">
+    </div>
+    <div id="footercity">
+        <h1>Provo</h1>
+        <h2>Chamber of Commerce</h2>
+    </div>
+    <div>
+      <h6>
+        info@provochamber.com
+      </h6>
+    </div>      
+    <div>
+          <p>&copy; <span id="thisyear"></span> Provo Chamber | Mark Richmond | WDD 230 Project </p>
+      <p id="datemodified"></p>        
+    </div>
+  </footer>
+  <script src="../javascript/this-year.js" defer async></script>
+  <script src="../javascript/last-modified.js" defer async></script>
+  <script src="./js/todays-date.js" defer async></script>
+  <script src="./js/toggle-menu.js" defer async></script>
+  <script src="./js/banner.js" defer async></script>
+  <script src="./js/lazyload.js" defer async></script>
+  <script src="./js/since-last-visit.js" defer async></script>
+</body>
+
+</html>
