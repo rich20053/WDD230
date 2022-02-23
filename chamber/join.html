@@ -47,7 +47,37 @@
     </div>
   </header>
   <main>
-  Join form to go here
+    <h2>Chamber Membership Application</h2>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Profile Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" required></label> 
+                <label class="top">Last Name* <input type="text" name="lname" required></label> 
+                <label class="top">Title <input type="title" name="title" pattern="[A-Za-z\d\s\-]{7,}" 
+                  title="Title must be more than 6 characters and can only include characters, numbers, hyphens and spaces."></label> 
+                <label class="top">Business Name* <input type="text" name="bname" required></label> 
+                <label class="top">Email* <input type="email" name="email" placeholder="youraccount@gmail.com" required></label> 
+                <label class="top">Cell Phone <input type="tel" name="cphone" placeholder="1235554321"></label> 
+            </fieldset>
+            <fieldset>
+                <legend>Membership Information</legend>
+                <div>Membership Level</div>
+                <label class="sbs"><input type="radio" name="audience" value="NP">Non-Profit (No Fee)</label>
+                <label class="sbs"><input type="radio" name="audience" value="bronze">Bronze</label>
+                <label class="sbs"><input type="radio" name="audience" value="silver">Silver</label>
+                <label class="sbs"><input type="radio" name="audience" value="gold">Gold</label>
+            </fieldset>
+            <fieldset>
+                <legend>Business Description</legend>
+                <label class="top">Description <input type="textarea" name="businessDesc"></label>
+                <label class="top">How Many Authors <input type="number" name="authors"></label>
+            </fieldset>
+
+            <input type="submit" value="Request Membership" class="submitBtn">
+
+        </form>
+    
+  </h2>
   </main>
   <footer>
     <div id="footerlogo">
