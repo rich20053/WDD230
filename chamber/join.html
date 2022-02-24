@@ -62,15 +62,15 @@
             <fieldset>
                 <legend>Membership Information</legend>
                 <div>Membership Level</div>
-                <label class="sbs"><input type="radio" name="audience" value="NP">Non-Profit (No Fee)</label>
-                <label class="sbs"><input type="radio" name="audience" value="bronze">Bronze</label>
-                <label class="sbs"><input type="radio" name="audience" value="silver">Silver</label>
-                <label class="sbs"><input type="radio" name="audience" value="gold">Gold</label>
+                <label class="sbs"><input type="radio" name="membership" value="NP">Non-Profit (No Fee)</label>
+                <label class="sbs"><input type="radio" name="membership" value="bronze">Bronze</label>
+                <label class="sbs"><input type="radio" name="membership" value="silver">Silver</label>
+                <label class="sbs"><input type="radio" name="membership" value="gold">Gold</label>
             </fieldset>
             <fieldset>
                 <legend>Business Description</legend>
                 <label class="top">Description <input type="textarea" name="businessDesc"></label>
-                <label class="top">How Many Authors <input type="number" name="authors"></label>
+                <input id="joindate" type="datetime-local" name="formdate" value="2000-05-05"></label>
             </fieldset>
 
             <input type="submit" value="Request Membership" class="submitBtn">
@@ -97,13 +97,10 @@
       <p id="datemodified"></p>        
     </div>
   </footer>
-  <script src="../javascript/this-year.js" defer async></script>
-  <script src="../javascript/last-modified.js" defer async></script>
+  <script src="./js/this-year.js" defer async></script>
+  <script src="./js/last-modified.js" defer async></script>
   <script src="./js/todays-date.js" defer async></script>
   <script src="./js/toggle-menu.js" defer async></script>
-  <script src="./js/banner.js" defer async></script>
-  <script src="./js/lazyload.js" defer async></script>
-  <script src="./js/since-last-visit.js" defer async></script>
 </body>
 
 </html>
