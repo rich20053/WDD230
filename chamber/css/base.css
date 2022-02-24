@@ -109,7 +109,7 @@ form label.top, form div {
   font-size: .8rem;
 }
 
-form label.top input, form label.top {
+form label.top input {
   -webkit-appearance: none;
   display: block;
   font-size: 1rem;
@@ -136,7 +136,7 @@ form input.submitBtn {
   padding: .75rem 1.5rem;
   margin: 0 0 2rem 2%;
   width: 96%;
-  max-width: 20rem;
+  max-width: 12rem;
 }
 
 form label.top input:required {
@@ -145,6 +145,10 @@ form label.top input:required {
 
 form label.top input:required:valid {
   border-left: green solid 6px;
+}
+
+#joindate {
+  display: none;
 }
 
 nav button {
