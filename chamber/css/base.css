@@ -109,7 +109,8 @@ form label.top, form div {
   font-size: .8rem;
 }
 
-form label.top input {
+form label.top input,
+form label.top textarea {
   -webkit-appearance: none;
   display: block;
   font-size: 1rem;
@@ -188,19 +189,19 @@ nav a:hover {
   margin: 0;
 }
 
-button a,
+#gotojoin a,
 #call2action a {
   text-decoration: none;
 }
 
-button a:link,
+#gotojoin a:link,
 #call2action a:link,
-button a:visited,
+#gotojoin a:visited,
 #call2action a:visited {
   color: white;
 }
 
-button a:hover,
+#gotojoin a:hover,
 #call2action a:hover {
   color: purple;
   background-color: white;

@@ -91,13 +91,14 @@
     text-align: center;
   }
 
-  #join button {
+  #gotojoin {
     justify-self: center;
     border-radius: 5%;
     color: #CA91F9;
     background-color: purple;;
     border: 1px solid #CA91F9;
     font-size: 5vw;
+    padding: 10px;
   }
 
   #thankyou {

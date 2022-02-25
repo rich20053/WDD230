@@ -24,12 +24,12 @@ table, tr, th, td {
     text-align: center;
 }
 
-body th {
+#tblhd td {
     color: white;
     background-color: #5f7f9c;
 }
 
-tfoot th {
+#tblft td {
     color: black;
     background-color: #78c5c9;
     font-size: .7em;
