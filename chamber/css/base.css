@@ -147,10 +147,6 @@ form label.top input:required:valid {
   border-left: green solid 6px;
 }
 
-#joindate {
-  display: none;
-}
-
 nav button {
   margin: 0;
   background: transparent;
@@ -190,6 +186,24 @@ nav a:hover {
   color: purple;
   background-color: white;
   margin: 0;
+}
+
+button a,
+#call2action a {
+  text-decoration: none;
+}
+
+button a:link,
+#call2action a:link,
+button a:visited,
+#call2action a:visited {
+  color: white;
+}
+
+button a:hover,
+#call2action a:hover {
+  color: purple;
+  background-color: white;
 }
 
 p {
@@ -232,7 +246,7 @@ section {
 
 #call2action {
   margin: 0;
-  padding: 5px;
+  padding: 15px;
   border-radius: 5%;
   position: absolute;
   top: 10px;
