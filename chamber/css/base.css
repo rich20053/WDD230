@@ -8,7 +8,7 @@ body {
   */
   max-width: 940px;
   margin: 0 auto;
-  background-color: #CA91F9;
+  background-color: #dfbcfc;
   padding: 1em;
   font-family: 'Alegreya Sans', sans-serif;  color: purple;
   border-radius: 0;
@@ -169,7 +169,7 @@ nav li {
   font-size: .8em;
   padding: 2px;
   margin: 0;
-  border: 2px solid #CA91F9; 
+  border: 2px solid #dfbcfc; 
 }
 
 nav a {
@@ -253,9 +253,9 @@ section {
   top: 10px;
   right: 10px;
   z-index: 10;
-  color: #CA91F9;
-  background-color: purple;;
-  border: 1px solid #CA91F9;
+  color: #dfbcfc;
+  background-color: purple;
+  border: 1px solid #dfbcfc;
   font-size: 5vw;
 }
 
