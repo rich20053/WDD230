@@ -5,7 +5,7 @@ html {
 body {
   max-width: 940px;
   margin: 0 auto;
-  background-color: #CA91F9;
+  background-color: #dfbcfc;
   padding: 1em;
   font-family: 'Alegreya Sans', sans-serif;  color: purple;
 }
@@ -28,7 +28,7 @@ header {
 }
 
 header h2 {
-  color: #CA91F9;
+  color: #dfbcfc;
 }
 
 nav {
@@ -57,7 +57,7 @@ nav a:link, nav a:visited {
 
 nav a:hover {
   color: purple;
-  background-color: #CA91F9;
+  background-color: #dfbcfc;
 }
 
 p {
@@ -142,7 +142,7 @@ footer a {
 }
 
 .lightpurple {
-  background-color: #CA91F9;
+  background-color: #dfbcfc;
 }
 
 .lightpurple h2,
