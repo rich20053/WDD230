@@ -150,7 +150,7 @@ div section:nth-child(17) {
 }
 }
 
-@media screen and (min-width: 62em) { 
+@media screen and (min-width: 80em) { 
 
     div {
         display: grid;
