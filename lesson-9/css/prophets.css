@@ -61,7 +61,7 @@ section {
 
 div {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat( 2, minmax(320px, 1fr));
 }  
 
 div section:nth-child(1) {
@@ -154,7 +154,7 @@ div section:nth-child(17) {
 
     div {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat( 4, minmax(320px, 1fr));
     }  
     
     div section:nth-child(1) {

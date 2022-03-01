@@ -1,4 +1,4 @@
-const requestURL = './data/data.json';
+const requestURL = 'https://github.com/rich20053/WDD230/blob/master/chamber/data/data.json';
 
 
 function displayDirectory(business) {  // Create elements to add to the document
