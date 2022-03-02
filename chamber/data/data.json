@@ -1,98 +1,106 @@
 [
     {
         "name" : "Provo Photography Services",
-        "address" : "",
+        "address" : "180 W 100 N, Provo, UT 84602",
         "phone" : "801-555-8183",
         "website" : "www.provophoto.com",
         "contact" : "contact@provophoto.com",
         "icon" : "./images/camera.jpg"
-    }
+    },
     {
         "name" : "Marvin's Mufflers",
-        "address" : "",
-        "phone" : "801-555-8183",
-        "website" : "???",
+        "address" : "1145 N 500 W, Provo, UT 84604",
+        "phone" : "801-555-2060",
+        "website" : "MarvinsMuffler.com",
         "contact" : "marvin@marvinsmuffler.com",
         "icon" : "./images/muffler.png"
-    }
+    },
     {
         "name" : "Larry's Lawn Service",
-        "address" : "",
-        "phone" : "999-999-9999",
-        "website" : "???",
-        "contact" : "contact@larrys.biz<",
+        "address" : "62 W Center St, Provo, UT 84601",
+        "phone" : "385-375-2617",
+        "website" : "www.larrys.biz",
+        "contact" : "contact@larrys.biz",
         "icon" : "./images/lawnmower.webp"
-    }
+    },
     {
         "name" : "Provo Photography Services",
+        "address" : "350 N Freedom Blvd, Provo, UT 84601",
+        "phone" : "801-555-0334",
+        "website" : "www.provophoto.com",
+        "contact" : "contact@provophoto.com",
+        "icon" : "./images/camera.jpg"
+    },
+    {
+        "name" : "McDonalds Provo",
+        "address" : "211 W 1230 N, Provo, UT 84604",
+        "phone" : "801-374-6909",
+        "website" : "www.mcdonalds.com",
+        "contact" : "contact@mcdonalds.com",
+        "icon" : "./images/camera.jpg"
+    },
+    {
+        "name" : "Walmart Neighborhood Market",
+        "address" : "2255 N University Pkwy, Provo, UT 84604",
+        "phone" : "385-219-3070",
+        "website" : "www.walmart.com",
+        "contact" : "contact@walmart.com",
+        "icon" : "./images/camera.jpg"
+    },
+    {
+        "name" : "Larson's Automotive",
+        "address" : "85 E 600 S, Provo, UT 84606",
+        "phone" : "801-373-0048",
+        "website" : "www.larsensautorepair.net",
+        "contact" : "contact@larsensautorepair.net",
+        "icon" : "./images/camera.jpg"
+    },
+    {
+        "name" : "Brigham Young University",
+        "address" : "Provo, UT 84602",
+        "phone" : "801-422-4636",
+        "website" : "byu.edu",
+        "contact" : "contact@byu.edu",
+        "icon" : "./images/camera.jpg"
+    },
+    {
+        "name" : "Pioneer Book",
+        "address" : "450 W Center St, Provo, UT 84601",
+        "phone" : "801-225-2665",
+        "website" : "www.pioneerbook.com",
+        "contact" : "contact@pioneerbook.com<",
+        "icon" : "./images/camera.jpg"
+    },
+    {
+        "name" : "Splash Summit Waterpark",
+        "address" : "1330 300 N, Provo, UT 84606",
+        "phone" : "385-309-2388",
+        "website" : "www.splashsummit.com",
+        "contact" : "contact@splashsummit.com",
+        "icon" : "./images/camera.jpg"
+    },
+    {
+        "name" : "Deseret First Credit Union",
         "address" : "",
         "phone" : "801-555-8183",
         "website" : "www.provophoto.com",
         "contact" : "contact@provophoto.com<",
         "icon" : "./images/camera.jpg"
-    }
+    },
     {
-        "name" : "Provo Photography Services",
-        "address" : "",
-        "phone" : "801-555-8183",
-        "website" : "www.provophoto.com",
-        "contact" : "contact@provophoto.com<",
+        "name" : "9th East Dental",
+        "address" : "1234 900 E Suite #100, Provo, UT 84604",
+        "phone" : "801-854-9140",
+        "website" : "nintheastdental.com",
+        "contact" : "contact@nintheastdental.com",
         "icon" : "./images/camera.jpg"
-    }
+    },
     {
-        "name" : "Provo Photography Services",
-        "address" : "",
-        "phone" : "801-555-8183",
-        "website" : "www.provophoto.com",
-        "contact" : "contact@provophoto.com<",
-        "icon" : "./images/camera.jpg"
-    }
-    {
-        "name" : "Provo Photography Services",
-        "address" : "",
-        "phone" : "801-555-8183",
-        "website" : "www.provophoto.com",
-        "contact" : "contact@provophoto.com<",
-        "icon" : "./images/camera.jpg"
-    }
-    {
-        "name" : "Provo Photography Services",
-        "address" : "",
-        "phone" : "801-555-8183",
-        "website" : "www.provophoto.com",
-        "contact" : "contact@provophoto.com<",
-        "icon" : "./images/camera.jpg"
-    }
-    {
-        "name" : "Provo Photography Services",
-        "address" : "",
-        "phone" : "801-555-8183",
-        "website" : "www.provophoto.com",
-        "contact" : "contact@provophoto.com<",
-        "icon" : "./images/camera.jpg"
-    }
-    {
-        "name" : "Provo Photography Services",
-        "address" : "",
-        "phone" : "801-555-8183",
-        "website" : "www.provophoto.com",
-        "contact" : "contact@provophoto.com<",
-        "icon" : "./images/camera.jpg"
-    }
-    {
-        "name" : "Provo Photography Services",
-        "address" : "",
-        "phone" : "801-555-8183",
-        "website" : "www.provophoto.com",
-        "contact" : "contact@provophoto.com<",
-        "icon" : "./images/camera.jpg"
-    }
-    {
-        "name" : "Provo Photography Services",
-        "address" : "",
-        "phone" : "801-555-8183",
-        "website" : "www.provophoto.com",
-        "contact" : "contact@provophoto.com<",
+        "name" : "U-Haul Moving & Storage",
+        "address" : "551 W Columbia Ln, Provo, UT 84604",
+        "phone" : "801-374-6911",
+        "website" : "uhaul.com",
+        "contact" : "contact@uhaul.com",
         "icon" : "./images/camera.jpg"
     }
 ]

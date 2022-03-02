@@ -1,7 +1,6 @@
-const requestURL = 'https://github.com/rich20053/WDD230/blob/master/chamber/data/data.json';
+const requestData = 'https://github.com/rich20053/WDD230/blob/master/chamber/data/data.json';
 
-
-function displayDirectory(business) {  // Create elements to add to the document
+function displayBusiness(business) {  // Create elements to add to the document
     let card = document.createElement('section');
     let h2 = document.createElement('h3');
     let p1 = document.createElement('p');
@@ -38,16 +37,30 @@ function displayDirectory(business) {  // Create elements to add to the document
     document.querySelector('div.cards').appendChild(card);
   } 
 
+  console.log("Load Directory");
+  getDirectory();
+  /*getDirectory.catch(error => {
+    console.log("Error!");
+    console.error(error);
+  })*/
 
-fetch(requestURL)
+  async function getDirectory() {
+    console.log("get data");
+    const response = await fetch(requestData, {mode: 'no-cors'});
+    const business_dir = await response.json();
+    business_dir.forEach(displayBusiness);
+  }
+
+/*
+fetch(requestData)
   .then(function (response) {
+    console.log("1st request promise")
     return response.json();
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const businesses = jsonObject['businesses'];
-    businesses.forEach(displayDirectory);
-});
+    const business_dir = jsonObject['directory'];
+}); */
 
 
 
