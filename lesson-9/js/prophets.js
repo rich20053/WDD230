@@ -8,13 +8,12 @@ function displayProphets(prophets) {  // Create elements to add to the document
     let p2 = document.createElement('p');
     let img1 = document.createElement('img');
   
-    const space = " ";
     const birthdt = "Date of Birth: ";
     const birthplc = "Place of Birth: ";
     const dash = " - ";
     
     // Change the textContent property of the h2 element to contain the prophet's full name
-    h2.textContent = `${prophets.name}${space}${prophets.lastname}`;
+    h2.textContent = `${prophets.name} ${prophets.lastname}`;
     // Add/append the section(card) with the h2 element
     card.appendChild(h2);
     // Change the textContent property of the p1 element to contain the prophet's birthdate
@@ -27,7 +26,7 @@ function displayProphets(prophets) {  // Create elements to add to the document
     card.appendChild(p2);
     // Change the textContent property of the img1 element to contain the prophet's picture
     img1.src = `${prophets.imageurl}`;
-    img1.setAttribute('alt', `${prophets.name}${space}${prophets.lastname}${dash}${prophets.order}`);// Set the alternate text on the img1 element
+    img1.setAttribute('alt', `Portrait of ${prophets.name}${space}${prophets.lastname}${dash}${prophets.order}`);// Set the alternate text on the img1 element
     card.appendChild(img1);
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('div.cards').appendChild(card);

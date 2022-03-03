@@ -1,4 +1,4 @@
-const requestData = 'https://github.com/rich20053/WDD230/blob/master/chamber/data/data.json';
+const requestData = 'https://github.com/rich20053/WDD230/master/chamber/data/data.json';
 
 function displayBusiness(business) {  // Create elements to add to the document
     let card = document.createElement('section');
@@ -46,7 +46,7 @@ function displayBusiness(business) {  // Create elements to add to the document
 
   async function getDirectory() {
     console.log("get data");
-    const response = await fetch(requestData, {mode: 'no-cors'});
+    const response = await fetch(requestData);
     const business_dir = await response.json();
     business_dir.forEach(displayBusiness);
   }
