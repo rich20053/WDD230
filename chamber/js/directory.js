@@ -1,4 +1,4 @@
-const requestData = 'https://github.com/rich20053/WDD230/master/chamber/data/data.json';
+const requestData = 'https://rich20053.github.io/WDD230/chamber/data/data.json';
 
 function displayBusiness(business) {  // Create elements to add to the document
     let card = document.createElement('section');
@@ -34,7 +34,7 @@ function displayBusiness(business) {  // Create elements to add to the document
     // Add/append the section(card) with the p2 element
     card.appendChild(p3);
     // Add/append the existing HTML div with the cards class with the section(card)
-    document.querySelector('div.cards').appendChild(card);
+    document.querySelector('#bizdir').appendChild(card);
   } 
 
   console.log("Load Directory");
