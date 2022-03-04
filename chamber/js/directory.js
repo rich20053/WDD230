@@ -19,7 +19,8 @@ function displayBusiness(business) {  // Create elements to add to the document
     card.appendChild(h2);
     // Change the textContent property of the img1 element to contain the prophet's picture
     img1.src = `${business.icon}`;
-    img1.setAttribute('alt', `${business.name} icon`);// Set the alternate text on the img1 element
+    img1.setAttribute('alt', `${business.name} icon`);// Set the alternate text on the img1 
+    img1.setAttribute('loading', 'lazy');
     card.appendChild(img1);
     // Change the textContent property of the p1 element to contain the prophet's birthdate
     p1.textContent = `${business.phone}`;
