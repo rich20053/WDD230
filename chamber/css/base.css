@@ -599,3 +599,16 @@ nav ul.open {
   border: 1px solid purple;
   font-size: 1em;
 }
+
+#bizdir section {
+  align-items: center;
+}
+
+#bizdir img {
+  width: 100px;
+}
+
+#bizdir p {
+  margin: 0;
+  padding: 5px;
+}
