@@ -48,10 +48,11 @@
   </header>
   <main>
     <h2>Business Directory</h2>
-    <p id="cardview"><img src="./images/cardbuttonon.jpg"></p>
-    <p id="listview"><img src="./images/listbuttonoff.jpg"></p>
+    <div id="view">
+      <button id="cardviewBtn"><span><img src="./images/cardbuttonon.jpg"></span><span><img src="./images/cardbuttonoff.jpg"></span></button>
+      <button id="listviewBtn"><span><img src="./images/listbuttonoff.jpg"></span><span><img src="./images/listbuttonon.jpg"></span></button>   
+    </div>
     <div id="bizdir">
-
     </div>
   </main>
   <footer>
@@ -79,6 +80,8 @@
   <script src="./js/directory.js" defer async></script>
   <script src="./js/lazyload.js" defer async></script>
   <script src="./js/since-last-visit.js" defer async></script>
+  <script src="./js/view-toggle.js" defer async></script>
+  
 </body>
 
 </html>

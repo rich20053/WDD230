@@ -2,10 +2,11 @@ const requestData = 'https://rich20053.github.io/WDD230/chamber/data/data.json';
 
 function displayBusiness(business) {  // Create elements to add to the document
     let card = document.createElement('section');
-    let h2 = document.createElement('h3');
+    let p5 = document.createElement('p');
     let p1 = document.createElement('p');
     let p2 = document.createElement('p');
     let p3 = document.createElement('p');
+    let p4 = document.createElement('p');
     let img1 = document.createElement('img');
   
     /*const space = " ";
@@ -14,26 +15,31 @@ function displayBusiness(business) {  // Create elements to add to the document
     const dash = " - ";*/
     
     // Change the textContent property of the h2 element to contain the prophet's full name
-    h2.textContent = `${business.name}`;
+    p5.textContent = `${business.name}`;
+    p5.setAttribute('id', "bizname");
     // Add/append the section(card) with the h2 element
-    card.appendChild(h2);
+    card.appendChild(p5);
     // Change the textContent property of the img1 element to contain the prophet's picture
     img1.src = `${business.icon}`;
     img1.setAttribute('alt', `${business.name} icon`);// Set the alternate text on the img1 
     img1.setAttribute('loading', 'lazy');
     card.appendChild(img1);
     // Change the textContent property of the p1 element to contain the prophet's birthdate
-    p1.textContent = `${business.phone}`;
+    p1.textContent = `${business.address}`;
     // Add/append the section(card) with the p1 element
     card.appendChild(p1);
-    // Change the textContent property of the p2 element to contain the prophet's birthplace
-    p2.textContent = `${business.website}`;
-    // Add/append the section(card) with the p2 element
+    // Change the textContent property of the p1 element to contain the prophet's birthdate
+    p2.textContent = `${business.phone}`;
+    // Add/append the section(card) with the p1 element
     card.appendChild(p2);
     // Change the textContent property of the p2 element to contain the prophet's birthplace
-    p3.textContent = `${business.contact}`;
+    p3.textContent = `${business.website}`;
     // Add/append the section(card) with the p2 element
     card.appendChild(p3);
+    // Change the textContent property of the p2 element to contain the prophet's birthplace
+    p4.textContent = `${business.contact}`;
+    // Add/append the section(card) with the p2 element
+    card.appendChild(p4);
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('#bizdir').appendChild(card);
   } 

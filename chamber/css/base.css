@@ -600,15 +600,92 @@ nav ul.open {
   font-size: 1em;
 }
 
+#view img {
+  width: 100px;
+}
+
+#view {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#view button {
+  background-color: #dfbcfc;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+#view button img {
+  width: 100%;
+  border:2px solid #300455;
+}
+
+#cardviewBtn span:nth-child(1) {
+  display: block;
+}
+
+#cardviewBtn span:nth-child(2) {
+  display: none;
+}
+
+#cardviewBtn.open span:nth-child(1) {
+  display: none;
+}
+
+#cardviewBtn.open span:nth-child(2) {
+  display: block;
+}
+
+#listviewBtn span:nth-child(1) {
+  display: block;
+}
+
+#listviewBtn span:nth-child(2) {
+  display: none;
+}
+
+#listviewBtn.open span:nth-child(1) {
+  display: none;
+}
+
+#listviewBtn.open {
+  display: block;
+}
+
+#listviewBtn.open span:nth-child(2) {
+  display: block;
+}
+
 #bizdir section {
   align-items: center;
 }
 
-#bizdir img {
-  width: 100px;
+#bizdir.open section {
+  align-items: flex-start;
 }
 
 #bizdir p {
   margin: 0;
-  padding: 5px;
+  padding: 2px;
 }
+
+#bizdir img {
+  height: 80px;
+  display: block;
+}
+
+#bizdir.open img {
+  display: none;
+}
+
+#bizdir #bizname {
+  display: none;
+}
+
+#bizdir.open #bizname {
+  display: block;
+}
+
+
