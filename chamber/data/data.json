@@ -1,7 +1,8 @@
 [
     {
         "name" : "Marvin's Mufflers",
-        "address" : "1145 N 500 W, Provo, UT 84604",
+        "address" : "1145 N 500 W",
+        "city" : "Provo, UT 84604",
         "phone" : "801-555-2060",
         "website" : "https://www.MarvinsMuffler.com",
         "contact" : "marvin@marvinsmuffler.com",
@@ -9,7 +10,8 @@
     },
     {
         "name" : "Larry's Lawn Service",
-        "address" : "62 W Center St, Provo, UT 84601",
+        "address" : "62 W Center St.",
+        "city" : "Provo, UT 84606",
         "phone" : "385-375-2617",
         "website" : "https://www.larrys.biz",
         "contact" : "contact@larrys.biz",
@@ -17,7 +19,8 @@
     },
     {
         "name" : "Provo Photography Services",
-        "address" : "350 N Freedom Blvd, Provo, UT 84601",
+        "address" : "350 N Freedom Blvd.",
+        "city" : "Provo, UT 84601",
         "phone" : "801-555-0334",
         "website" : "https://www.provophoto.com",
         "contact" : "contact@provophoto.com",
@@ -25,7 +28,8 @@
     },
     {
         "name" : "McDonalds Provo",
-        "address" : "211 W 1230 N, Provo, UT 84604",
+        "address" : "211 W 1230 N",
+        "city" : "Provo, UT 84604",
         "phone" : "801-374-6909",
         "website" : "https://www.mcdonalds.com",
         "contact" : "contact@mcdonalds.com",
@@ -33,7 +37,8 @@
     },
     {
         "name" : "Walmart Neighborhood Market",
-        "address" : "2255 N University Pkwy, Provo, UT 84604",
+        "address" : "2255 N University Pkwy.",
+        "city" : "Provo, UT 84604",
         "phone" : "385-219-3070",
         "website" : "https://www.walmart.com",
         "contact" : "contact@walmart.com",
@@ -41,7 +46,8 @@
     },
     {
         "name" : "Larson's Automotive",
-        "address" : "85 E 600 S, Provo, UT 84606",
+        "address" : "85 E 600 S",
+        "city" : "Provo, UT 84606",
         "phone" : "801-373-0048",
         "website" : "https://www.larsensautorepair.net",
         "contact" : "contact@larsensautorepair.net",
@@ -49,7 +55,8 @@
     },
     {
         "name" : "Brigham Young University",
-        "address" : "Provo, UT 84602",
+        "address" : "",
+        "city" : "Provo, UT 84602",
         "phone" : "801-422-4636",
         "website" : "https://www.byu.edu",
         "contact" : "contact@byu.edu",
@@ -57,7 +64,8 @@
     },
     {
         "name" : "Pioneer Book",
-        "address" : "450 W Center St, Provo, UT 84601",
+        "address" : "450 W Center St.",
+        "city" : "Provo, UT 84601",
         "phone" : "801-225-2665",
         "website" : "https://www.pioneerbook.com",
         "contact" : "contact@pioneerbook.com<",
@@ -65,7 +73,8 @@
     },
     {
         "name" : "Splash Summit Waterpark",
-        "address" : "1330 300 N, Provo, UT 84606",
+        "address" : "1330 300 N",
+        "city" : "Provo, UT 84606",
         "phone" : "385-309-2388",
         "website" : "https://www.splashsummit.com",
         "contact" : "contact@splashsummit.com",
@@ -73,7 +82,8 @@
     },
     {
         "name" : "Deseret First Credit Union",
-        "address" : "",
+        "address" : "695 E 800 N",
+        "city" : "Provo, UT 84606",
         "phone" : "801-555-8183",
         "website" : "https://www.provophoto.com",
         "contact" : "contact@provophoto.com<",
@@ -81,7 +91,8 @@
     },
     {
         "name" : "9th East Dental",
-        "address" : "1234 900 E Suite #100, Provo, UT 84604",
+        "address" : "1234 900 E Suite #100",
+        "city" : "Provo, UT 84604",
         "phone" : "801-854-9140",
         "website" : "https://nintheastdental.com",
         "contact" : "contact@nintheastdental.com",
@@ -89,7 +100,8 @@
     },
     {
         "name" : "U-Haul Moving & Storage",
-        "address" : "551 W Columbia Ln, Provo, UT 84604",
+        "address" : "551 W Columbia Ln.",
+        "city" : "Provo, UT 84604",
         "phone" : "801-374-6911",
         "website" : "https://www.uhaul.com",
         "contact" : "contact@uhaul.com",

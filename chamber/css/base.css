@@ -662,11 +662,19 @@ nav ul.open {
 
 #bizdir.open section {
   align-items: flex-start;
+  border: none;
+  box-shadow: none;
+  margin: 0;
 }
 
 #bizdir p {
   margin: 0;
   padding: 2px;
+}
+
+#bizdir.open p {
+  margin: 0;
+  padding: 0;
 }
 
 #bizdir img {
@@ -678,12 +686,13 @@ nav ul.open {
   display: none;
 }
 
-#bizdir #bizname {
-  display: none;
+#bizdir.open section:nth-child(even) {
+  background-color: #f5ebfd;
 }
 
-#bizdir.open #bizname {
-  display: block;
+#bizdir.open section:nth-child(odd) {
+  background-color: white;
 }
+
 
 

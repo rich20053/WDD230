@@ -2,6 +2,7 @@ const requestData = 'https://rich20053.github.io/WDD230/chamber/data/data.json';
 
 function displayBusiness(business) {  // Create elements to add to the document
     let card = document.createElement('section');
+    let h2 = document.createElement('h3');
     let p1 = document.createElement('p');
     let p2 = document.createElement('p');
     let p3 = document.createElement('p');
@@ -9,18 +10,22 @@ function displayBusiness(business) {  // Create elements to add to the document
     let a = document.createElement('a');
     let img1 = document.createElement('img');
   
-    // Change the textContent property of the p1 element to contain the business name
-    p1.textContent = `${business.name}`;
-    p1.setAttribute('id', "bizname");
-    // Add/append the section(card) with the p element
-    card.appendChild(p1);
+    // Change the textContent property of the h2 element to contain the business name
+    h2.textContent = `${business.name}`;
+    h2.setAttribute('id', "bizname");
+    // Add/append the section(card) with the h2 element
+    card.appendChild(h2);
     // Change the src and alt properties of the img1 element to contain the business icon
     img1.src = `${business.icon}`;
     img1.setAttribute('alt', `${business.name} icon`);// Set the alternate text on the img1 
     img1.setAttribute('loading', 'lazy');
     card.appendChild(img1);
-    // Change the textContent property of the p2 element to contain the business address
-    p2.textContent = `${business.address}`;
+    // Change the textContent property of the p2 element to contain the 1 line business address
+    p1.textContent = `${business.address}, ${business.city}`;
+    // Add/append the section(card) with the p2 element
+    card.appendChild(p1);
+    // Change the textContent property of the p2 element to contain the 2 line business address
+    p2.textContent = `${business.address}\n${business.city}`;
     // Add/append the section(card) with the p2 element
     card.appendChild(p2);
     // Change the textContent property of the p3 element to contain the business phone number
