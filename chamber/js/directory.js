@@ -25,7 +25,7 @@ function displayBusiness(business) {  // Create elements to add to the document
     // Add/append the section(card) with the p2 element
     card.appendChild(p1);
     // Change the textContent property of the p2 element to contain the 2 line business address
-    p2.textContent = `${business.address}\n${business.city}`;
+    p2.innerHTML = `${business.address}<br>${business.city}`;
     // Add/append the section(card) with the p2 element
     card.appendChild(p2);
     // Change the textContent property of the p3 element to contain the business phone number
