@@ -159,7 +159,7 @@
 
   #bizdir {
     display: grid;
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-column: 1 / 37;
     grid-row: 3 / 10;
   } 
@@ -175,14 +175,14 @@
   #bizdir.open {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-column: 1 / 37;
     grid-row: 3 / 10;
   } 
 
   #bizdir.open section {
     display: grid;
-    grid-template-columns: 2;
+    grid-template-columns: 1fr 1fr;
     grid-column: 1/3 ;
   }
 
