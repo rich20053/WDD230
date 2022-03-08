@@ -1,6 +1,5 @@
 const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 
-
 function displayProphets(prophets) {  // Create elements to add to the document
     let card = document.createElement('section');
     let h2 = document.createElement('h2');

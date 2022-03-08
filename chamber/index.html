@@ -71,11 +71,11 @@
     
     <section id="weather"> 
       <h3>Today's Weather</h3>
-      <p id="temp"><span id="tempnow">38</span><sup>o</sup> F</p>
-      <p id="sunny">Sunny</p>
-      <img id="sunimage" src="./images/sun.png" alt="Sun image">
-      <img id="raindropimage" src="./images/raindrop.png" alt="raindrop image">
-      <p id="rainpct">1%</p>
+      <p id="temp"><span id="tempnow"></span>&deg;F</p>
+      <p id="weatherdesc"></p>
+      <img src="" alt="" id="weathericon" />
+      <!--<img id="raindropimage" src="./images/raindrop.png" alt="raindrop image">
+      <p id="rainpct">1%</p>-->
       <div id="chill">
         <p>___________________</p>
         <p>Wind Speed:  <span id="wspeed">5</span> mph</p>
@@ -143,6 +143,8 @@
     </div>      
     <div>
           <p>&copy; <span id="thisyear"></span> Provo Chamber | Mark Richmond | WDD 230 Project </p>
+          <p>&#9873;<a href="#">Location Map</a></p>
+          <p class="credit">Weather provided by OpenWeatherMap</p> <!--API Key=e6e82e7efa65c4de43967a31ac32a4e3-->
       <p id="datemodified"></p>        
     </div>
   </footer>
@@ -151,7 +153,7 @@
   <script src="./js/todays-date.js" defer async></script>
   <script src="./js/toggle-menu.js" defer async></script>
   <script src="./js/banner.js" defer async></script>
-  <script src="./js/wind-chill.js" defer async></script>
+  <script src="./js/weather.js" defer async></script>
 </body>
 
 </html>

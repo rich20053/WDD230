@@ -83,7 +83,7 @@
   }
 
   #chill {
-    grid-column: 12/37;
+    grid-column: 1/37;
     grid-row: 5/8;  
     justify-self: center;
   }
