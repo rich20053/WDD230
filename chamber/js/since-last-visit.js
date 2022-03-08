@@ -15,7 +15,7 @@ if (lastvisit != 0) {
 
     window.localStorage.setItem('last-visit-date', thisvisit);
   
-    thisvisit = NULL;
+    /*thisvisit = NULL;*/
   
   } else {
 
@@ -23,7 +23,7 @@ if (lastvisit != 0) {
 
     window.localStorage.setItem('last-visit-date', thisvisit);
   
-    thisvisit = NULL;
+    /*thisvisit = NULL;*/
    
   }
 
