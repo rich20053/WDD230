@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-  <title>Provo Chamber of Commerce Join Page</title>
+  <title>Provo Chamber of Commerce Contact Thank You Page</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Join page for Provo Chamber of Commerce Site by Mark Richmond in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+  <meta name="description" content="Contact Thank You Page for Provo Chamber of Commerce Site by Mark Richmond in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,45 +39,16 @@
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
         <ul id="primaryNav">
           <li><a href="./index.html">Home</a></li>
-          <li><a href="./discover.html">Discover</a></li>
+          <li><a href="./discover.html">Discover</a></li>          
           <li><a href="./directory.html">Directory</a></li>          
-          <li><a class="active" href="./join.html">Join</a></li>
-          <li><a href="./index.html">Contact</a></li>
+          <li><a href="./join.html">Join</a></li>
+          <li><a href="./contact.html">Contact</a></li>
         </ul>
       </nav>      
     </div>
   </header>
-  <main> 
-    <h2>Chamber Membership Application</h2>
-    <form method="get" action="thankyou.html"> 
-      <fieldset>
-        <legend>Profile Information</legend>
-        <label class="top">First Name* <input type="text" name="fname" required></label> 
-        <label class="top">Last Name* <input type="text" name="lname" required></label> 
-        <label class="top">Business Position <input type="text" name="position" pattern="[A-Za-z\s\-]{7,}" 
-          title="Title must be at least 7 characters and can only include alpha characters, hyphens and spaces."></label> 
-        <label class="top">Business Name* <input type="text" name="bname" required 
-          title="Please enter the name of your business here. This information is required."></label> 
-        <label class="top">Email* <input type="email" name="email" placeholder="youraccount@gmail.com" required></label> 
-        <label class="top">Cell Phone <input type="tel" name="cphone" placeholder="1235554321"></label> 
-      </fieldset>
-      <fieldset>
-        <legend>Membership Information</legend>
-        <div>Membership Level</div>
-        <label class="sbs"><input type="radio" name="membership" value="NP"> Non-Profit (No Fee)</label>
-        <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze</label>
-        <label class="sbs"><input type="radio" name="membership" value="silver"> Silver</label>
-        <label class="sbs"><input type="radio" name="membership" value="gold"> Gold</label>
-      </fieldset>
-      <fieldset>
-        <legend>Business Description</legend>
-        <label class="top">Description of Business<textarea name="businessDesc" rows="10" cols="40" placeholder="Describe your business here."></textarea></label>
-        <label><input hidden id="joindate" type="datetime-local" name="formdate"></label>
-      </fieldset>
-
-      <input type="submit" value="Request Membership" class="submitBtn">
-
-    </form> 
+  <main>
+      <p id="thankyou">Thank you for your contacting us at the Provo Chamber of Commerce!  Someone will be in contact with you soon.</p>
   </main>
   <footer>
     <div id="footerlogo">
@@ -93,14 +64,13 @@
       </h6>
     </div>      
     <div>
-      <p>&copy; <span id="thisyear"></span> Provo Chamber | Mark Richmond | WDD 230 Project </p>
+          <p>&copy; <span id="thisyear"></span> Provo Chamber | Mark Richmond | WDD 230 Project </p>
       <p id="datemodified"></p>        
     </div>
   </footer>
   <script src="./js/this-year.js" defer async></script>
   <script src="./js/last-modified.js" defer async></script>
   <script src="./js/todays-date.js" defer async></script>
-  <script src="./js/join-date.js" defer async></script>
   <script src="./js/toggle-menu.js" defer async></script>
 </body>
 
