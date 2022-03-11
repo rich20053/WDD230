@@ -688,6 +688,10 @@ form label.top input:required:valid {
   box-shadow: 2px 2px #300455;
 }
 
+#bizdir h3 {
+  align-self: center;
+}
+
 #bizdir.open section {
   align-items: flex-start;
   border: none;
@@ -698,6 +702,7 @@ form label.top input:required:valid {
 #bizdir p {
   margin: 0;
   padding: 2px;
+  align-self: center;
 }
 
 #bizdir.open p {

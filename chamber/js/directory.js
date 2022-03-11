@@ -2,7 +2,7 @@ const requestData = 'https://rich20053.github.io/WDD230/chamber/data/data.json';
 
 function displayBusiness(business) {  // Create elements to add to the document
     let card = document.createElement('section');
-    let h2 = document.createElement('h3');
+    let h3 = document.createElement('h3');
     let p1 = document.createElement('p');
     let p2 = document.createElement('p');
     let p3 = document.createElement('p');
@@ -11,10 +11,10 @@ function displayBusiness(business) {  // Create elements to add to the document
     let img1 = document.createElement('img');
   
     // Change the textContent property of the h2 element to contain the business name
-    h2.textContent = `${business.name}`;
-    h2.setAttribute('id', "bizname");
+    h3.textContent = `${business.name}`;
+    h3.setAttribute('id', "bizname");
     // Add/append the section(card) with the h2 element
-    card.appendChild(h2);
+    card.appendChild(h3);
     // Change the src and alt properties of the img1 element to contain the business icon
     img1.src = `${business.icon}`;
     img1.setAttribute('alt', `${business.name} icon`);// Set the alternate text on the img1 
