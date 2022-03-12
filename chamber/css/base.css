@@ -379,14 +379,11 @@ footer a {
   justify-content: center;
 }
 
-#spotlight p {
-  padding: 1em; 
-}
-
 #spotlight h6 {
   display: none; 
 }
 
+/*
 #spotlight1 {
   display: grid;
   grid-template-columns: repeat(18, 1fr);
@@ -437,10 +434,6 @@ footer a {
   padding: 0;
 }
 
-#spotlight3 {
-  display: none;
-}
-
 #spotlight3 h3 {
   grid-column: 2/18;
   grid-row: 1/2;
@@ -469,18 +462,28 @@ footer a {
   display: block;
 }
 
-#camera {
-  justify-self: center;
-  width: 33%
-}
+*/
 
-#muffler {
+.biz {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  width: 50%
+  align-items: center;
+  text-align: center;
 }
 
-#mower {
-  width: 50%
+.biz img {
+  justify-self: center;
+  width: 50%;
+  margin-top: 3px;
+}
+
+.biz p {
+  padding: .1em;
+}
+
+#spotlight3 {
+  display: none;
 }
 
 #join {
