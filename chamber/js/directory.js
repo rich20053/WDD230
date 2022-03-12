@@ -46,7 +46,6 @@ function displayBusiness(business) {  // Create elements to add to the document
     document.querySelector('#bizdir').appendChild(card);
   } 
 
-  console.log("Load Directory");
   getDirectory();
   /*getDirectory.catch(error => {
     console.log("Error!");
@@ -54,12 +53,12 @@ function displayBusiness(business) {  // Create elements to add to the document
   })*/
 
   async function getDirectory() {
-    console.log("get data");
     const response = await fetch(requestData);
     const business_dir = await response.json();
     business_dir.forEach(displayBusiness);
   }
 
+  
 /*
 fetch(requestData)
   .then(function (response) {
