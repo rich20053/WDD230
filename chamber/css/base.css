@@ -253,7 +253,7 @@ main span p {
 
 /*********  Footer  *************/
 footer {
-  font-size: .9em;
+  font-size: .7em;
   background-color: purple;
   display: flex;
   flex-direction: column;
@@ -264,7 +264,7 @@ footer p {
   text-align: center;
   color: white;
   margin: 0;
-  padding: .5em;
+  padding: .2em;
 }
 
 footer h1, footer h2, footer h3, footer h6 {
@@ -281,6 +281,7 @@ footer a {
 #footercity {
   display:block;
   color: white;
+  font-size: .75em;
 }
 
 #footerlogo {
@@ -298,7 +299,7 @@ footer a {
 }
 
 #footerlogo a img {
-  width: 75%;
+  width: 33%;
   border-radius: 50%;
   padding: 5px;
 }

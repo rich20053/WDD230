@@ -58,6 +58,10 @@ footer {
   font-size: 1.1em;
 }
 
+footer p {
+  font-size: .7em;
+}
+
 /********   Home   **********/
 #banner {
   grid-column: 1 / 37;  
