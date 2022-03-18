@@ -15,16 +15,12 @@ if (lastvisit != 0) {
 
     window.localStorage.setItem('last-visit-date', thisvisit);
   
-    /*thisvisit = NULL;*/
-  
   } else {
 
     document.querySelector('#lastvisit').textContent = 'It has been ' + daysBetween.toFixed(0) + ' day since your last visit.';
 
     window.localStorage.setItem('last-visit-date', thisvisit);
-  
-    /*thisvisit = NULL;*/
-   
+     
   }
 
 } else {
