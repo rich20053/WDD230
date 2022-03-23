@@ -91,14 +91,14 @@ header div {
 
 #headernav {
   display: block;
-  text-align: right;
   grid-column: 25/37;
   grid-row: 4/5;
+  justify-self: right;
 }
 
 #headernav.open {
   width: 6em;
-  grid-column: 28/37;
+  grid-column: 25/37;
   grid-row: 4/10;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -175,36 +175,28 @@ nav a:hover {
   margin: 0;
 }
 
-nav li>a {
-  padding: 15px 15px;
-  display: inline-block;
-  text-decoration: none;
-  color: white;
-  text-align: center;
-}
-
-nav ul li ul {
+#primaryNav li ul {
   display: none;
-  position: absolute;
-  top: 45px;
-  left: 0px;
   width: 100px;
   overflow: visible;
-  padding: 0;
+  padding-left: 5px;
 }
 
-nav ul li:hover ul {
+#primaryNav li:hover ul {
   display: block;
 }
 
-nav ul ul li {
-  background: green;
+#primaryNav ul li {
+  background-color: #021374;
+  font-size: .75em;
   display: block;
+  border: 1px solid white;
 }
 
-nav ul ul li>a:hover {
-  color: red;
-}
+#primaryNav ul li a:hover {
+  color: #021374;
+  background-color: white;
+ }
 
 nav a.active {
   color: #021374;

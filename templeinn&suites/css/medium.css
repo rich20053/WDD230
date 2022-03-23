@@ -16,7 +16,15 @@ header h2 {
 
 #headerdate {
   font-size: 1em;
-}  
+} 
+
+#headernav.open {
+  width: 8em;
+}
+
+#headerdate {
+  grid-column: 1/15;
+}
 
 nav li {
   font-size: 1em;
