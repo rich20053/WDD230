@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Temple Inn & Suites Reservation Thank You Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Reservation Thank You Page for Temple Inn & Suites Site by Mark Richmond in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+      <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+    <!--<link rel="shortcut icon" href="./images/favicon.ico">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./css/small.css"> 
+    <link rel="stylesheet" href="./css/medium.css"> 
+    <link rel="stylesheet" href="./css/large.css"> 
+</head>
+  
+<body>
+    <header>
+        <div id="headerspace">
+          <a href="./index.html" target="_self"> <img class="logo" src="./images/logo.jpg" alt="Temple Inn & Suites Logo"></a>
+          <div id="headertitle">
+            <h1>Temple Inn & Suites</h1>
+            <h2>Peaceful Hospitality</h2>
+          </div>
+          <div id="headerlinks">
+            <div>
+              <a href="https://www.facebook.com" target="_blank"> <img id="facebook" src="./images/facebookicon.png" alt="Facebook icon"></a>
+              <a href="https://www.twitter.com" target="_blank"> <img id="twitter" src="./images/twittericon.png" alt="Twitter icon"></a>
+            </div>
+          </div>
+          <div id="headerdate">
+            <h3 id="todaysdate">todays date</h3>
+          </div>
+          <nav id="headernav">
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./temple.html">Temple</a></li>
+              <li><a href="./reservation.html">Reservation</a></li>          
+              <li><a href="./services.html">Services</a>
+                <ul>
+                  <li><a href="./reception.html">Reception</a></li>
+                  <li><a href="./missionary.html">Temple Missionary</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>      
+          </div>
+      </header>
+      <main>
+      <p id="thankyou">Thank you for reserving a room at the Temple Inn & Suites! We hope you enjoy your stay!</p>
+  </main>
+  <footer>
+    <div id="footerlogo">
+      <a href="./index.html" target="_self"> <img class="logo" src="./images/logo.jpg" alt="Temple Inn & Suites Logo"></a>
+    </div>
+    <div id="footertitle">
+        <h1>Temple Inn & Suites</h1>
+        <h2>Peaceful Hospitality</h2>
+    </div>
+    <div>
+          <p>&copy; <span id="thisyear"></span> Temple Inn & Suites | <span><a href="./contact.html">Contact Us</a></span></p>
+          <p>info@templeinnsuites.com</p>
+          <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+          <p>&#9873;<a target="_blank" href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832518,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318?hl=en">Location Map</a></p>
+          <p class="credit">Weather provided by <a href="https://openweathermap.org/">OpenWeatherMap</a></p> <!--API Key=e6e82e7efa65c4de43967a31ac32a4e3-->
+      <p id="datemodified"></p>        
+    </div>
+  </footer>
+  <script src="./js/this-year.js" defer async></script>
+  <script src="./js/last-modified.js" defer async></script>
+  <script src="./js/todays-date.js" defer async></script>
+  <script src="./js/toggle-menu.js" defer async></script>
+</body>
+
+</html>
