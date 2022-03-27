@@ -428,6 +428,86 @@ footer a {
   padding: 0;
 }
 
+/*     Reservation              */
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #021374;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+
+form legend {
+  color: #021374;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+}
+
+form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  color: #021374;
+  font-size: .8rem;
+}
+
+form label.top input,
+form label.top textarea,
+form select.top
+ {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #021374;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #021374;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+form select.top {
+  max-width: 22rem;
+  width: 100%;
+}
+
+form label.top input,
+form label.top textarea {
+  width: 90%;
+  max-width: 20rem;
+}
+
+
+form select option {
+  background-color: #f8fcc8;
+  margin: 0;
+}
+
+form label.side {
+  display: block;
+  padding: .5rem 0;
+  color: #021374;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #021374;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 12rem;
+}
+
+form select.top,
+form label.top input:required {
+  border-left: red solid 6px;
+}
+
+form select.top:required:valid,
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
+
+
 /**********  Contact  ************/
 p.contact {
   padding: 0;

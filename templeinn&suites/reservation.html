@@ -53,30 +53,39 @@
     <h2>Room Reservation</h2>
     <form method="get" action="thankyou.html"> 
       <fieldset>
-        <legend>Profile Information</legend>
-        <label class="top">First Name* <input type="text" name="fname" required></label> 
-        <label class="top">Last Name* <input type="text" name="lname" required></label> 
-        <label class="top">Location <input type="text" name="position" required></label> 
+        <legend>Accomodations</legend>
+        <label class="top"for="templeloc">Choose a temple location*</label>
+        <select class="top" id="templeloc" name="location" required>
+          <option selected disabled hidden value=""></option>
+          <option value="alberta">Cardston Alberta</option>
+          <option value="bangkok">Bangkok Thailand</option>
+          <option value="dallas">Dallas Texas</option>
+          <option value="indianapolis">Indianapolis Indiana</option>
+          <option value="johannesburg">Johannesburg South Africa</option>
+          <option value="provocity">Provo City Center</option>
+          <option value="rome">Rome Italy</option>
+          <option value="sandiego">San Diego California</option>
+          <option value="saopaulo">Sao Paulo Brazil</option>
+          <option value="sapporo">Sapporo Japan</option>
+          <option value="washdc">Washington DC</option>
+        </select>
         <label class="top">Start Date* <input type="date" name="stdate" required></label> 
         <label class="top">End Date* <input type="date" name="enddate" required></label> 
-        <label class="top">Room Type* <input type="text" name="roomtype" required></label> 
-        Contact Infromation
-        <label class="top">Home Address <input type="text" name="addr" required></label> 
-        <label class="top">Email* <input type="email" name="email" placeholder="youraccount@gmail.com" required></label> 
-        <label class="top">Cell Phone <input type="tel" name="cphone" placeholder="1235554321"></label> 
+        <div>Room Type</div>
+        <label class="side"><input type="radio" name="room" value="single"> Single</label>
+        <label class="side"><input type="radio" name="room" value="double"> Double</label>
       </fieldset>
       <fieldset>
-        <legend>Membership Information</legend>
-        <div>Membership Level</div>
-        <label class="sbs"><input type="radio" name="membership" value="NP"> Non-Profit (No Fee)</label>
-        <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze</label>
-        <label class="sbs"><input type="radio" name="membership" value="silver"> Silver</label>
-        <label class="sbs"><input type="radio" name="membership" value="gold"> Gold</label>
+        <legend>Contact</legend>
+        <label class="top">First Name* <input type="text" name="fname" required></label> 
+        <label class="top">Last Name* <input type="text" name="lname" required></label> 
+        <label class="top">Home State/Country* <input type="text" name="addr" required></label> 
+        <label class="top">Email* <input type="email" name="email" placeholder="youraccount@gmail.com" required></label> 
+        <label class="top">Phone <input type="tel" name="cphone" placeholder="1235554321"></label> 
       </fieldset>
       <fieldset>
         <legend>Comments</legend>
         <label class="top">Accomodations or Comments<textarea name="comments" rows="10" cols="40" placeholder="Please comment here."></textarea></label>
-        <label><input hidden id="joindate" type="datetime-local" name="formdate"></label>
       </fieldset>
 
       <input type="submit" value="Make Reservation" class="submitBtn">
