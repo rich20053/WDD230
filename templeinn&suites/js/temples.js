@@ -1,4 +1,4 @@
-const requestData = 'https://rich20053.github.io/WDD230/templeinn&suites/data/data.json';
+const requestData = 'https://rich20053.github.io/WDD230/templeinn&suites/data/temple.json';
 
 function displayTemple(temple) {  // Create elements to add to the document
     let card = document.createElement('section');
@@ -56,16 +56,16 @@ function displayTemple(temple) {  // Create elements to add to the document
     document.querySelector('#templelist').appendChild(card);
   } 
 
-  getDirectory();
+  getTemples();
   /*getDirectory.catch(error => {
     console.log("Error!");
     console.error(error);
   })*/
 
-  async function getDirectory() {
+  async function getTemples() {
     const response = await fetch(requestData);
     const temple_dir = await response.json();
-    temple_dir.forEach(displaytemple);
+    temple_dir.forEach(displayTemple);
   }
 
   
