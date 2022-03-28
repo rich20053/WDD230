@@ -507,6 +507,40 @@ form label.top input:required:valid {
   border-left: green solid 6px;
 }
 
+/*      Temples       */
+
+#templelist section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3px;
+  box-shadow: 2px 2px #300455;
+}
+
+#templelist section p {
+  margin: 0;
+  padding: 2px;
+  align-self: center;
+}
+
+#templelist h3 {
+  align-self: center;
+}
+
+#templelist img {
+  height: 80px;
+  display: block;
+}
+
+#templelist section p:nth-child(4) {
+  display: none;
+}
+
+/**********  Services ************/
+
+.services h3 {
+  display: block;
+}
 
 /**********  Contact  ************/
 p.contact {
