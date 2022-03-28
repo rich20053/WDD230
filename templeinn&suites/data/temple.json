@@ -74,38 +74,38 @@
     {
         "name" : "Rome Italy",
         "status" : "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
-        "address" : "1-6-1 Oyachi-Nishi",
-        "city" : "Atsubetsu-ku Sapporo, Hokkaido 004-0042, Japan",
-        "phone" : "(81) 11-890-8120",
-        "website" : "https://www.churchofjesuschrist.org/temples/details/sapporo-japan-temple?lang=eng",
-        "services" : "Distribution center nearby",
+        "address" : "Via di Settebagni 376",
+        "city" : "Rome RM, Italy",
+        "phone" : "(39) 06-9480-5050",
+        "website" : "https://www.churchofjesuschrist.org/temples/details/rome-italy-temple?lang=eng",
+        "services" : "Clothing rental available, Distribution center nearby",
         "photo" : "./images/rometemple.jpg",
-        "closure" : "2022 - 9 Apr, 29 Apr(Limited), 5 Sep, 19 Sep, 23 Sep(Limited), 8 Oct, 24 Dec, 31 Dec",
-        "history" : "3 Oct 2009-Announced, 22 October 2011-Groundbreaking, 21 August 2016-Dedicated"
+        "closure" : "2022 - 28 Feb, 9 May, 29 Jun, 19 Sep, 3 Oct, 24 Dec, 26 Dec, 31 Dec",
+        "history" : "4 Oct 2008 - Announced, 23 Oct 2010 - , 10 Mar 2019 - Dedicated"
     },
     {
         "name" : "San Diego California Temple",
         "status" : "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
-        "address" : "1-6-1 Oyachi-Nishi",
-        "city" : "Atsubetsu-ku Sapporo, Hokkaido 004-0042, Japan",
-        "phone" : "(81) 11-890-8120",
+        "address" : "7474 Charmant Dr",
+        "city" : "San Diego CA 92122-5000",
+        "phone" : "(1) 858-622-0991",
         "website" : "https://www.churchofjesuschrist.org/temples/details/sapporo-japan-temple?lang=eng",
         "services" : "Distribution center nearby",
         "photo" : "./images/san-diego-temple.jpg",
-        "closure" : "2022 - 9 Apr, 29 Apr(Limited), 5 Sep, 19 Sep, 23 Sep(Limited), 8 Oct, 24 Dec, 31 Dec",
-        "history" : "3 Oct 2009-Announced, 22 October 2011-Groundbreaking, 21 August 2016-Dedicated"
+        "closure" : "2022 - 14 Mar, 28 Mar, 2 Apr, 1 Oct, 23 Nov, 24 Nov, 24 Dec, 31 Dec",
+        "history" : " 7 Apr 1984 - Announced, 27 Feb 1988 - Groundbreaking, 25 April 1993 - Dedicated"
     },
     {
         "name" : "Sao Paulo Brazil Temple",
         "status" : "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
-        "address" : "1-6-1 Oyachi-Nishi",
-        "city" : "Atsubetsu-ku Sapporo, Hokkaido 004-0042, Japan",
-        "phone" : "(81) 11-890-8120",
-        "website" : "https://www.churchofjesuschrist.org/temples/details/sapporo-japan-temple?lang=eng",
-        "services" : "Distribution center nearby",
+        "address" : "Av. Prof. Francisco Morato, 2390 Caxingui",
+        "city" : "05512-300 São Paulo - SP, Brazil",
+        "phone" : "(55) 11-3723-7600",
+        "website" : "https://www.churchofjesuschrist.org/temples/details/sao-paulo-brazil-temple?lang=eng",
+        "services" : "Clothing rental available, Distribution center nearby",
         "photo" : "./images/sao-paulo-temple.jpg",
-        "closure" : "2022 - 9 Apr, 29 Apr(Limited), 5 Sep, 19 Sep, 23 Sep(Limited), 8 Oct, 24 Dec, 31 Dec",
-        "history" : "3 Oct 2009-Announced, 22 October 2011-Groundbreaking, 21 August 2016-Dedicated"
+        "closure" : "2022 - 2 Apr, 1 Aug, 15 Aug, 7 Sep, 1 Oct, 24 Dec, 31 Dec",
+        "history" : "1 Mar 1975-Announced. 20 Mar 1976-Groundbreaking, 30 Oct 1978 - Dedicated, 22 Feb 2004 - Rededicated"
     },
     {
         "name" : "Sapporo Japan Temple",
@@ -117,18 +117,18 @@
         "services" : "Distribution center nearby",
         "photo" : "./images/sapporo-japan-temple.jpg",
         "closure" : "2022 - 9 Apr, 29 Apr(Limited), 5 Sep, 19 Sep, 23 Sep(Limited), 8 Oct, 24 Dec, 31 Dec",
-        "history" : "3 Oct 2009-Announced, 22 October 2011-Groundbreaking, 21 August 2016-Dedicated"
+        "history" : "3 Oct 2009-Announced, 22 Oct 2011-Groundbreaking, 21 Aug 2016-Dedicated"
     },
     {
         "name" : "Washington DC Temple",
-        "status" : "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
-        "address" : "1-6-1 Oyachi-Nishi",
-        "city" : "Atsubetsu-ku Sapporo, Hokkaido 004-0042, Japan",
-        "phone" : "(81) 11-890-8120",
-        "website" : "https://www.churchofjesuschrist.org/temples/details/sapporo-japan-temple?lang=eng",
-        "services" : "Distribution center nearby",
-        "photo" : "./images/muffler.jpg",
+        "status" : "Temple closed during renovation",
+        "address" : "9900 Stoneybrook Dr",
+        "city" : "Kensington MD 20895-3199",
+        "phone" : "",
+        "website" : "https://www.churchofjesuschrist.org/temples/details/washington-d.c.-temple?lang=eng",
+        "services" : "",
+        "photo" : "./images/washington-dc-temple.jpg",
         "closure" : "2022 - 9 Apr, 29 Apr(Limited), 5 Sep, 19 Sep, 23 Sep(Limited), 8 Oct, 24 Dec, 31 Dec",
-        "history" : "3 Oct 2009-Announced, 22 October 2011-Groundbreaking, 21 August 2016-Dedicated"
+        "history" : "15 Nov 1968-Announced, 7 Decr 1968-Groundbreaking, 19 Nov 1974 - Dedicated, 14 Aug 2022 - Rededicated"
     }
 ]
