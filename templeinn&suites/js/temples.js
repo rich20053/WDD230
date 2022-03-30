@@ -57,28 +57,12 @@ function displayTemple(temple) {  // Create elements to add to the document
   } 
 
   getTemples();
-  /*getDirectory.catch(error => {
-    console.log("Error!");
-    console.error(error);
-  })*/
 
   async function getTemples() {
     const response = await fetch(requestData);
     const temple_dir = await response.json();
     temple_dir.forEach(displayTemple);
   }
-
-  
-/*
-fetch(requestData)
-  .then(function (response) {
-    console.log("1st request promise")
-    return response.json();
-  })
-  .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const temple_dir = jsonObject['directory'];
-}); */
 
 
 

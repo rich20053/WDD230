@@ -9,7 +9,9 @@
         "services" : "Distribution center nearby",
         "photo" : "./images/muffler.jpg",
         "closure" : "2022 - 9 Apr, 29 Apr(Limited), 5 Sep, 19 Sep, 23 Sep(Limited), 8 Oct, 24 Dec, 31 Dec",
-        "history" : "3 Oct 2009-Announced, 22 October 2011-Groundbreaking, 21 August 2016-Dedicated"
+        "history" : "3 Oct 2009-Announced, 22 October 2011-Groundbreaking, 21 August 2016-Dedicated",
+        "lat" : "", 
+        "long" : ""
     },
     {
         "name" : "Bangkok Thailand",
@@ -21,7 +23,9 @@
         "services" : "Distribution center nearby",
         "photo" : "./images/muffler.jpg",
         "closure" : "2022 - 9 Apr, 29 Apr(Limited), 5 Sep, 19 Sep, 23 Sep(Limited), 8 Oct, 24 Dec, 31 Dec",
-        "history" : "3 Oct 2009-Announced, 22 October 2011-Groundbreaking, 21 August 2016-Dedicated"
+        "history" : "3 Oct 2009-Announced, 22 October 2011-Groundbreaking, 21 August 2016-Dedicated",
+        "lat" : "", 
+        "long" : ""
     },
     {
         "name" : "Dallas Texas Temple",
@@ -33,7 +37,9 @@
         "services" : "Distribution center nearby",
         "photo" : "./images/muffler.jpg",
         "closure" : "2022 - 9 Apr, 29 Apr(Limited), 5 Sep, 19 Sep, 23 Sep(Limited), 8 Oct, 24 Dec, 31 Dec",
-        "history" : "3 Oct 2009-Announced, 22 October 2011-Groundbreaking, 21 August 2016-Dedicated"
+        "history" : "3 Oct 2009-Announced, 22 October 2011-Groundbreaking, 21 August 2016-Dedicated",
+        "lat" : "", 
+        "long" : ""
     },
     {
         "name" : "Indianapolis Indiana",
@@ -45,7 +51,9 @@
         "services" : "Distribution center nearby",
         "photo" : "./images/muffler.jpg",
         "closure" : "2022 - 9 Apr, 29 Apr(Limited), 5 Sep, 19 Sep, 23 Sep(Limited), 8 Oct, 24 Dec, 31 Dec",
-        "history" : "3 Oct 2009-Announced, 22 October 2011-Groundbreaking, 21 August 2016-Dedicated"
+        "history" : "3 Oct 2009-Announced, 22 October 2011-Groundbreaking, 21 August 2016-Dedicated",
+        "lat" : "", 
+        "long" : ""
     },
     {
         "name" : "Johannesburg South Africa",
@@ -57,7 +65,9 @@
         "services" : "Distribution center nearby",
         "photo" : "./images/johannesburg-temple.jpg",
         "closure" : "2022 - 9 Apr, 29 Apr(Limited), 5 Sep, 19 Sep, 23 Sep(Limited), 8 Oct, 24 Dec, 31 Dec",
-        "history" : "3 Oct 2009-Announced, 22 October 2011-Groundbreaking, 21 August 2016-Dedicated"
+        "history" : "3 Oct 2009-Announced, 22 October 2011-Groundbreaking, 21 August 2016-Dedicated",
+        "lat" : "", 
+        "long" : ""
     },
     {
         "name" : "Provo City Center",
@@ -69,7 +79,9 @@
         "services" : "Distribution center nearby",
         "photo" : "./images/muffler.jpg",
         "closure" : "2022 - 9 Apr, 29 Apr(Limited), 5 Sep, 19 Sep, 23 Sep(Limited), 8 Oct, 24 Dec, 31 Dec",
-        "history" : "3 Oct 2009-Announced, 22 October 2011-Groundbreaking, 21 August 2016-Dedicated"
+        "history" : "3 Oct 2009-Announced, 22 October 2011-Groundbreaking, 21 August 2016-Dedicated",
+        "lat" : "", 
+        "long" : ""
     },
     {
         "name" : "Rome Italy",
@@ -81,7 +93,9 @@
         "services" : "Clothing rental available, Distribution center nearby",
         "photo" : "./images/rometemple.jpg",
         "closure" : "2022 - 28 Feb, 9 May, 29 Jun, 19 Sep, 3 Oct, 24 Dec, 26 Dec, 31 Dec",
-        "history" : "4 Oct 2008 - Announced, 23 Oct 2010 - , 10 Mar 2019 - Dedicated"
+        "history" : "4 Oct 2008 - Announced, 23 Oct 2010 - , 10 Mar 2019 - Dedicated",
+        "lat" : "41.9028", 
+        "long" : "12.4964"
     },
     {
         "name" : "San Diego California Temple",
@@ -89,11 +103,13 @@
         "address" : "7474 Charmant Dr",
         "city" : "San Diego CA 92122-5000",
         "phone" : "(1) 858-622-0991",
-        "website" : "https://www.churchofjesuschrist.org/temples/details/sapporo-japan-temple?lang=eng",
+        "website" : "https://www.churchofjesuschrist.org/temples/details/san-diego-california-temple?lang=eng",
         "services" : "Distribution center nearby",
         "photo" : "./images/san-diego-temple.jpg",
         "closure" : "2022 - 14 Mar, 28 Mar, 2 Apr, 1 Oct, 23 Nov, 24 Nov, 24 Dec, 31 Dec",
-        "history" : " 7 Apr 1984 - Announced, 27 Feb 1988 - Groundbreaking, 25 April 1993 - Dedicated"
+        "history" : " 7 Apr 1984 - Announced, 27 Feb 1988 - Groundbreaking, 25 April 1993 - Dedicated",
+        "lat" : "32.7157", 
+        "long" : "-117.1611"
     },
     {
         "name" : "Sao Paulo Brazil Temple",
@@ -105,7 +121,9 @@
         "services" : "Clothing rental available, Distribution center nearby",
         "photo" : "./images/sao-paulo-temple.jpg",
         "closure" : "2022 - 2 Apr, 1 Aug, 15 Aug, 7 Sep, 1 Oct, 24 Dec, 31 Dec",
-        "history" : "1 Mar 1975-Announced. 20 Mar 1976-Groundbreaking, 30 Oct 1978 - Dedicated, 22 Feb 2004 - Rededicated"
+        "history" : "1 Mar 1975-Announced. 20 Mar 1976-Groundbreaking, 30 Oct 1978 - Dedicated, 22 Feb 2004 - Rededicated",
+        "lat" : "", 
+        "long" : ""
     },
     {
         "name" : "Sapporo Japan Temple",
@@ -117,7 +135,9 @@
         "services" : "Distribution center nearby",
         "photo" : "./images/sapporo-japan-temple.jpg",
         "closure" : "2022 - 9 Apr, 29 Apr(Limited), 5 Sep, 19 Sep, 23 Sep(Limited), 8 Oct, 24 Dec, 31 Dec",
-        "history" : "3 Oct 2009-Announced, 22 Oct 2011-Groundbreaking, 21 Aug 2016-Dedicated"
+        "history" : "3 Oct 2009-Announced, 22 Oct 2011-Groundbreaking, 21 Aug 2016-Dedicated",
+        "lat" : "", 
+        "long" : ""
     },
     {
         "name" : "Washington DC Temple",
@@ -129,6 +149,8 @@
         "services" : "",
         "photo" : "./images/washington-dc-temple.jpg",
         "closure" : "2022 - 9 Apr, 29 Apr(Limited), 5 Sep, 19 Sep, 23 Sep(Limited), 8 Oct, 24 Dec, 31 Dec",
-        "history" : "15 Nov 1968-Announced, 7 Decr 1968-Groundbreaking, 19 Nov 1974 - Dedicated, 14 Aug 2022 - Rededicated"
+        "history" : "15 Nov 1968-Announced, 7 Decr 1968-Groundbreaking, 19 Nov 1974 - Dedicated, 14 Aug 2022 - Rededicated",
+        "lat" : "", 
+        "long" : ""
     }
 ]

@@ -56,7 +56,7 @@
       <!--Temple highlight with summary and call to action -->
       <picture>
         <source media="(min-width: 992px)" srcset="./images/rometemple.jpg">
-        <source media="(min-width: 600px)" srcset="./images/san-diego-temple.jpg">
+        <source media="(min-width: 600px)" srcset="./images/washington-dc-temple.jpg">
         <img id="templeimgsm" src="./images/sao-paulo-brazil-temple.jpg" alt="Temple Image">
       </picture>
       <p id="call2action"><a href="./reservation.html">Make A Reservation </a></p>
@@ -64,17 +64,20 @@
     
     <section id="templehighlight">
       <h3>Temple Highlight</h3>
-      <img  src="./images/washington-dc-temple.jpg" alt="Washington DC Temple Image">
+      <img  src="./images/san-diego-temple.jpg" alt="San Diego Temple Image">
       <p class="smallhidden">The Washington DC Temple was constructed in blah blah blah blah blah blah blah blah blah blah blah blah </p>
     </section>
     
     <section id="weather"> 
-      <h3>Today's Weather</h3>
+      <h3 class="smallshown">Today's Weather at San Diego Temple</h3>
+      <div id="wthralert">
+      </div>
       <p id="temp"><span id="tempnow"></span>&deg;F</p>
       <img src="#" alt="" id="weathericon" />
       <p id="weatherdesc"></p>
-      <p id="humidity">Humidity</p>
-      <div>
+      <p id="humidspace">Humidity <span id="humidity"></span>%</p>
+      <p id="dailytitle">Daily Forecast</p>
+      <div id="daily">
         <div id="day1">
           <p id="ddate1"></p>
           <p class="daytemp"><span id="daytemp1"></span>&deg;F</p>

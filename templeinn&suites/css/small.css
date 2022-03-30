@@ -284,6 +284,10 @@ main span p {
   display: none;
 }
 
+.smallshown {
+  display: block;
+}
+
 /*********  Footer  *************/
 footer {
   font-size: .7em;
@@ -380,15 +384,21 @@ footer a {
 }
 
 #weather h3 {
-  grid-column: 1/18;
+  grid-column: 1/37;
   grid-row: 1/2;
 }
 
 #weather #temp{
-  font-size: 5rem;
-  grid-column: 3/19;
-  grid-row: 2/7;
+  font-size: 3rem;
+  grid-column: 1/19;
+  grid-row: 3/6;
   padding: 0;
+}
+
+#weathericon {
+  width: 100%;
+  grid-column: 20/36;
+  grid-row: 3/6;
 }
 
 #weatherdesc {
@@ -398,34 +408,49 @@ footer a {
   padding: 0;
 }
 
-#weathericon {
-  width: 100%;
-  grid-column: 20/36;
-  grid-row: 1/6;
-}
-
-/*#raindropimage {
-  grid-column: 3/6;
-  grid-row: 6/7;
-  width: 1rem;
-  height: 1rem;  
-}
-
-#rainpct{
-  grid-column: 5/13;
-  grid-row: 6/7;
+#humidspace {
+  grid-column: 1/19;
+  grid-row: 5/6;
+  justify-self: left;
   padding: 0;
-}*/
+}
 
-#chill {
+#dailytitle {
   grid-column: 1/37;
-  grid-row: 6/9;  
-  justify-self: center;
+  grid-row: 7/8;
+  text-align: center;
 }
 
-#chill p {
-  margin: 0;
-  padding: 0;
+#daily {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  grid-column: 1/37;
+  grid-row: 8/9;
+  margin: 5px;
+}
+
+#day1, #day2, #day3 {
+  border: 2px solid #021374;
+}
+
+#wthralert {
+  grid-column: 1/37;
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+  background-color: #ffd700;
+}
+
+.alertdivs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.alertdivs p:nth-child(2) {
+  text-align: right;
 }
 
 /*     Reservation              */

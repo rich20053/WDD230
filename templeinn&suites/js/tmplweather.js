@@ -1,4 +1,4 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=35.199165&lon=-101.845276&units=Imperial&exclude=hourly,minutly&appid=e6e82e7efa65c4de43967a31ac32a4e3';
+const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=32.7157&lon=-117.1611&units=Imperial&exclude=hourly,minutly&appid=e6e82e7efa65c4de43967a31ac32a4e3';
 /*const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=40.2338&lon=-111.6585&units=Imperial&exclude=hourly,minutly&appid=e6e82e7efa65c4de43967a31ac32a4e3';
 */
 fetch(apiURL)
@@ -29,23 +29,39 @@ fetch(apiURL)
     let humidity = jsObject.current.humidity;
     document.querySelector('#humidity').textContent = humidity;
     for (d=0; d < 3; d++) {
-        let iddstr = "#ddate"+ (d+1).toString();
-        let tdayraw = jsObject.daily[d].dt;
-        console.log(tdayraw)
+        let iddstr = "#ddate" + (d+1).toString();
+        let adate = new Date();
         let tdate = new Date();
-        tdate.setTime(tdayraw);
-        console.log("convert to date")
-        tday = tdate.getMonth()+1 + "/" + tdate.getDate()
+        tdate.setDate(adate.getDate()+d);
+        let tday = tdate.getMonth()+1 + "/" + tdate.getDate();
         document.querySelector(iddstr).textContent = tday;
         let idtstr = "#daytemp"+ (d+1).toString();
         let dtemp = jsObject.daily[d].temp.day;
         document.querySelector(idtstr).textContent = dtemp.toFixed(0);
-
     }
     for (i=0; i < jsObject.alerts.length; i++) {
-        let alertDesc = jsObject.alerts[i].description;
-        alert(alertDesc);
+        let alertDesc = jsObject.alerts[i].event;
+        displayWeatherAlert(alertDesc);
     }  
+
+    function displayWeatherAlert(adesc) {  // Create elements to add to the document
+        let amsg = document.createElement('div');
+        let p1 = document.createElement('p');
+        let b2 = document.createElement('p');
+      
+        amsg.classList.add("alertdivs");
+        // Change the textContent property of the p1 element to contain the alert message
+        p1.textContent = `${adesc}`;
+        // Add/append the section(card) with the p1 element
+        amsg.appendChild(p1);
+        // Change the textContent property of the b2 element to contain the button
+        b2.textContent = 'X';
+        // Add/append the section(amsg) with the b2 element
+        amsg.appendChild(b2);
+        // Add/append the existing HTML div with the cards class with the section(card)
+        document.querySelector('#wthralert').appendChild(amsg);
+      } 
+    
 });
 
 
