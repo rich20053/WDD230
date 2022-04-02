@@ -1,4 +1,4 @@
-@media screen and (min-width: 670px) {         /* 32.5em) { */ 
+@media screen and (min-width: 600px) {         /* 32.5em) { */ 
 
 /********   General   **********/
 h1 {
@@ -80,24 +80,24 @@ footer p {
   grid-row: 1 /2;
 }
 
-#weather {
-  grid-column: 1 / 18;
-  grid-row: 2 / 3;  
-}
-
 #templeimg1 {
-  grid-column: 19 / 37;
+  grid-column: 1 / 18;
   grid-row: 2/3;
 }
 
 #templeimg2 {
+  grid-column: 19 / 37;
+  grid-row: 2/3;
+}
+
+#templeimg3 {
   grid-column: 1 / 18;
   grid-row: 3/4;
 }
 
-#templeimg3 {
+#weather {
   grid-column: 19 / 37;
-  grid-row: 3/4;
+  grid-row: 3 / 4;  
 }
 
 #templehighlight {
@@ -114,6 +114,42 @@ footer p {
 .smallhidden {
   display: block;
 }
+
+#home img {
+  width: 100%;
+}
+
+/****** Services   ******/
+
+.services {
+  grid-column: 1/37;
+}
+
+
+/****** Reception   ******/
+
+#reception h3:nth-child(2) {
+  grid-column: 1/19;
+}
+
+#reception div:nth-child(3) {
+  grid-column: 1/19;
+}
+
+#reception div:nth-child(4) {
+  grid-column: 19/37;
+}
+
+/****** missionary   ******/
+
+#missionary div:nth-child(2) {
+  grid-column: 1/19;
+}
+
+#missionary div:nth-child(3) {
+  grid-column: 19/37;
+}
+
 
   
 /********   Contact   **********/

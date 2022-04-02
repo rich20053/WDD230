@@ -288,6 +288,10 @@ main span p {
   display: block;
 }
 
+.services ul {
+  margin-top: 0;
+}
+
 /*********  Footer  *************/
 footer {
   font-size: .7em;
