@@ -1,4 +1,5 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=32.7157&lon=-117.1611&units=Imperial&exclude=hourly,minutly&appid=e6e82e7efa65c4de43967a31ac32a4e3';
+const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=33.689060&lon=-78.886696&units=Imperial&exclude=hourly,minutly&appid=e6e82e7efa65c4de43967a31ac32a4e3';
+/*san diego const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=32.7157&lon=-117.1611&units=Imperial&exclude=hourly,minutly&appid=e6e82e7efa65c4de43967a31ac32a4e3';*/
 /*const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=40.2338&lon=-111.6585&units=Imperial&exclude=hourly,minutly&appid=e6e82e7efa65c4de43967a31ac32a4e3';
 */
 fetch(apiURL)
@@ -39,15 +40,18 @@ fetch(apiURL)
         let dtemp = jsObject.daily[d].temp.day;
         document.querySelector(idtstr).textContent = dtemp.toFixed(0);
     }
-    for (i=0; i < jsObject.alerts.length; i++) {
-        let alertDesc = jsObject.alerts[i].event;
-        displayWeatherAlert(alertDesc);
-    }  
+    const alertlist = jsObject.alerts
+    if (alertlist != undefined) {
+        for (i=0; i < alertlist.length; i++) {
+            let alertDesc = alertlist[i].event;
+            displayWeatherAlert(alertDesc);
+        }  
+    }
 
     function displayWeatherAlert(adesc) {  // Create elements to add to the document
         let amsg = document.createElement('div');
         let p1 = document.createElement('p');
-        let b2 = document.createElement('p');
+        let b2 = document.createElement('button');
       
         amsg.classList.add("alertdivs");
         // Change the textContent property of the p1 element to contain the alert message
@@ -56,12 +60,15 @@ fetch(apiURL)
         amsg.appendChild(p1);
         // Change the textContent property of the b2 element to contain the button
         b2.textContent = 'X';
+        b2.onclick = "closealert()";        
         // Add/append the section(amsg) with the b2 element
         amsg.appendChild(b2);
         // Add/append the existing HTML div with the cards class with the section(card)
         document.querySelector('#wthralert').appendChild(amsg);
       } 
+
+    function closealert() {
+
+    }
     
 });
-
-

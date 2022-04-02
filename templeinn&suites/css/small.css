@@ -419,12 +419,12 @@ footer a {
   grid-column: 1/37;
   grid-row: 7/8;
   text-align: center;
+  padding-bottom: 5px;
 }
 
 #daily {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-column: 1/37;
   grid-row: 8/9;
   margin: 5px;
@@ -432,15 +432,21 @@ footer a {
 
 #day1, #day2, #day3 {
   border: 2px solid #021374;
+  width: auto;
+}
+
+#day1 p, #day2 p, #day3 p {
+   text-align: center;
 }
 
 #wthralert {
   grid-column: 1/37;
   grid-row: 2/3;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;  
   background-color: #ffd700;
+  font-size: .75rem;
 }
 
 .alertdivs {
