@@ -390,38 +390,45 @@ footer a {
 #weather h3 {
   grid-column: 1/37;
   grid-row: 1/2;
+  margin: 0;
 }
 
 #weather #temp{
-  font-size: 3rem;
-  grid-column: 1/19;
-  grid-row: 3/6;
   padding: 0;
+  align-self: center;
 }
 
 #weathericon {
   width: 100%;
-  grid-column: 20/36;
+  grid-column: 25/36;
   grid-row: 3/6;
 }
 
-#weatherdesc {
-  grid-column: 20/36;
-  grid-row: 5/6;
-  justify-self: center;
-  padding: 0;
+#weatherdata {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-column: 1/19;
+  grid-row: 3/5;
 }
 
-#humidspace {
+#weatherdesc {
   grid-column: 1/19;
   grid-row: 5/6;
   justify-self: left;
   padding: 0;
 }
 
+#humidspace {
+  grid-column: 1/19;
+  grid-row: 4/5;
+  justify-self: left;
+  padding: 0;
+}
+
 #dailytitle {
   grid-column: 1/37;
-  grid-row: 7/8;
+  grid-row: 6/7;
   text-align: center;
   padding-bottom: 5px;
 }
@@ -430,7 +437,7 @@ footer a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column: 1/37;
-  grid-row: 8/9;
+  grid-row: 7/8;
   margin: 5px;
 }
 
@@ -441,12 +448,13 @@ footer a {
 
 #day1 p, #day2 p, #day3 p {
    text-align: center;
+   padding: 0;
 }
 
 #wthralert {
   grid-column: 1/37;
   grid-row: 2/3;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-between;  
   background-color: #ffd700;
@@ -461,6 +469,41 @@ footer a {
 
 .alertdivs p:nth-child(2) {
   text-align: right;
+}
+
+/******* Temples **********/
+
+#templelist section {
+  border: 3px solid #021374;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3px;
+  box-shadow: 3px 3px #300455;
+}
+
+#templelist section p {
+  margin: 0;
+  padding: 2px;
+  align-self: center;
+}
+
+#templelist h3 {
+  align-self: center;
+}
+
+#templelist section p:nth-child(4) {
+  display: none;
+}
+
+#templelist img {
+  width: 90%;
+  display: block;
+}
+
+#templelist fieldset {
+  width: 90%;
+  margin-bottom: 5px;
 }
 
 /*     Reservation              */
@@ -540,35 +583,6 @@ form label.top input:required {
 form select.top:required:valid,
 form label.top input:required:valid {
   border-left: green solid 6px;
-}
-
-/*      Temples       */
-
-#templelist section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 3px;
-  box-shadow: 2px 2px #300455;
-}
-
-#templelist section p {
-  margin: 0;
-  padding: 2px;
-  align-self: center;
-}
-
-#templelist h3 {
-  align-self: center;
-}
-
-#templelist img {
-  height: 80px;
-  display: block;
-}
-
-#templelist section p:nth-child(4) {
-  display: none;
 }
 
 /**********  Services ************/
