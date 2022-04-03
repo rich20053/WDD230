@@ -98,6 +98,27 @@ footer {
     font-size: 2.5em;
   }
   
+/******   Temple  ********/
+#templelist {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column: 1 / 37;
+  grid-row: 3 / 10;
+} 
+
+#templelist section:nth-child(1) {
+  grid-column: 1/2 ;
+}
+
+#templelist section:nth-child(2) {
+  grid-column: 2/3 ;
+}
+
+#templelist section:nth-child(3) {
+  grid-column: 3/4 ;
+}
+
+
   
 /********   Contact   **********/
 #contactInfo1 {
