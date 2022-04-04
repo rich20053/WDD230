@@ -127,6 +127,10 @@ footer p {
   grid-row: 3 / 10;
 } 
 
+#templelist section {
+  width: 95%;
+}
+
 #templelist section:nth-child(1) {
   grid-column: 1/2 ;
 }

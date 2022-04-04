@@ -501,6 +501,11 @@ footer a {
   display: block;
 }
 
+#templelist .likebutton {
+  width: 20px;
+  display: inline-block;
+}
+
 #templelist fieldset {
   width: 90%;
   margin-bottom: 5px;

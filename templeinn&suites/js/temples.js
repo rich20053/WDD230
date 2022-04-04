@@ -21,12 +21,20 @@ function displayTemple(temple) {  // Create elements to add to the document
     let p6 = document.createElement('p');
     let a = document.createElement('a');
     let img1 = document.createElement('img');
+    let img2 = document.createElement('img');
   
     // Change the textContent property of the h2 element to contain the temple name
     h3.textContent = `${temple.name}`;
     h3.setAttribute('class', "tmplname smallshown");
     // Add/append the section(card) with the h2 element
     card.appendChild(h3);
+    // Change the src and alt properties of the img1 element to contain the temple icon
+    let likeimg = "./images/doyoulikeit.png";
+    img2.src = `${likeimg}`;
+    img2.setAttribute('alt', `like button`);// Set the alternate text on the img1 
+    img2.setAttribute('class', 'likebutton')
+    card.appendChild(img2);
+    
     // Change the src and alt properties of the img1 element to contain the temple icon
     img1.src = `${temple.photo}`;
     img1.setAttribute('alt', `${temple.name} photo`);// Set the alternate text on the img1 
