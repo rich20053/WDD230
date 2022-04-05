@@ -596,6 +596,30 @@ form label.top input:required:valid {
   display: block;
 }
 
+/*******  pmissionary  ************/
+
+#suitephotos {
+  display: flex;
+  flex-direction: row;
+}
+
+#suitephotos img {
+  width: 48%;
+  border: 3px solid #021374;
+}
+
+.suiteshowsmall {
+  display: block;
+}
+
+.suiteshowmed {
+  display: none;
+}
+
+.suiteshowlrg {
+  display: none;
+}
+
 /**********  Contact  ************/
 p.contact {
   padding: 0;

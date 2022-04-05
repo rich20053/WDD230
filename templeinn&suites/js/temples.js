@@ -22,6 +22,10 @@ function displayTemple(temple) {  // Create elements to add to the document
     let a = document.createElement('a');
     let img1 = document.createElement('img');
     let img2 = document.createElement('img');
+    let img3 = document.createElement('img');
+    let btn = document.createElement('button');
+    let span1 = document.createElement('span');
+    let span2 = document.createElement('span');
   
     // Change the textContent property of the h2 element to contain the temple name
     h3.textContent = `${temple.name}`;
@@ -31,9 +35,19 @@ function displayTemple(temple) {  // Create elements to add to the document
     // Change the src and alt properties of the img1 element to contain the temple icon
     let likeimg = "./images/doyoulikeit.png";
     img2.src = `${likeimg}`;
-    img2.setAttribute('alt', `like button`);// Set the alternate text on the img1 
-    img2.setAttribute('class', 'likebutton')
-    card.appendChild(img2);
+    img2.setAttribute('alt', `like button not pressed`);// Set the alternate text on the img1 
+    img2.setAttribute('class', 'unlikebutton');
+    span1.appendChild(img2);
+    btn.appendChild(span1);
+    // Change the src and alt properties of the img1 element to contain the temple icon
+    let likeimg2 = "./images/ilikeit.png";
+    img3.src = `${likeimg2}`;
+    img3.setAttribute('alt', `like button pressed`);// Set the alternate text on the img1 
+    img3.setAttribute('class', 'likebutton');
+    span2.appendChild(img2);
+    btn.appendChild(span2);
+    jdatestr.substring(0,16);
+    <button id="cardviewBtn"><span><img src="./images/listbuttonon.jpg" alt="Card View On Button"></span><span><img src="./images/cardbuttonon.jpg" alt="List View On Button"></span></button>
     
     // Change the src and alt properties of the img1 element to contain the temple icon
     img1.src = `${temple.photo}`;
@@ -53,39 +67,39 @@ function displayTemple(temple) {  // Create elements to add to the document
     a.href = `${temple.website}`;
     a.target = "_blank";
     a.textContent = `Visit Website`;
-    fs1.appendChild(a)
+    fs1.appendChild(a);
     // Add/append the section(card) with the a element
     card.appendChild(fs1);
     
     // Change the textContent property of the p3 element to contain the temple status
     l2.textContent = `Status`;
-    fs2.appendChild(l2)
+    fs2.appendChild(l2);
     p3.textContent = `${temple.status}`;
-    fs2.appendChild(p3)
+    fs2.appendChild(p3);
     // Add/append the section(card) with the p3 element
     card.appendChild(fs2);
 
     l3.textContent = `Services`;
-    fs3.appendChild(l3)
+    fs3.appendChild(l3);
     // Change the textContent property of the p4 element to contain the temple services
     p4.innerHTML = `${temple.services}`;
     // Add/append the section(card) with the p4 element
-    fs3.appendChild(p4)
+    fs3.appendChild(p4);
     card.appendChild(fs3);
     
     l4.textContent = `Closures`;
-    fs4.appendChild(l4)
+    fs4.appendChild(l4);
     // Change the textContent property of the p5 element to contain the temple closures
     p5.innerHTML = `${temple.closure}`;
     // Add/append the section(card) with the p5 element
-    fs4.appendChild(p5)
+    fs4.appendChild(p5);
     card.appendChild(fs4);
 
     l5.textContent = `History`;
-    fs5.appendChild(l5)
+    fs5.appendChild(l5);
     // Change the textContent property of the p6 element to contain the temple history
     p6.innerHTML = `${temple.history}`;
-    fs5.appendChild(p6)
+    fs5.appendChild(p6);
     // Add/append the section(card) with the p6 element
     card.appendChild(fs5);
     // Add/append the existing HTML div with the cards class with the section(card)
