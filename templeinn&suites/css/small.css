@@ -501,15 +501,192 @@ footer a {
   display: block;
 }
 
-#templelist .likebutton {
-  width: 20px;
-  display: inline-block;
+#likebutton {
+  width: 40px;
+  border-radius: 10%;
 }
 
 #templelist fieldset {
   width: 90%;
   margin-bottom: 5px;
 }
+
+#Sap span:nth-child(1) {
+  display: block;
+}
+
+#Sap span:nth-child(2) {
+  display: none;
+}
+
+#Sap.like span:nth-child(1) {
+  display: none;
+}
+
+#Sap.like span:nth-child(2) {
+  display: block;
+}
+
+#Was span:nth-child(1) {
+  display: block;
+}
+
+#Was span:nth-child(2) {
+  display: none;
+}
+
+#Was.like span:nth-child(1) {
+  display: none;
+}
+
+#Was.like span:nth-child(2) {
+  display: block;
+}
+
+#São span:nth-child(1) {
+  display: block;
+}
+
+#São span:nth-child(2) {
+  display: none;
+}
+
+#São.like span:nth-child(1) {
+  display: none;
+}
+
+#São.like span:nth-child(2) {
+  display: block;
+}
+
+#San span:nth-child(1) {
+  display: block;
+}
+
+#San span:nth-child(2) {
+  display: none;
+}
+
+#San.like span:nth-child(1) {
+  display: none;
+}
+
+#San.like span:nth-child(2) {
+  display: block;
+}
+
+#Rom span:nth-child(1) {
+  display: block;
+}
+
+#Rom span:nth-child(2) {
+  display: none;
+}
+
+#Rom.like span:nth-child(1) {
+  display: none;
+}
+
+#Rom.like span:nth-child(2) {
+  display: block;
+}
+
+#Ban span:nth-child(1) {
+  display: block;
+}
+
+#Ban span:nth-child(2) {
+  display: none;
+}
+
+#Ban.like span:nth-child(1) {
+  display: none;
+}
+
+#Ban.like span:nth-child(2) {
+  display: block;
+}
+
+#Car span:nth-child(1) {
+  display: block;
+}
+
+#Car span:nth-child(2) {
+  display: none;
+}
+
+#Car.like span:nth-child(1) {
+  display: none;
+}
+
+#Car.like span:nth-child(2) {
+  display: block;
+}
+
+#Joh span:nth-child(1) {
+  display: block;
+}
+
+#Joh span:nth-child(2) {
+  display: none;
+}
+
+#Joh.like span:nth-child(1) {
+  display: none;
+}
+
+#Joh.like span:nth-child(2) {
+  display: block;
+}
+
+#Dal span:nth-child(1) {
+  display: block;
+}
+
+#Dal span:nth-child(2) {
+  display: none;
+}
+
+#Dal.like span:nth-child(1) {
+  display: none;
+}
+
+#Dal.like span:nth-child(2) {
+  display: block;
+}
+
+#Ind span:nth-child(1) {
+  display: block;
+}
+
+#Ind span:nth-child(2) {
+  display: none;
+}
+
+#Ind.like span:nth-child(1) {
+  display: none;
+}
+
+#Ind.like span:nth-child(2) {
+  display: block;
+}
+
+#Pro span:nth-child(1) {
+  display: block;
+}
+
+#Pro span:nth-child(2) {
+  display: none;
+}
+
+#Pro.like span:nth-child(1) {
+  display: none;
+}
+
+#Pro.like span:nth-child(2) {
+  display: block;
+}
+
 
 /*     Reservation              */
 form fieldset {

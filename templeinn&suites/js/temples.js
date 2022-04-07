@@ -26,7 +26,9 @@ function displayTemple(temple) {  // Create elements to add to the document
     let btn = document.createElement('button');
     let span1 = document.createElement('span');
     let span2 = document.createElement('span');
-  
+    let tname = `${temple.name}`;
+    let tidname = tname.substring(0,3);
+      
     // Change the textContent property of the h2 element to contain the temple name
     h3.textContent = `${temple.name}`;
     h3.setAttribute('class', "tmplname smallshown");
@@ -36,19 +38,23 @@ function displayTemple(temple) {  // Create elements to add to the document
     let likeimg = "./images/doyoulikeit.png";
     img2.src = `${likeimg}`;
     img2.setAttribute('alt', `like button not pressed`);// Set the alternate text on the img1 
-    img2.setAttribute('class', 'unlikebutton');
     span1.appendChild(img2);
     btn.appendChild(span1);
     // Change the src and alt properties of the img1 element to contain the temple icon
     let likeimg2 = "./images/ilikeit.png";
     img3.src = `${likeimg2}`;
     img3.setAttribute('alt', `like button pressed`);// Set the alternate text on the img1 
-    img3.setAttribute('class', 'likebutton');
-    span2.appendChild(img2);
+    span2.appendChild(img3);
     btn.appendChild(span2);
-    jdatestr.substring(0,16);
+    btn.setAttribute('id', tidname);
+    let storedlike = window.localStorage.getItem(tidname);
+    if (storedlike) {
+      btn.setAttribute('class', "like");
+    }
+    card.appendChild(btn);
+   /* jdatestr.substring(0,16);
     <button id="cardviewBtn"><span><img src="./images/listbuttonon.jpg" alt="Card View On Button"></span><span><img src="./images/cardbuttonon.jpg" alt="List View On Button"></span></button>
-    
+   */ 
     // Change the src and alt properties of the img1 element to contain the temple icon
     img1.src = `${temple.photo}`;
     img1.setAttribute('alt', `${temple.name} photo`);// Set the alternate text on the img1 
