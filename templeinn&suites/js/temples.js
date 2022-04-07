@@ -56,9 +56,6 @@ function displayTemple(temple) {  // Create elements to add to the document
       btn.setAttribute('class', "like");
     }
     card.appendChild(btn);
-   /* jdatestr.substring(0,16);
-    <button id="cardviewBtn"><span><img src="./images/listbuttonon.jpg" alt="Card View On Button"></span><span><img src="./images/cardbuttonon.jpg" alt="List View On Button"></span></button>
-   */ 
     // Change the src and alt properties of the img1 element to contain the temple icon
     img1.src = `${temple.photo}`;
     img1.setAttribute('alt', `${temple.name} photo`);// Set the alternate text on the img1 
@@ -75,6 +72,7 @@ function displayTemple(temple) {  // Create elements to add to the document
     fs1.appendChild(p2);
     // Change the textContent property of the p7 element to contain the temple email address
     p7.textContent = `${temple.email}`;
+    console.log(`${temple.email}`);
     fs1.appendChild(p7);
     // Change the properties of the a element to contain the temple website
     a.href = `${temple.website}`;
@@ -132,6 +130,7 @@ function displayTemple(temple) {  // Create elements to add to the document
   async function getTemples() {
     const response = await fetch(requestData);
     const temple_dir = await response.json();
+    console.log(temple_dir);
     temple_dir.forEach(displayTemple);
   }
 
