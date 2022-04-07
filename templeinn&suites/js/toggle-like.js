@@ -1,19 +1,9 @@
-function toggleSap() {
-    let lssap = window.localStorage.getItem('Sap');
-    if (lssap) {
-        window.localStorage.setItem('Sap', false);        
-    }
-    else {
-        window.localStorage.setItem('Sap', true);        
-    }
-    document.getElementById('Sap').classList.toggle("like");
-}
-
-const y = document.getElementById('Sap');
-y.onclick = toggleSap;
+const twas = document.getElementById('Was');
+twas.onclick = toggleWas;
 
 function toggleWas() {
-    if (lssap) {
+    let lswas = window.localStorage.getItem('Was');
+    if (lswas) {
         window.localStorage.setItem('Was', false);        
     }
     else {
@@ -22,11 +12,9 @@ function toggleWas() {
     document.getElementById('Was').classList.toggle("like");
 }
 
-const twas = document.getElementById('Was');
-twas.onclick = toggleWas;
-
 function toggleSão() {
-    if (lssap) {
+    let lssao = window.localStorage.getItem('São');
+    if (lssao) {
         window.localStorage.setItem('São', false);        
     }
     else {
@@ -39,7 +27,8 @@ const tsao = document.getElementById('São');
 tsao.onclick = toggleSão;
 
 function toggleSan() {
-    if (lssap) {
+    let lssan = window.localStorage.getItem('San');
+    if (lssan) {
         window.localStorage.setItem('San', false);        
     }
     else {
@@ -52,7 +41,8 @@ const tsan = document.getElementById('San');
 tsan.onclick = toggleSan;
 
 function toggleRom() {
-    if (lssap) {
+    let lsrom = window.localStorage.getItem('Rom');
+    if (lsrom) {
         window.localStorage.setItem('Rom', false);        
     }
     else {
@@ -65,7 +55,8 @@ const trom = document.getElementById('Rom');
 trom.onclick = toggleRom;
 
 function toggleBan() {
-    if (lssap) {
+    let lsban = window.localStorage.getItem('Ban');
+    if (lsban) {
         window.localStorage.setItem('Ban', false);        
     }
     else {
@@ -78,20 +69,26 @@ const tban = document.getElementById('Ban');
 tban.onclick = toggleBan;
 
 function toggleCar() {
-    if (lssap) {
+    let lscar = window.localStorage.getItem('Car');
+    console.log("Cardston Temple");
+    if (lscar) {
         window.localStorage.setItem('Car', false);        
+        console.log("Cardston Temple");
     }
     else {
         window.localStorage.setItem('Car', true);        
+        console.log("Cardston Temple");
     }
     document.getElementById('Car').classList.toggle("like");
 }
 
 const tcar = document.getElementById('Car');
+console.log("Car Toggle");
 tcar.onclick = toggleCar;
 
 function toggleJoh() {
-    if (lssap) {
+    let lsjoh = window.localStorage.getItem('Joh');
+    if (lsjoh) {
         window.localStorage.setItem('Joh', false);        
     }
     else {
@@ -104,7 +101,8 @@ const tjoh = document.getElementById('Joh');
 tjoh.onclick = toggleJoh;
 
 function toggleDal() {
-    if (lssap) {
+    let lsdal = window.localStorage.getItem('Dal');
+    if (lsdal) {
         window.localStorage.setItem('Dal', false);        
     }
     else {
@@ -117,7 +115,8 @@ const tdal = document.getElementById('Dal');
 tdal.onclick = toggleDal;
 
 function toggleInd() {
-    if (lssap) {
+    let lsdal = window.localStorage.getItem('Ind');
+    if (lsdal) {
         window.localStorage.setItem('Ind', false);        
     }
     else {
@@ -130,7 +129,8 @@ const tind = document.getElementById('Ind');
 tind.onclick = toggleInd;
 
 function togglePro() {
-    if (lssap) {
+    let lspro = window.localStorage.getItem('Pro');
+    if (lspro) {
         window.localStorage.setItem('Pro', false);        
     }
     else {
@@ -141,4 +141,19 @@ function togglePro() {
 
 const tpro = document.getElementById('Pro');
 tpro.onclick = togglePro;
+
+function toggleSap() {
+    let lssap = window.localStorage.getItem('Sap');
+    if (lssap) {
+        window.localStorage.setItem('Sap', false);        
+    }
+    else {
+        window.localStorage.setItem('Sap', true);        
+    }
+    document.getElementById('Sap').classList.toggle("like");
+}
+
+const tsap = document.getElementById('Sap');
+console.log(tsap);
+tsap.onclick = toggleSap;
 

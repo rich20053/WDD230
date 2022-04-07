@@ -127,8 +127,14 @@ footer {
   width: 24%;
 }
 
+/*********** Reception  **********/
+.receptshowlrg {
+  display: block;
+}
 
-
+#receptphotos img {
+  width: 24%;
+}
   
 /********   Contact   **********/
 #contactInfo1 {

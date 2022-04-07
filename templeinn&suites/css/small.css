@@ -501,7 +501,7 @@ footer a {
   display: block;
 }
 
-#likebutton {
+#templelist button {
   width: 40px;
   border-radius: 10%;
 }
@@ -543,19 +543,19 @@ footer a {
   display: block;
 }
 
-#São span:nth-child(1) {
+#Sao span:nth-child(1) {
   display: block;
 }
 
-#São span:nth-child(2) {
+#Sao span:nth-child(2) {
   display: none;
 }
 
-#São.like span:nth-child(1) {
+#Sao.like span:nth-child(1) {
   display: none;
 }
 
-#São.like span:nth-child(2) {
+#Sao.like span:nth-child(2) {
   display: block;
 }
 
@@ -773,7 +773,7 @@ form label.top input:required:valid {
   display: block;
 }
 
-/*******  pmissionary  ************/
+/*******  missionary  ************/
 
 #suitephotos {
   display: flex;
@@ -794,6 +794,30 @@ form label.top input:required:valid {
 }
 
 .suiteshowlrg {
+  display: none;
+}
+
+/*******  reception  ************/
+
+#receptphotos {
+  display: flex;
+  flex-direction: row;
+}
+
+#receptphotos img {
+  width: 48%;
+  border: 3px solid #021374;
+}
+
+.receptshowsmall {
+  display: block;
+}
+
+.receptshowmed {
+  display: none;
+}
+
+.receptshowlrg {
   display: none;
 }
 
