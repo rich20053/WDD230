@@ -13,12 +13,16 @@ function displayTemple(temple) {  // Create elements to add to the document
     let l4 = document.createElement('legend');
     let fs5 = document.createElement('fieldset');
     let l5 = document.createElement('legend');
+    let fs6 = document.createElement('fieldset');
+    let l6 = document.createElement('legend');
     let p1 = document.createElement('p');
     let p2 = document.createElement('p');
     let p3 = document.createElement('p');
     let p4 = document.createElement('p');
     let p5 = document.createElement('p');
     let p6 = document.createElement('p');
+    let p7 = document.createElement('p');
+    let p8 = document.createElement('p');
     let a = document.createElement('a');
     let img1 = document.createElement('img');
     let img2 = document.createElement('img');
@@ -63,12 +67,15 @@ function displayTemple(temple) {  // Create elements to add to the document
     
     l1.textContent = `Information`;
     fs1.appendChild(l1);
-        // Change the textContent property of the p1 element to contain the 1 line temple address
+    // Change the textContent property of the p1 element to contain the 1 line temple address
     p1.textContent = `${temple.address}, ${temple.city}`;
     fs1.appendChild(p1);
     // Change the textContent property of the p2 element to contain the temple phone number
     p2.textContent = `${temple.phone}`;
     fs1.appendChild(p2);
+    // Change the textContent property of the p7 element to contain the temple email address
+    p7.textContent = `${temple.email}`;
+    fs1.appendChild(p7);
     // Change the properties of the a element to contain the temple website
     a.href = `${temple.website}`;
     a.target = "_blank";
@@ -93,6 +100,14 @@ function displayTemple(temple) {  // Create elements to add to the document
     fs3.appendChild(p4);
     card.appendChild(fs3);
     
+    l6.textContent = `Ordinances/Sessions`;
+    fs6.appendChild(l6);
+    // Change the textContent property of the p8 element to contain the temple sessions
+    p8.innerHTML = `${temple.session}`;
+    // Add/append the section(card) with the p8 element
+    fs6.appendChild(p8);
+    card.appendChild(fs6);
+
     l4.textContent = `Closures`;
     fs4.appendChild(l4);
     // Change the textContent property of the p5 element to contain the temple closures

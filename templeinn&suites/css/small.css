@@ -347,13 +347,6 @@ footer a {
 }
 
 /*          Home             */
-#banner {
-  background-color: #91F5F9;
-  color: #021374;
-  border: 1px solid #021374;
-  font-size: 1em;
-}
-
 #call2action a {
   text-decoration: none;
 }
@@ -368,13 +361,17 @@ footer a {
   background-color: white;
 }
 
+#maintemple {
+  position: relative;
+}
+
 #call2action {
   margin: 0;
   padding: 15px;
   border-radius: 5%;
   position: absolute;
-  top: 175px;
-  right: 18 px;
+  top: 10px;
+  left: 10px;
   z-index: 10;
   color: #b8c2fa;
   background-color: #021374;
@@ -382,26 +379,32 @@ footer a {
   font-size: 3vw;
 }
 
+#templesummary {
+  border: 3px solid #021374;
+}
+
 #weather {
   display: grid;
   grid-template-columns: repeat(36, 1fr);
+  border: 3px solid #021374;
 }
 
 #weather h3 {
   grid-column: 1/37;
   grid-row: 1/2;
   margin: 0;
+  padding: 5px;
 }
 
-#weather #temp{
+#weather #temp {
+  align-self: left;
   padding: 0;
-  align-self: center;
 }
 
 #weathericon {
   width: 100%;
   grid-column: 25/36;
-  grid-row: 3/6;
+  grid-row: 1/6;
 }
 
 #weatherdata {
@@ -409,7 +412,8 @@ footer a {
   flex-direction: column;
   justify-content: space-between;
   grid-column: 1/19;
-  grid-row: 3/5;
+  grid-row: 2/6;
+  padding: 5px;
 }
 
 #weatherdesc {
@@ -453,7 +457,7 @@ footer a {
 
 #wthralert {
   grid-column: 1/37;
-  grid-row: 2/3;
+  grid-row: 8/9;
   display: none;
   flex-direction: column;
   justify-content: space-between;  
