@@ -17,16 +17,6 @@ fetch(apiURL)
     document.querySelector('#weathericon').setAttribute('src', iconsrc);
     document.querySelector('#weathericon').setAttribute('alt', desc);
     document.querySelector('#weatherdesc').textContent = desc;
-    /*let windspeed = jsObject.current.wind_speed;
-    document.querySelector('#wspeed').textContent = windspeed;
-    let wchill = 35.74+0.6215*tempF-35.75*(windspeed**0.16)+0.4275*tempF*(windspeed**(0.16));
-    if (tempF > 50 || windspeed < 3) {
-        document.getElementById('windchill').textContent = "N/A";
-    }
-    else {
-        var strChill = wchill.toFixed(0) + "º F";
-        document.getElementById('windchill').textContent = strChill;
-    }   */
     let humidity = jsObject.current.humidity;
     document.querySelector('#humidity').textContent = humidity;
     for (d=0; d < 3; d++) {

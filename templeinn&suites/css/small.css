@@ -299,6 +299,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
 }
 
 footer p {
@@ -350,11 +351,38 @@ footer a {
   align-items: center;
 }
 
+.contactus {
+  display: inline-block;
+  color: #021374;
+  background-color: #b8c2fa;
+  border: 3px solid #021374;
+  border-radius: 5%;
+}
+
+#footcontact {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  color: #021374;
+  background-color: #b8c2fa;
+  border: 3px solid #021374;
+  border-radius: 5%;
+  display: none;
+}
+
+#footcontact.showform {
+  display: block;
+}
+
 #footerlinks div {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: center;
+}
+
+#contactForm h3 {
+  color: #021374;
 }
 
 /*          Home             */
@@ -859,8 +887,16 @@ p.contact {
 }
 
 #contactField {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin: 15px;
+}
+
+.closecontact {
+  color: #021374;
+  background-color: #b8c2fa;
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  right: 20px;
 }
 
 
