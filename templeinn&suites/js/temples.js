@@ -39,7 +39,7 @@ function displayTemple(temple) {  // Create elements to add to the document
     // Add/append the section(card) with the h2 element
     card.appendChild(h3);
     // Change the src and alt properties of the img1 element to contain the temple icon
-    let likeimg = "./images/doyoulikeit.png";
+    let likeimg = "./images/doyoulikeit2.jpg";
     img2.src = `${likeimg}`;
     img2.setAttribute('alt', `like button not pressed`);// Set the alternate text on the img1 
     span1.appendChild(img2);
@@ -72,7 +72,6 @@ function displayTemple(temple) {  // Create elements to add to the document
     fs1.appendChild(p2);
     // Change the textContent property of the p7 element to contain the temple email address
     p7.textContent = `${temple.email}`;
-    console.log(`${temple.email}`);
     fs1.appendChild(p7);
     // Change the properties of the a element to contain the temple website
     a.href = `${temple.website}`;

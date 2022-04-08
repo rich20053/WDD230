@@ -1,30 +1,61 @@
-const twas = document.getElementById('Was');
-twas.onclick = toggleWas;
-
-function toggleWas() {
-    let lswas = window.localStorage.getItem('Was');
-    if (lswas) {
-        window.localStorage.setItem('Was', false);        
+function toggleCar() {
+    let lscar = window.localStorage.getItem('Car');
+    console.log(lscar);
+    if (lscar) {
+        window.localStorage.setItem('Car', false); 
+        console.log("set to false");       
     }
     else {
-        window.localStorage.setItem('Was', true);        
+        window.localStorage.setItem('Car', true);        
+        console.log("set to true");
     }
-    document.getElementById('Was').classList.toggle("like");
+    document.getElementById('Car').classList.toggle("like");
 }
 
-function toggleSão() {
-    let lssao = window.localStorage.getItem('São');
+const tcar = document.getElementById('Carp');
+tcar.onclick = toggleCar;
+
+function toggleDal() {
+    let lsdal = window.localStorage.getItem('Dal');
+    if (lsdal) {
+        window.localStorage.setItem('Dal', false);        
+    }
+    else {
+        window.localStorage.setItem('Dal', true);        
+    }
+    document.getElementById('Dal').classList.toggle("like");
+}
+
+const tdal = document.getElementById('Dall');
+tdal.onclick = toggleDal;
+/*
+function toggleInd() {
+    let lsdal = window.localStorage.getItem('Ind');
+    if (lsdal) {
+        window.localStorage.setItem('Ind', false);        
+    }
+    else {
+        window.localStorage.setItem('Ind', true);        
+    }
+    document.getElementById('Ind').classList.toggle("like");
+}
+
+const tind = document.getElementById('Ind');
+tind.onclick = toggleInd;
+
+function toggleSao() {
+    let lssao = window.localStorage.getItem('Sao');
     if (lssao) {
-        window.localStorage.setItem('São', false);        
+        window.localStorage.setItem('Sao', false);        
     }
     else {
-        window.localStorage.setItem('São', true);        
+        window.localStorage.setItem('Sao', true);        
     }
-    document.getElementById('São').classList.toggle("like");
+    document.getElementById('Sao').classList.toggle("like");
 }
 
-const tsao = document.getElementById('São');
-tsao.onclick = toggleSão;
+const tsao = document.getElementById('Sao');
+tsao.onclick = toggleSao;
 
 function toggleSan() {
     let lssan = window.localStorage.getItem('San');
@@ -68,24 +99,6 @@ function toggleBan() {
 const tban = document.getElementById('Ban');
 tban.onclick = toggleBan;
 
-function toggleCar() {
-    let lscar = window.localStorage.getItem('Car');
-    console.log("Cardston Temple");
-    if (lscar) {
-        window.localStorage.setItem('Car', false);        
-        console.log("Cardston Temple");
-    }
-    else {
-        window.localStorage.setItem('Car', true);        
-        console.log("Cardston Temple");
-    }
-    document.getElementById('Car').classList.toggle("like");
-}
-
-const tcar = document.getElementById('Car');
-console.log("Car Toggle");
-tcar.onclick = toggleCar;
-
 function toggleJoh() {
     let lsjoh = window.localStorage.getItem('Joh');
     if (lsjoh) {
@@ -99,34 +112,6 @@ function toggleJoh() {
 
 const tjoh = document.getElementById('Joh');
 tjoh.onclick = toggleJoh;
-
-function toggleDal() {
-    let lsdal = window.localStorage.getItem('Dal');
-    if (lsdal) {
-        window.localStorage.setItem('Dal', false);        
-    }
-    else {
-        window.localStorage.setItem('Dal', true);        
-    }
-    document.getElementById('Dal').classList.toggle("like");
-}
-
-const tdal = document.getElementById('Dal');
-tdal.onclick = toggleDal;
-
-function toggleInd() {
-    let lsdal = window.localStorage.getItem('Ind');
-    if (lsdal) {
-        window.localStorage.setItem('Ind', false);        
-    }
-    else {
-        window.localStorage.setItem('Ind', true);        
-    }
-    document.getElementById('Ind').classList.toggle("like");
-}
-
-const tind = document.getElementById('Ind');
-tind.onclick = toggleInd;
 
 function togglePro() {
     let lspro = window.localStorage.getItem('Pro');
@@ -154,6 +139,19 @@ function toggleSap() {
 }
 
 const tsap = document.getElementById('Sap');
-console.log(tsap);
 tsap.onclick = toggleSap;
 
+const twas = document.getElementById('Was');
+twas.onclick = toggleWas;
+
+function toggleWas() {
+    let lswas = window.localStorage.getItem('Was');
+    if (lswas) {
+        window.localStorage.setItem('Was', false);        
+    }
+    else {
+        window.localStorage.setItem('Was', true);        
+    }
+    document.getElementById('Was').classList.toggle("like");
+}
+*/

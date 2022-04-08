@@ -513,8 +513,9 @@ footer a {
 }
 
 #templelist button {
-  width: 40px;
-  border-radius: 10%;
+  background-color: transparent;
+  width: 50px;
+  border: none;
 }
 
 #templelist fieldset {
