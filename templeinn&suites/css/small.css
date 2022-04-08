@@ -505,6 +505,7 @@ footer a {
 
 #templelist h3 {
   align-self: center;
+  margin-bottom: 0;
 }
 
 #templelist img {
@@ -516,11 +517,24 @@ footer a {
   background-color: transparent;
   width: 50px;
   border: none;
+  padding: 5px;
 }
 
 #templelist fieldset {
   width: 90%;
   margin-bottom: 5px;
+}
+
+#templelist fieldset :nth-child(odd){
+  display: none;
+}
+
+#templelist fieldset :nth-child(even){
+  display: none;
+}
+
+#templelist fieldset :nth-child(1){
+  display: block;
 }
 
 #Sap span:nth-child(1) {

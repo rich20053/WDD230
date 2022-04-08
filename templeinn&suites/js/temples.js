@@ -39,7 +39,7 @@ function displayTemple(temple) {  // Create elements to add to the document
     // Add/append the section(card) with the h2 element
     card.appendChild(h3);
     // Change the src and alt properties of the img1 element to contain the temple icon
-    let likeimg = "./images/doyoulikeit2.jpg";
+    let likeimg = "./images/doyoulikeit6.jpg";
     img2.src = `${likeimg}`;
     img2.setAttribute('alt', `like button not pressed`);// Set the alternate text on the img1 
     span1.appendChild(img2);
@@ -131,7 +131,143 @@ function displayTemple(temple) {  // Create elements to add to the document
     const temple_dir = await response.json();
     console.log(temple_dir);
     temple_dir.forEach(displayTemple);
+    toggle_setup();
   }
+
+  function toggle_setup() {
+    const tcar = document.getElementById('Car');
+    tcar.onclick = toggleCar;
+    const tdal = document.getElementById('Dal');
+    tdal.onclick = toggleDal;
+    const tind = document.getElementById('Ind');
+    tind.onclick = toggleInd;
+    const tsao = document.getElementById('Sao');
+    tsao.onclick = toggleSao;
+    const tsan = document.getElementById('San');
+    tsan.onclick = toggleSan;
+    const tsap = document.getElementById('Sap');
+    tsap.onclick = toggleSap;
+    const tjoh = document.getElementById('Joh');
+    tjoh.onclick = toggleJoh;
+    const tpro = document.getElementById('Pro');
+    tpro.onclick = togglePro;
+    const trom = document.getElementById('Rom');
+    trom.onclick = toggleRom;
+    const twas = document.getElementById('Was');
+    twas.onclick = toggleWas;
+  }
+
+  function toggleCar() {
+    let lscar = window.localStorage.getItem("Car");
+    if (lscar == 0 || lscar == undefined) {
+      lscar = 1;
+    } else {
+      lscar = 0;
+    }
+    window.localStorage.setItem("Car", lscar); 
+    document.getElementById("Car").classList.toggle("like");
+  }
+
+  function toggleDal() {
+    let lsdal = window.localStorage.getItem('Dal');
+    if (lsdal == 0 || lsdal == undefined) {
+      lsdal = 1;
+    } else {
+      lsdal = 0;
+    }
+    window.localStorage.setItem('Dal', lsdal); 
+    document.getElementById('Dal').classList.toggle("like");
+  }
+
+  function toggleInd() {
+    let lsind = window.localStorage.getItem('Ind');
+    if (lsind == 0 || lsind == undefined) {
+      lsind = 1;
+    } else {
+      lsind = 0;
+    }
+    window.localStorage.setItem('Ind', lsind); 
+    document.getElementById('Ind').classList.toggle("like");
+  }
+
+  function toggleJoh() {
+    let lsjoh = window.localStorage.getItem('Joh');
+    if (lsjoh == 0 || lsjoh == undefined) {
+      lsjoh = 1;
+    } else {
+      lsjoh = 0;
+    }
+    window.localStorage.setItem('Joh', lsjoh); 
+    document.getElementById('Joh').classList.toggle("like");
+  }
+
+  function togglePro() {
+    let lspro = window.localStorage.getItem('Pro');
+    if (lspro == 0 || lspro == undefined) {
+      lspro = 1;
+    } else {
+      lspro = 0;
+    }
+    window.localStorage.setItem('Pro', lspro); 
+    document.getElementById('Pro').classList.toggle("like");
+  }
+
+  function toggleRom() {
+    let lsrom = window.localStorage.getItem('Rom');
+    if (lsrom == 0 || lsrom == undefined) {
+      lsrom = 1;
+    } else {
+      lsrom = 0;
+    }
+    window.localStorage.setItem('Rom', lsrom); 
+    document.getElementById('Rom').classList.toggle("like");
+  }
+
+  function toggleSan() {
+    let lssan = window.localStorage.getItem('San');
+    if (lssan == 0 || lssan == undefined) {
+      lssan = 1;
+    } else {
+      lssan = 0;
+    }
+    window.localStorage.setItem('San', lssan); 
+    document.getElementById('San').classList.toggle("like");
+  }
+
+  function toggleSao() {
+    let lssao = window.localStorage.getItem('Sao');
+    if (lssao == 0 || lssao == undefined) {
+      lssao = 1;
+    } else {
+      lssao = 0;
+    }
+    window.localStorage.setItem('Sao', lssao); 
+    document.getElementById('Sao').classList.toggle("like");
+  }
+
+  function toggleSap() {
+    let lssap = window.localStorage.getItem('Sap');
+    if (lssap == 0 || lssap == undefined) {
+      lssap = 1;
+    } else {
+      lssap = 0;
+    }
+    window.localStorage.setItem('Sap', lssap); 
+    document.getElementById('Sap').classList.toggle("like");
+  }
+
+  function toggleWas() {
+    let lswas = window.localStorage.getItem('Was');
+    if (lswas == 0 || lswas == undefined) {
+      lswas = 1;
+    } else {
+      lswas = 0;
+    }
+    window.localStorage.setItem('Was', lswas); 
+    document.getElementById('Was').classList.toggle("like");
+  }
+
+  
 
 
 

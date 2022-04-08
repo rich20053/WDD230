@@ -1,14 +1,9 @@
 function toggleCar() {
-    let lscar = window.localStorage.getItem('Car');
+    const lscar = window.localStorage.getItem('Car');
+    const lscarn = !lscar;
     console.log(lscar);
-    if (lscar) {
-        window.localStorage.setItem('Car', false); 
-        console.log("set to false");       
-    }
-    else {
-        window.localStorage.setItem('Car', true);        
-        console.log("set to true");
-    }
+    window.localStorage.setItem('Car', lscarn); 
+    console.log(lscarn);
     document.getElementById('Car').classList.toggle("like");
 }
 
