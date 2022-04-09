@@ -12,8 +12,9 @@
         "session" : "All ordinances are available by appointment only. Click the Appointments button on website to schedule.",
         "closure" : "2022 - 2 Apr, 1 Jul, 19 Sep, 3 Oct, 11 Nov, 24 Dec, 27 Dec, 31 Dec",
         "history" : "27 Jun 1913-Announced, 27 Jul 1913-Groundbreaking, 26 Aug 1923-Dedicated, 2 July 1962-Rededicated, 22 Jun 1991-Rededicated",
-        "lat" : "", 
-        "long" : ""
+        "lat" : "49.1988", 
+        "long" : "-113.3019",
+        "summary" : ""
     },
     {
         "name" : "Dallas Texas Temple",
@@ -28,8 +29,9 @@
         "session" : "All ordinances are available by appointment only. Click the Appointments button on website to schedule.",
         "closure" : "2022 - 2 Apr, 8 Apr, 13 Jun, 1 Oct, 23 Nov, 24 Nov, 24 Dec, 31 Dec",
         "history" : "1 Apr 1981-Announced, 22 Jan 1983-Groundbreaking, 19 October 1984-Dedicated, 5 Mar 1989-Rededicated",
-        "lat" : "", 
-        "long" : ""
+        "lat" : "32.7767", 
+        "long" : "-96.7970",
+        "summary" : ""
     },
     {
         "name" : "Indianapolis Indiana Temple",
@@ -44,8 +46,9 @@
         "session" : "All ordinances are available by appointment only. Click the Appointments button on website to schedule.",
         "closure" : "2022 - 2 Apr, 11 Jul, 5 Sep, 1 Oct, 23 Nov, 24 Nov, 24 Dec, 31 Dec",
         "history" : "2 Oct 2010-Announced, 29 Sep 2012-Groundbreaking, 23 Aug 2015-Dedicated",
-        "lat" : "", 
-        "long" : ""
+        "lat" : "39.7684", 
+        "long" : "86.1581",
+        "summary" : ""
     },
     {
         "name" : "Johannesburg South Africa Temple",
@@ -60,8 +63,9 @@
         "session" : "All ordinances are available by appointment only. Click the Appointments button on website to schedule.",
         "closure" : "2022 - 9 Apr, 15 Apr, 27 Apr, 16 Jun, 9 Aug, 15 Aug, 14 Nov, 16 Dec, 24 Dec, 31 Dec",
         "history" : "1 Apr 1981-Announced, 27 Nov 1982-Groundbreaking, 24 Aug 1985-Dedicated",
-        "lat" : "", 
-        "long" : ""
+        "lat" : "-26.2041", 
+        "long" : "28.0473",
+        "summary" : ""
     },
     {
         "name" : "Provo City Center Temple",
@@ -76,8 +80,9 @@
         "session" : "All ordinances are available by appointment only. Click the Appointments button on website to schedule.",
         "closure" : "2022 - 2 Apr, 20 Jun, 4 Jul, 1 Oct, 23 Nov, 24 Nov, 28 Nov, 12 Dec, 24 Dec, 31 Dec",
         "history" : "1 Oct 2011-Announced, 12 May 2012-Groundbreaking, 20 March 2016-Dedicated",
-        "lat" : "", 
-        "long" : ""
+        "lat" : "40.2338", 
+        "long" : "-111.6585",
+        "summary" : ""
     },
     {
         "name" : "Rome Italy Temple",
@@ -93,7 +98,8 @@
         "closure" : "2022 - 28 Feb, 9 May, 29 Jun, 19 Sep, 3 Oct, 24 Dec, 26 Dec, 31 Dec",
         "history" : "4 Oct 2008 - Announced, 23 Oct 2010 - , 10 Mar 2019 - Dedicated",
         "lat" : "41.9028", 
-        "long" : "12.4964"
+        "long" : "12.4964",
+        "summary" : ""
     },
     {
         "name" : "San Diego California Temple",
@@ -109,7 +115,8 @@
         "closure" : "2022 - 14 Mar, 28 Mar, 2 Apr, 1 Oct, 23 Nov, 24 Nov, 24 Dec, 31 Dec",
         "history" : " 7 Apr 1984 - Announced, 27 Feb 1988 - Groundbreaking, 25 April 1993 - Dedicated",
         "lat" : "32.7157", 
-        "long" : "-117.1611"
+        "long" : "-117.1611",
+        "summary" : "The San Diego California Temple is the 47th constructed temple. It was built with two main spires, but unique to this temple are four smaller spires at the base of each main spire. The San Diego Temple was announced on April 7, 1984, and dedicated on April 25, 1993 by Gordon B. Hinckley. The temple has 4 ordinance rooms and 8 sealing rooms. Although there is no visitors' center, the church maintains the Mormon Battalion Historic Site in Old Town, San Diego."
     },
     {
         "name" : "Sao Paulo Brazil Temple",
@@ -124,8 +131,9 @@
         "session" : "All ordinances are available by appointment only. Click the Appointments button on website to schedule.",
         "closure" : "2022 - 2 Apr, 1 Aug, 15 Aug, 7 Sep, 1 Oct, 24 Dec, 31 Dec",
         "history" : "1 Mar 1975-Announced. 20 Mar 1976-Groundbreaking, 30 Oct 1978 - Dedicated, 22 Feb 2004 - Rededicated",
-        "lat" : "", 
-        "long" : ""
+        "lat" : "-23.5558", 
+        "long" : "-46.6396",
+        "summary" : ""
     },
     {
         "name" : "Sapporo Japan Temple",
@@ -140,8 +148,9 @@
         "session" : "All ordinances are available by appointment only. Click the Appointments button on website to schedule.",
         "closure" : "2022 - 9 Apr, 29 Apr(Limited), 5 Sep, 19 Sep, 23 Sep(Limited), 8 Oct, 24 Dec, 31 Dec",
         "history" : "3 Oct 2009-Announced, 22 Oct 2011-Groundbreaking, 21 Aug 2016-Dedicated",
-        "lat" : "", 
-        "long" : ""
+        "lat" : "43.0618", 
+        "long" : "141.3545",
+        "summary" : ""
     },
     {
         "name" : "Washington DC Temple",
@@ -156,7 +165,8 @@
         "session" : "All ordinances are available by appointment only. Click the Appointments button on website to schedule.",
         "closure" : "2022 - 9 Apr, 29 Apr(Limited), 5 Sep, 19 Sep, 23 Sep(Limited), 8 Oct, 24 Dec, 31 Dec",
         "history" : "15 Nov 1968-Announced, 7 Decr 1968-Groundbreaking, 19 Nov 1974 - Dedicated, 14 Aug 2022 - Rededicated",
-        "lat" : "", 
-        "long" : ""
+        "lat" : "38.9072", 
+        "long" : "-77.0369",
+        "summary" : ""
     }
 ]
