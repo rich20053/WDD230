@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-  <title>Temple Inn & Suites Temple Page</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Temple page for Temple Inn & Suites Site by Mark Richmond in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" href="./images/tinsfavicon.ico">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link rel="stylesheet" href="./css/small.css"> 
-  <link rel="stylesheet" href="./css/medium.css"> 
-  <link rel="stylesheet" href="./css/large.css"> 
+    <title>Temple Inn & Suites Reservation Thank You Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Reservation Thank You Page for Temple Inn & Suites Site by Mark Richmond in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+      <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/tinsfavicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./css/small.css"> 
+    <link rel="stylesheet" href="./css/medium.css"> 
+    <link rel="stylesheet" href="./css/large.css"> 
 </head>
-
+  
 <body>
   <header>
     <div id="headerspace">
@@ -37,7 +37,7 @@
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
         <ul id="primaryNav">
           <li><a href="./index.html">Home</a></li>
-          <li><a class="active" href="./temple.html">Temple</a></li>
+          <li><a href="./temple.html">Temple</a></li>
           <li><a href="./reservation.html">Reservation</a></li>          
           <li><a href="./services.html">Services</a>
             <ul>
@@ -45,26 +45,28 @@
               <li><a href="./missionary.html">Temple Missionary</a></li>
             </ul>
           </li>
-         </ul>
+        </ul>
       </nav>      
-      </div>
+    </div>
   </header>
 
-  <main id="templepage">
-    <h2>Temple List</h2>
-    <button onclick="showMore()" id="moreorless"><span>Show More Information</span><span>Show Less Information</span></button>
-    <!-- Temple data goes here -->
-    <div id="templelist">
-    </div>
+  <main>
+    <h2>We would like to thank the following:</h2>
+    <p class="attrib">Weather provided by <a target="_blank" href="https://openweathermap.org/">OpenWeatherMap</a></p> <!--API Key=e6e82e7efa65c4de43967a31ac32a4e3-->
+    <p class="attrib">Photos and temple information provided by the <a target="_blank" href="https://www.churchofjesuschrist.org/temples/list?lang=eng">Church of Jesus Christ of Latter-Day Saints</a></p>
+    <p class="attrib">Temple highlight summary text provided by <a target="_blank" href="https://www.wikipedia.org">Wikipedia</a></p>
+    <p class="attrib">Social media and like icons provided by <a target="_blank" href="https://www.google.com">Google</a></p>
+    <p class="attrib">Company Icon created on <a target="_blank" href="https://studio.tailorbrands.com/brands/free">Tailor Brands</a></p>
+    <p class="attrib">Favicon created on <a target="_blank" href="https://www.favicon.cc">Favicon.cc</a></p>
   </main>
-
+  
   <footer>
     <div id="footerlogo">
       <a href="./index.html" target="_self"> <img class="logo" src="./images/logo.jpg" alt="Temple Inn & Suites Logo"></a>
     </div>
     <div id="footertitle">
-      <h1>Temple Inn & Suites</h1>
-      <h2>Peaceful Hospitality</h2>
+        <h1>Temple Inn & Suites</h1>
+        <h2>Peaceful Hospitality</h2>
     </div>
     <div>
       <p>&copy; <span id="thisyear"></span> Temple Inn & Suites | <span><button onclick="showContact()" class="contactus">Contact Us</button></span></p>
@@ -86,25 +88,24 @@
         <h3 class="smallshown">Contact Us</h3>
         <button onclick="closeContact()" class="closecontact">X</button>
         <form  method="get" action="thankyoucontact.html"> 
-          <fieldset class="contactField">
-              <legend>Contact Information</legend>
-              <label class="top">Name* <input type="text" name="name" required></label> 
-              <label class="top">Email* <input type="email" name="email" placeholder="youraccount@gmail.com" required></label> 
-              <label class="top">Cell Phone <input type="tel" name="cphone" placeholder="1235554321"></label> 
-              <label class="top">Question / Concern<textarea name="question" rows="10" cols="40" placeholder="Describe your question or concern here."></textarea></label>
-          </fieldset>
-          <input type="submit" value="Contact Us" class="submitBtn">
+            <fieldset id="contactField">
+                <legend>Contact Information</legend>
+                <label class="top">Name* <input type="text" name="name" required></label> 
+                <label class="top">Email* <input type="email" name="email" placeholder="youraccount@gmail.com" required></label> 
+                <label class="top">Cell Phone <input type="tel" name="cphone" placeholder="1235554321"></label> 
+                <label class="top">Question / Concern<textarea name="question" rows="10" cols="40" placeholder="Describe your question or concern here."></textarea></label>
+            </fieldset>
+            <input type="submit" value="Contact Us" class="submitBtn">
         </form>
-      </div>
-    </div> 
+      </div> 
+    </div>
   </footer>
-
+  
+  <script src="./js/this-year.js" defer async></script>
   <script src="./js/last-modified.js" defer async></script>
   <script src="./js/todays-date.js" defer async></script>
   <script src="./js/toggle-menu.js" defer async></script>
-  <script src="./js/temples.js" defer async></script>
   <script src="./js/contactform.js" defer async></script>
-  <script src="./js/showmore.js" defer async></script>
 </body>
 
 </html>

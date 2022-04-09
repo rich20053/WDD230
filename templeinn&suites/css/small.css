@@ -123,8 +123,8 @@ header div {
   justify-self: center;
 }
 
-#facebook,
-#twitter  {
+.facebook,
+.twitter  {
     width: 30px;
 }
 /******** Navigation **********/
@@ -522,10 +522,10 @@ footer a {
 #wthralert {
   grid-column: 1/37;
   grid-row: 8/9;
-  display: none;
+  display: block;
   flex-direction: column;
   justify-content: space-between;  
-  background-color: #ffd700;
+  background-color: #b8c2fa;
   font-size: .75rem;
 }
 
@@ -533,10 +533,23 @@ footer a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border: 2px solid #021374;
+  background-color: #ffd700;
 }
 
-.alertdivs p:nth-child(2) {
+/*.alertdivs p:nth-child(2) {
   text-align: right;
+  color:#ffd700;
+  background-color: #021374;
+  border: 2px solid #021374;
+}*/
+
+.alertdivs button {
+  text-align: right;
+  color:#ffd700;
+  background-color: #021374;
+  border: 2px solid #021374;
+  font-weight: bold;
 }
 
 /******* Temples **********/
@@ -591,18 +604,6 @@ footer a {
   margin-bottom: 5px;
   display: block;
 }
-
-/*#templelist fieldset :nth-child(odd){
-  display: none;
-}
-
-#templelist fieldset :nth-child(even){
-  display: none;
-}
-
-#templelist fieldset :nth-child(1){
-  display: block;
-}*/
 
 #Sap span:nth-child(1) {
   display: block;
@@ -940,7 +941,7 @@ p.contact {
   margin: 15px;
 }
 
-#contactField {
+.contactField {
   margin: 15px;
 }
 

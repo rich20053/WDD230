@@ -26,8 +26,8 @@
       </div>
       <div id="headerlinks">
         <div>
-          <a href="https://www.facebook.com" target="_blank"> <img id="facebook" src="./images/facebookicon.png" alt="Facebook icon"></a>
-          <a href="https://www.twitter.com" target="_blank"> <img id="twitter" src="./images/twittericon.png" alt="Twitter icon"></a>
+          <a href="https://www.facebook.com" target="_blank"> <img class="facebook" src="./images/facebookicon.png" alt="Facebook icon"></a>
+          <a href="https://www.twitter.com" target="_blank"> <img class="twitter" src="./images/twittericon.png" alt="Twitter icon"></a>
         </div>
       </div>
       <div id="headerdate">
@@ -49,6 +49,7 @@
       </nav>      
       </div>
   </header>
+
   <main id="reception">
     <h2>Wedding Reception Center </h2>
     <div id="receptphotos">
@@ -59,26 +60,26 @@
     </div>
     <h3 class="smallshown">We offer these options: </h3>
     <div>
-    <h3 class="smallshown">Food Service</h3>
-    <ul>
-      <li>Hors Doevers</li>
-      <li>Finger Foods</li>
-      <li>Full Meal</li>
-      <li>Tiered Cake</li>
-      <li>Groom's Cake</li>    
-      <li>Ice Cream Sundae Bar</li>
-    </ul>
-  </div>
-    <div>
-    <h3 class="smallshown">Arrangements</h3>
-    <ul>
-      <li>Chairs Only</li>
-      <li>Tables and Chairs</li>
-      <li>Disc Jockey</li>  
-    </ul>
+      <h3 class="smallshown">Food Service</h3>
+      <ul>
+        <li>Hors Doevers</li>
+        <li>Finger Foods</li>
+        <li>Full Meal</li>
+        <li>Tiered Cake</li>
+        <li>Groom's Cake</li>    
+        <li>Ice Cream Sundae Bar</li>
+      </ul>
     </div>
-
+    <div>
+      <h3 class="smallshown">Arrangements</h3>
+      <ul>
+        <li>Chairs Only</li>
+        <li>Tables and Chairs</li>
+        <li>Disc Jockey</li>  
+      </ul>
+    </div>
   </main>
+
   <footer>
     <div id="footerlogo">
       <a href="./index.html" target="_self"> <img class="logo" src="./images/logo.jpg" alt="Temple Inn & Suites Logo"></a>
@@ -92,21 +93,22 @@
       <p>info@templeinnsuites.com</p>
       <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
       <p>&#9873;<a target="_blank" href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832518,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318?hl=en">Location Map</a></p>
-      <p class="credit">Weather provided by <a href="https://openweathermap.org/">OpenWeatherMap</a></p> <!--API Key=e6e82e7efa65c4de43967a31ac32a4e3-->
+      <p class="attributions"><a href="./attributions.html">Attributions</a></p>
       <p id="datemodified"></p>        
     </div>
     <div id="footerlinks">
       <div>
-        <a href="https://www.facebook.com" target="_blank"> <img id="facebook" src="./images/facebookicon.png" alt="Facebook icon"></a>
-        <a href="https://www.twitter.com" target="_blank"> <img id="twitter" src="./images/twittericon.png" alt="Twitter icon"></a>
+        <a href="https://www.facebook.com" target="_blank"> <img class="facebook" src="./images/facebookicon.png" alt="Facebook icon"></a>
+        <a href="https://www.twitter.com" target="_blank"> <img class="twitter" src="./images/twittericon.png" alt="Twitter icon"></a>
       </div>
     </div>
+    <!--  Pop up Contact form -->
     <div id="footcontact">
       <div id="contactForm">
         <h3 class="smallshown">Contact Us</h3>
         <button onclick="closeContact()" class="closecontact">X</button>
         <form  method="get" action="thankyoucontact.html"> 
-            <fieldset id="contactField">
+            <fieldset class="contactField">
                 <legend>Contact Information</legend>
                 <label class="top">Name* <input type="text" name="name" required></label> 
                 <label class="top">Email* <input type="email" name="email" placeholder="youraccount@gmail.com" required></label> 

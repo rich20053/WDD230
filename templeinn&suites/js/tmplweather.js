@@ -1,5 +1,6 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=33.689060&lon=-78.886696&units=Imperial&exclude=hourly,minutly&appid=e6e82e7efa65c4de43967a31ac32a4e3';
-/*san diego const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=32.7157&lon=-117.1611&units=Imperial&exclude=hourly,minutly&appid=e6e82e7efa65c4de43967a31ac32a4e3';*/
+const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=35.222&lon=-101.8313&units=Imperial&exclude=hourly,minutly&appid=e6e82e7efa65c4de43967a31ac32a4e3';
+/*const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=33.689060&lon=-78.886696&units=Imperial&exclude=hourly,minutly&appid=e6e82e7efa65c4de43967a31ac32a4e3';
+san diego const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=32.7157&lon=-117.1611&units=Imperial&exclude=hourly,minutly&appid=e6e82e7efa65c4de43967a31ac32a4e3';*/
 /*const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=40.2338&lon=-111.6585&units=Imperial&exclude=hourly,minutly&appid=e6e82e7efa65c4de43967a31ac32a4e3';
 */
 fetch(apiURL)
@@ -34,11 +35,12 @@ fetch(apiURL)
     if (alertlist != undefined) {
         for (i=0; i < alertlist.length; i++) {
             let alertDesc = alertlist[i].event;
-            displayWeatherAlert(alertDesc);
+            displayWeatherAlert(alertDesc, );
         }  
     }
 
     function displayWeatherAlert(adesc) {  // Create elements to add to the document
+        let parent = document.querySelector('#wthralert');
         let amsg = document.createElement('div');
         let p1 = document.createElement('p');
         let b2 = document.createElement('button');
@@ -50,15 +52,17 @@ fetch(apiURL)
         amsg.appendChild(p1);
         // Change the textContent property of the b2 element to contain the button
         b2.textContent = 'X';
-        b2.onclick = "closealert()";        
+        b2.addEventListener('click', () => {
+            parent.removeChild(amsg);
+        })
         // Add/append the section(amsg) with the b2 element
         amsg.appendChild(b2);
         // Add/append the existing HTML div with the cards class with the section(card)
-        document.querySelector('#wthralert').appendChild(amsg);
-      } 
+        parent.appendChild(amsg);
+    } 
 
     function closealert() {
-
+        document.getElementById('alertdivs').classList.toggle("hidealert");
     }
     
 });

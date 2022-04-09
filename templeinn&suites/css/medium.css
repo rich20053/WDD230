@@ -164,8 +164,6 @@ footer p {
   margin-bottom: 5px;
 }
 
-
-
 /****** Services   ******/
 
 .services {
@@ -243,11 +241,6 @@ footer p {
   grid-column: 1 /37;
 }
 
-
-
-
-
-  
 /********   Contact   **********/
 #contactInfo1 {
   grid-column: 1 / 18;
@@ -265,6 +258,12 @@ footer p {
   grid-column: 1 / 37;
   grid-row: 7 / 17;   
   display: grid;
+  grid-column: 1 / 37;
+}
+
+/********** Attributions *********/
+
+.attrib {
   grid-column: 1 / 37;
 }
 
