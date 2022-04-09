@@ -382,6 +382,14 @@ footer a {
   border: 2px solid #021374;
 }
 
+#templeimg1 img:nth-child(2) {
+  display: block;
+}
+
+#templeimg1 img:nth-child(3) {
+  display: none;
+}
+
 #call2action a {
   text-decoration: none;
 }

@@ -71,6 +71,16 @@ footer {
     grid-column: 26 / 37;
     grid-row: 1/2;
   }
+
+  #templeimg1 img:nth-child(2) {
+    display: none;
+  }
+  
+  #templeimg1 img:nth-child(3) {
+    display: block;
+  }
+  
+  
   
   #templeimg2 {
     grid-column: 26 / 37;
