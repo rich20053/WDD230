@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
-  <!--<link rel="shortcut icon" href="./images/favicon.ico">-->
+  <link rel="shortcut icon" href="./images/tinsfavicon.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="./css/small.css"> 
   <link rel="stylesheet" href="./css/medium.css"> 
@@ -75,6 +75,22 @@
         <li>Convenient Laundry Room</li>
       </ul>
   </div>
+  <div id="misscontactform">
+    <h3 class="smallshown">Contact Us For More Information</h3>
+    <form  method="get" action="thankyoucontact.html"> 
+        <fieldset id="contactField">
+            <legend>Contact Information</legend>
+            <div>
+              <label class="top">Name* <input type="text" name="name" required></label> 
+              <label class="top">Email* <input type="email" name="email" placeholder="youraccount@gmail.com" required></label> 
+              <label class="top">Cell Phone <input type="tel" name="cphone" placeholder="1235554321"></label> 
+            </div>
+            <label class="top">Question / Concern<textarea name="question" rows="10" cols="40" placeholder="Describe your question or concern here."></textarea></label>
+          </fieldset>
+        <input type="submit" value="Contact Us" class="submitBtn">
+    </form>
+  </div> 
+
   </main>
   <footer>
     <div id="footerlogo">

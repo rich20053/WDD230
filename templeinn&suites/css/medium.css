@@ -199,6 +199,10 @@ footer p {
   transform: scale(1.5);
 }
 
+#misscontactform {
+  grid-column: 1/37;
+}
+
 /****** Reception   ******/
 
 #reception h2:nth-child(1) {
@@ -227,6 +231,12 @@ footer p {
 
 #receptphotos img {
   width: 32%;
+}
+
+/****** Thank you  *******/
+
+.thankyou {
+  grid-column: 1 /37;
 }
 
 

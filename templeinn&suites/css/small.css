@@ -386,6 +386,11 @@ footer a {
 }
 
 /*          Home             */
+
+#home img {
+  border: 2px solid #021374;
+}
+
 #call2action a {
   text-decoration: none;
 }
@@ -418,6 +423,22 @@ footer a {
   font-size: 3vw;
 }
 
+#templehighlight {
+  position: relative; 
+}
+
+#highlightheader {
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: #021374;
+  margin: 0;
+  padding: 3px;
+  border: 2px solid #021374;
+  background-color: #b8c2fa;
+  width: 92%;
+}
 #templesummary {
   border: 3px solid #021374;
 }
@@ -433,6 +454,10 @@ footer a {
   grid-row: 1/2;
   margin: 0;
   padding: 5px;
+}
+
+#weather img {
+  border: none;
 }
 
 #weather #temp {

@@ -127,6 +127,21 @@ footer {
   width: 24%;
 }
 
+#contactField {
+  display: flex;
+  flex-direction: row;
+}
+
+#contactField :nth-child(3) {
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+#contactField div :nth-child(3) {
+  margin-top: 0;
+  margin-left: 0;
+}
+
 /*********** Reception  **********/
 .receptshowlrg {
   display: block;
