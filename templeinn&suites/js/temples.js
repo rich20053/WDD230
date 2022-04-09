@@ -32,7 +32,7 @@ function displayTemple(temple) {  // Create elements to add to the document
     let span2 = document.createElement('span');
     let tname = `${temple.name}`;
     let tidname = tname.substring(0,3);
-      
+    
     // Change the textContent property of the h2 element to contain the temple name
     h3.textContent = `${temple.name}`;
     h3.setAttribute('class', "tmplname smallshown");
