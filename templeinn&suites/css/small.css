@@ -541,6 +541,12 @@ footer a {
 
 /******* Temples **********/
 
+#templepage button {
+  background-color: #021374;
+  color: #ffd700;
+  margin-left: 3px;
+}
+
 #templelist section {
   border: 3px solid #021374;
   display: flex;
@@ -548,6 +554,7 @@ footer a {
   align-items: center;
   margin: 3px;
   box-shadow: 3px 3px #300455;
+  width: 97%;
 }
 
 #templelist section p {
@@ -569,19 +576,23 @@ footer a {
 }
 
 #templelist button {
-  background-color: transparent;
+  background-color: #b8c2fa;
   width: 50px;
   border: none;
   padding: 5px;
 }
 
 #templelist fieldset {
-  width: 90%;
-  margin-bottom: 5px;
   display: none;
 }
 
-#templelist fieldset :nth-child(odd){
+#templelist.moreinfo fieldset {
+  width: 90%;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/*#templelist fieldset :nth-child(odd){
   display: none;
 }
 
@@ -591,7 +602,7 @@ footer a {
 
 #templelist fieldset :nth-child(1){
   display: block;
-}
+}*/
 
 #Sap span:nth-child(1) {
   display: block;
@@ -769,6 +780,21 @@ footer a {
   display: block;
 }
 
+#moreorless span:nth-child(1) {
+  display: block;
+}
+
+#moreorless span:nth-child(2) {
+  display: none;
+}
+
+#moreorless.moreinfo span:nth-child(1) {
+  display: none;
+}
+
+#moreorless.moreinfo span:nth-child(2) {
+  display: block;
+}
 
 /*     Reservation              */
 form fieldset {

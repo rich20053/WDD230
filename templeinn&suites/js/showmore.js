@@ -1,8 +1,4 @@
 function showMore() {
-    document.getElementById('footcontact').classList.toggle("showmore");
+    document.getElementById('moreorless').classList.toggle("moreinfo");
+    document.getElementById('templelist').classList.toggle("moreinfo");
 }
-
-function showLess() {
-    document.getElementById('footcontact').classList.toggle("showless");
-}
-

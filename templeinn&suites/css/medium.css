@@ -131,6 +131,10 @@ footer p {
 }
 
 /******  Temple  ********/
+#templepage button {
+  grid-column: 1/18 ;
+}
+
 #templelist {
   display: grid;
   grid-template-columns: 1fr 1fr;

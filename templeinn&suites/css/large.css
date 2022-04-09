@@ -99,6 +99,11 @@ footer {
   }
   
 /******   Temple  ********/
+
+#templepage button {
+  grid-column: 1/12 ;
+}
+
 #templelist {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

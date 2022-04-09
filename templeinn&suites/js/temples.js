@@ -52,7 +52,7 @@ function displayTemple(temple) {  // Create elements to add to the document
     btn.appendChild(span2);
     btn.setAttribute('id', tidname);
     let storedlike = window.localStorage.getItem(tidname);
-    if (storedlike) {
+    if (storedlike == 1) {
       btn.setAttribute('class', "like");
     }
     card.appendChild(btn);
