@@ -33,21 +33,21 @@ function displayTemple(temple) {  // Create elements to add to the document
     let tname = `${temple.name}`;
     let tidname = tname.substring(0,3);
     
-    // Change the textContent property of the h2 element to contain the temple name
+    // Change the textContent property of the h3 element to contain the temple name
     h3.textContent = `${temple.name}`;
     h3.setAttribute('class', "tmplname smallshown");
-    // Add/append the section(card) with the h2 element
+    // Add/append the section(card) with the h3 element
     card.appendChild(h3);
-    // Change the src and alt properties of the img1 element to contain the temple icon
-    let likeimg = "./images/doyoulikeit6.jpg";
+    // Create and append a do you like button icon
+    let likeimg = "./images/doyoulikeit.jpg";
     img2.src = `${likeimg}`;
-    img2.setAttribute('alt', `like button not pressed`);// Set the alternate text on the img1 
+    img2.setAttribute('alt', `like button not pressed`);// Set the alternate text on the likeimg 
     span1.appendChild(img2);
     btn.appendChild(span1);
-    // Change the src and alt properties of the img1 element to contain the temple icon
+    // Create and append an I like button icon
     let likeimg2 = "./images/ilikeit.png";
     img3.src = `${likeimg2}`;
-    img3.setAttribute('alt', `like button pressed`);// Set the alternate text on the img1 
+    img3.setAttribute('alt', `like button pressed`);// Set the alternate text on the likeimg2 
     span2.appendChild(img3);
     btn.appendChild(span2);
     btn.setAttribute('id', tidname);
@@ -130,7 +130,9 @@ function displayTemple(temple) {  // Create elements to add to the document
     const response = await fetch(requestData);
     const temple_dir = await response.json();
     console.log(temple_dir);
+    // loop through all the temples in the list
     temple_dir.forEach(displayTemple);
+    // set up the toggles for all temples
     toggle_setup();
   }
 

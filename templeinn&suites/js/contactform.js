@@ -1,10 +1,10 @@
 function showContact() {
-    /*const contactform = document.getElementById('footcontact');*/
+    /* display pop up contact form */
     document.getElementById('footcontact').classList.toggle("showform");
 }
 
 function closeContact() {
-    /*const contactform = document.getElementById('footcontact');*/
+    /* close pop up contact form */
     document.getElementById('footcontact').classList.toggle("showform");
 }
 

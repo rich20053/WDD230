@@ -1,7 +1,6 @@
 /********   General   **********/
 html {
   background-color: #f8fcc8;
-  /*background-color: #ffd700*/;
 }
 
 body {
@@ -59,7 +58,6 @@ header div {
 #headerspace {
   display: grid;
   grid-template-columns: repeat(36, 1fr);
-  /*grid-template-rows: auto auto auto auto; */
 }
 
 #headerspace a {
@@ -67,13 +65,6 @@ header div {
   grid-row: 1 / 3;
   padding: 2px;
 }
-/*
-#headerbottom {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: #021374;
-} */
 
 #headertitle {
   padding: 5px;
@@ -461,7 +452,7 @@ footer a {
 }
 
 #weather #temp {
-  align-self: left;
+  align-self: flex-start;
   padding: 0;
 }
 
@@ -536,13 +527,6 @@ footer a {
   border: 2px solid #021374;
   background-color: #ffd700;
 }
-
-/*.alertdivs p:nth-child(2) {
-  text-align: right;
-  color:#ffd700;
-  background-color: #021374;
-  border: 2px solid #021374;
-}*/
 
 .alertdivs button {
   text-align: right;
@@ -822,7 +806,6 @@ form label.top input,
 form label.top textarea,
 form select.top
  {
-  -webkit-appearance: none;
   display: block;
   font-size: 1rem;
   border: solid 1px #021374;
