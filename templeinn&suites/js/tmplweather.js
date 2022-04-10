@@ -1,9 +1,13 @@
 /* Get weather data from API */
-/* test alerts = const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=35.222&lon=-101.8313&units=Imperial&exclude=hourly,minutly&appid=e6e82e7efa65c4de43967a31ac32a4e3'; */
-const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=33.689060&lon=-78.886696&units=Imperial&exclude=hourly,minutly&appid=e6e82e7efa65c4de43967a31ac32a4e3';
-/* san diego const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=32.7157&lon=-117.1611&units=Imperial&exclude=hourly,minutly&appid=e6e82e7efa65c4de43967a31ac32a4e3';*/
-/*const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=40.2338&lon=-111.6585&units=Imperial&exclude=hourly,minutly&appid=e6e82e7efa65c4de43967a31ac32a4e3';
-*/
+/* Get San Diego Data */
+const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=32.7157&lon=-117.1611&units=Imperial&exclude=hourly,minutly&appid=e6e82e7efa65c4de43967a31ac32a4e3';
+/* Test Cities */
+/* Amarillo - lat=35.222&lon=-101.8313 */
+/* Provo - lat=40.2338&lon=-111.6585 */
+/* San Diego - lat=32.7157&lon=-117.1611 */
+/* Myrtle Beach - lat=33.689060&lon=-78.886696 */
+
+
 /* Fetch Weather Data */
 fetch(apiURL)
   .then((response) => response.json())
