@@ -258,7 +258,6 @@ footer p {
   grid-column: 1 / 37;
   grid-row: 7 / 17;   
   display: grid;
-  grid-column: 1 / 37;
 }
 
 /********** Attributions *********/
