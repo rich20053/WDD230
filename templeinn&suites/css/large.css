@@ -145,15 +145,15 @@ footer {
   flex-direction: row;
 }
 
-.missContactField div :nth-child(3) {
-  margin-top: 15px;
-  margin-left: 0;
-  max-width: 400px;
-}
-
 .missContactField :nth-child(3) {
   margin-top: 15px;
   margin-left: 40px;
+  max-width: 400px;
+}
+
+.missContactField div :nth-child(3) {
+  margin-top: 15px;
+  margin-left: 0;
   max-width: 400px;
 }
 
